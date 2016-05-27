@@ -1,0 +1,1517 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by College of American Pathologists (College of American Pathologists) -->
+<concept-descriptors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.cap.org/pert/2009/01/" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" codeSystemVersion="January 2009" schema-version="1.0.20090126.1" xsi:schemaLocation="http://www.cap.org/pert/2009/01/ S:\DIHIT\ECCPRO~1\2010RE~1\RELEAS~1\Content\eCC-schemas\sr-codesystems.xsd">
+	<concept-descriptor xmlns="" ckey="2118.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="2119.100004300" code="23451007" displayName="Adrenal structure"/>
+	<concept-descriptor xmlns="" ckey="2126.100004300" code="29392005" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="2127.100004300" code="12003004" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="2116.100004300" code="371441004" displayName="Histologic Type (Notes C through E)"/>
+	<concept-descriptor xmlns="" ckey="2117.100004300" code="2227007" displayName="Adrenal cortical carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2164.100004300" code="34823008" displayName="Tumor necrosis"/>
+	<concept-descriptor xmlns="" ckey="2233.100004300" code="371480007" displayName="Tumor Site (Note A)"/>
+	<concept-descriptor xmlns="" ckey="2234.100004300" code="67109009" displayName="Intra-ampullary"/>
+	<concept-descriptor xmlns="" ckey="2235.100004300" code="127881005" displayName="Peri-ampullary"/>
+	<concept-descriptor xmlns="" ckey="2236.100004300" code="127880006" displayName="Papilla of Vater (junction of ampullary and duodenal mucosa)"/>
+	<concept-descriptor xmlns="" ckey="2237.100004300" code="33657005" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="2244.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="2245.100004300" code="35917007" displayName="Adenocarcinoma (not otherwise characterized)"/>
+	<concept-descriptor xmlns="" ckey="2246.100004300" code="4797003" displayName="Papillary adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="2247.100004300" code="25190001" displayName="Adenocarcinoma, intestinal type"/>
+	<concept-descriptor xmlns="" ckey="2249.100004300" code="72495009" displayName="Mucinous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="2250.100004300" code="30546008" displayName="Clear cell adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="2251.100004300" code="87737001" displayName="Signet-ring cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2252.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15914.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15915.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2254.100004300" code="68453008" displayName="Carcinoma, not otherwise specified"/>
+	<concept-descriptor xmlns="" ckey="2456.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="2459.100004300" code="41843001" displayName="Anal margin"/>
+	<concept-descriptor xmlns="" ckey="2471.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="2472.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2473.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="2474.100004300" code="72495009" displayName="Mucinous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="2475.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2476.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2477.100004300" code="71447003" displayName="Paget disease"/>
+	<concept-descriptor xmlns="" ckey="2479.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="2545.100004300" code="71447003" displayName="Associated rectal carcinoma (Paget disease)"/>
+	<concept-descriptor xmlns="" ckey="2384.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="2385.100004300" code="53505006" displayName="Unknown"/>
+	<concept-descriptor xmlns="" ckey="2398.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="2399.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2400.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="2401.100004300" code="72495009" displayName="Mucinous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="2402.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2403.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2404.100004300" code="71447003" displayName="Paget disease"/>
+	<concept-descriptor xmlns="" ckey="2446.100004300" code="71447003" displayName="Associated rectal carcinoma (Paget disease)"/>
+	<concept-descriptor xmlns="" ckey="2581.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="2582.100004300" code="422488004" displayName="Proximal half of appendix"/>
+	<concept-descriptor xmlns="" ckey="2587.100004300" code="422720005" displayName="Distal half of appendix"/>
+	<concept-descriptor xmlns="" ckey="2588.100004300" code="181255000" displayName="Diffusely involving appendix"/>
+	<concept-descriptor xmlns="" ckey="2642.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="2643.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="2644.100004300" code="72495009" displayName="Mucinous (colloid) adenocarcinoma (greater than 50% mucinous)"/>
+	<concept-descriptor xmlns="" ckey="2645.100004300" code="87737001" displayName="Signet-ring cell carcinoma (greater than 50% signet-ring cells)"/>
+	<concept-descriptor xmlns="" ckey="2646.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2647.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2313.100004300" code="31396002" displayName="Goblet cell carcinoid"/>
+	<concept-descriptor xmlns="" ckey="2649.100004300" code="68453008" displayName="Carcinoma, type cannot be determined (see Comment)"/>
+	<concept-descriptor xmlns="" ckey="4265.100004300" code="371480007" displayName="Specimen"/>
+	<concept-descriptor xmlns="" ckey="4270.100004300" code="79741001" displayName="Common bile duct"/>
+	<concept-descriptor xmlns="" ckey="4266.100004300" code="78000005" displayName="Right hepatic duct"/>
+	<concept-descriptor xmlns="" ckey="4267.100004300" code="64281006" displayName="Left hepatic duct"/>
+	<concept-descriptor xmlns="" ckey="4268.100004300" code="307705001" displayName="Junction of right and left hepatic ducts"/>
+	<concept-descriptor xmlns="" ckey="4269.100004300" code="77452001" displayName="Cystic duct"/>
+	<concept-descriptor xmlns="" ckey="4275.100004300" code="16014003" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="20606.100004300" code="79741001" displayName="Common bile duct"/>
+	<concept-descriptor xmlns="" ckey="4282.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="4283.100004300" code="35917007" displayName="Adenocarcinoma (not otherwise characterized)"/>
+	<concept-descriptor xmlns="" ckey="4284.100004300" code="4797003" displayName="Papillary adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="4287.100004300" code="72495009" displayName="Mucinous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="4288.100004300" code="30546008" displayName="Clear cell adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="4289.100004300" code="87737001" displayName="Signet-ring cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4290.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="18509.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="18511.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="18512.100004300" code="128628002" displayName="Large cell neuroendocrine carccinoma"/>
+	<concept-descriptor xmlns="" ckey="18513.100004300" code="21008007" displayName="Biliary cystadenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="4292.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="19868.100004300" code="10200004" displayName="Liver"/>
+	<concept-descriptor xmlns="" ckey="19882.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="19885.100004300" code="70179006" displayName="Cholangiocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="19884.100004300" code="52178006" displayName="Combined hepatocellular and cholangiocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="19886.100004300" code="50422007" displayName="Bile duct cystadenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="19981.100004300" code="79741001" displayName="Common bile duct"/>
+	<concept-descriptor xmlns="" ckey="19982.100004300" code="78000005" displayName="Right hepatic duct"/>
+	<concept-descriptor xmlns="" ckey="19983.100004300" code="64281006" displayName="Left hepatic duct"/>
+	<concept-descriptor xmlns="" ckey="19984.100004300" code="307705001" displayName="Junction of right and left hepatic ducts"/>
+	<concept-descriptor xmlns="" ckey="19986.100004300" code="77452001" displayName="Cystic duct"/>
+	<concept-descriptor xmlns="" ckey="20004.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="20005.100004300" code="35917007" displayName="Adenocarcinoma (not otherwise characterized)"/>
+	<concept-descriptor xmlns="" ckey="20006.100004300" code="4797003" displayName="Papillary adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="20007.100004300" code="72495009" displayName="Mucinous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="20008.100004300" code="30546008" displayName="Clear cell adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="20009.100004300" code="87737001" displayName="Signet-ring cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="20010.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="20011.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="20012.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="20013.100004300" code="50422007" displayName="Biliary cystadenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="20015.100004300" code="68453008" displayName="Carcinoma, not otherwise specified"/>
+	<concept-descriptor xmlns="" ckey="3497.100004300" code="399536002" displayName="Right posterior iliac crest"/>
+	<concept-descriptor xmlns="" ckey="3502.100004300" code="399682004" displayName="Left posterior iliac crest"/>
+	<concept-descriptor xmlns="" ckey="3503.100004300" code="297219004" displayName="Sternum"/>
+	<concept-descriptor xmlns="" ckey="3531.100004300" code="14016003" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="3387.100004300" code="399536002" displayName="Right posterior iliac crest"/>
+	<concept-descriptor xmlns="" ckey="3403.100004300" code="399682004" displayName="Left posterior iliac crest"/>
+	<concept-descriptor xmlns="" ckey="3472.100004300" code="14016003" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="3626.100004300" code="63364005" displayName="Chronic myelogenous leukemia, BCR-ABL1 positive"/>
+	<concept-descriptor xmlns="" ckey="3628.100004300" code="128834007" displayName="Chronic neutrophilic leukemia"/>
+	<concept-descriptor xmlns="" ckey="3736.100004300" code="128841001" displayName="Polycythemia vera"/>
+	<concept-descriptor xmlns="" ckey="3738.100004300" code="128843003" displayName="Primary myelofibrosis"/>
+	<concept-descriptor xmlns="" ckey="3740.100004300" code="128844009" displayName="Essential thrombocythemia"/>
+	<concept-descriptor xmlns="" ckey="3729.100004300" code="128835008" displayName="Chronic eosinophilic leukemia, NOS"/>
+	<concept-descriptor xmlns="" ckey="3741.100004300" code="128925001" displayName="Myeloproliferative neoplasm, unclassifiable"/>
+	<concept-descriptor xmlns="" ckey="3743.100004300" code="128831004" displayName="Chronic myelomonocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="3744.100004300" code="128826001" displayName="Atypical chronic myeloid leukemia BCR-ABL1 negative"/>
+	<concept-descriptor xmlns="" ckey="3745.100004300" code="128832006" displayName="Juvenile myelomonocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="3746.100004300" code="397336008" displayName="Myelodysplastic / myeloproliferative neoplasm, unclassifiable"/>
+	<concept-descriptor xmlns="" ckey="20471.100004300" code="397337004" displayName="! Refractory anemia with ring sideroblasts associated with marked thrombocytosis"/>
+	<concept-descriptor xmlns="" ckey="3748.100004300" code="128845005" displayName="Refractory anemia"/>
+	<concept-descriptor xmlns="" ckey="3749.100004300" code="128846006" displayName="Refractory anemia with ringed sideroblasts"/>
+	<concept-descriptor xmlns="" ckey="3750.100004300" code="128836009" displayName="Refractory cytopenia with multilineage dysplasia"/>
+	<concept-descriptor xmlns="" ckey="3752.100004300" code="128847002" displayName="Refractory anemia with excess blasts"/>
+	<concept-descriptor xmlns="" ckey="3757.100004300" code="128837000" displayName="Myelodysplastic syndrome associated with isolated del(5q)"/>
+	<concept-descriptor xmlns="" ckey="3761.100004300" code="128828000" displayName="AML with t(8;21)(q22;q22); RUNX1-RUNX1T1"/>
+	<concept-descriptor xmlns="" ckey="3762.100004300" code="103688009" displayName="AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB-MYH11"/>
+	<concept-descriptor xmlns="" ckey="3763.100004300" code="28950004" displayName="Acute promyelocytic leukemia with t(15;17)(q22;q12); PML-RARA"/>
+	<concept-descriptor xmlns="" ckey="3764.100004300" code="128829008" displayName="AML with t(9;11)(p22;q23); MLLT3-MLL"/>
+	<concept-descriptor xmlns="" ckey="3765.100004300" code="128827005" displayName="Multilineage dysplasia"/>
+	<concept-descriptor xmlns="" ckey="3759.100004300" code="397340004" displayName="Myelodysplasia-related cytogenetic abnormalities"/>
+	<concept-descriptor xmlns="" ckey="3769.100004300" code="128830003" displayName="Therapy-related AML"/>
+	<concept-descriptor xmlns="" ckey="3771.100004300" code="397343002" displayName="Therapy-related myelodysplastic syndrome"/>
+	<concept-descriptor xmlns="" ckey="3772.100004300" code="397344008" displayName="Therapy-related myelodysplastic / myeloproliferative neoplasm"/>
+	<concept-descriptor xmlns="" ckey="3776.100004300" code="103689001" displayName="AML with minimal differentiation"/>
+	<concept-descriptor xmlns="" ckey="3777.100004300" code="103690005" displayName="AML without maturation"/>
+	<concept-descriptor xmlns="" ckey="3778.100004300" code="103691009" displayName="AML with maturation"/>
+	<concept-descriptor xmlns="" ckey="3779.100004300" code="30962008" displayName="Acute myelomonocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="3780.100004300" code="22331004" displayName="Acute monoblastic / monocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="3781.100004300" code="14317002" displayName="Acute erythroid leukemia"/>
+	<concept-descriptor xmlns="" ckey="3782.100004300" code="52220008" displayName="Acute megakaryocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="3783.100004300" code="69077002" displayName="Acute basophilic leukemia"/>
+	<concept-descriptor xmlns="" ckey="3784.100004300" code="80570006" displayName="Acute panmyelosis with myelofibrosis"/>
+	<concept-descriptor xmlns="" ckey="3774.100004300" code="17788007" displayName="AML, NOS#"/>
+	<concept-descriptor xmlns="" ckey="3786.100004300" code="397345009" displayName=""/>
+	<concept-descriptor xmlns="" ckey="3788.100004300" code="24072005" displayName="Acute undifferentiated leukemia"/>
+	<concept-descriptor xmlns="" ckey="3793.100004300" code="397347001" displayName="B lymphoblastic leukemia / lymphoma with t(12;21)(p13;q22); TEL-AML1 (ETV6-RUNX1)"/>
+	<concept-descriptor xmlns="" ckey="20496.100004300" code="397347001" displayName="B lymphoblastic leukemia / lymphoma with hyperdiploidy"/>
+	<concept-descriptor xmlns="" ckey="20497.100004300" code="397347001" displayName="B lymphoblastic leukemia / lymphoma with hypodiploidy (hypodiploid ALL)"/>
+	<concept-descriptor xmlns="" ckey="20498.100004300" code="397347001" displayName="B lymphoblastic leukemia / ymphoma with t(5;14)(q31;q32); IL3-IGH"/>
+	<concept-descriptor xmlns="" ckey="20499.100004300" code="397347001" displayName="B lymphoblastic leukemia / lymphoma with t(1;19)(q23;p13.3); E2A-PBX1 (TCF3-PBX1)"/>
+	<concept-descriptor xmlns="" ckey="3792.100004300" code="397348006" displayName="T lymphoblastic leukemia / lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3795.100004300" code="51092000" displayName="Chronic lymphocytic leukemia / small lymphocytic lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3796.100004300" code="128820007" displayName="B-cell prolymphocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="3798.100004300" code="128802003" displayName="Splenic B-cell marginal zone lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3799.100004300" code="54087003" displayName="Hairy cell leukemia"/>
+	<concept-descriptor xmlns="" ckey="20500.100004300" code="128802003" displayName="! Splenic B-cell lymphoma / leukemia, unclassifiable"/>
+	<concept-descriptor xmlns="" ckey="20501.100004300" code="128802003" displayName="! Splenic diffuse red pulp small B-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="20502.100004300" code="54087003" displayName="! Hairy cell leukemia-variant"/>
+	<concept-descriptor xmlns="" ckey="3797.100004300" code="19340000" displayName="Lymphoplasmacytic lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3800.100004300" code="55921005" displayName="Plasma cell myeloma"/>
+	<concept-descriptor xmlns="" ckey="3806.100004300" code="397350003" displayName="Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue (MALT-lymphoma)"/>
+	<concept-descriptor xmlns="" ckey="3808.100004300" code="55150002" displayName="Follicular lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3813.100004300" code="74654000" displayName="Mantle cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3814.100004300" code="46732000" displayName="Diffuse large B-cell lymphoma (DLBCL), NOS"/>
+	<concept-descriptor xmlns="" ckey="3815.100004300" code="128801005" displayName="T cell / histiocyte-rich large B-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="20503.100004300" code="46732000" displayName="Primary cutaneous DLBCL, leg type"/>
+	<concept-descriptor xmlns="" ckey="20505.100004300" code="46732000" displayName="! EBV positive DLBCL of the elderly"/>
+	<concept-descriptor xmlns="" ckey="20504.100004300" code="46732000" displayName="DLBCL associated with chronic inflammation"/>
+	<concept-descriptor xmlns="" ckey="3819.100004300" code="41556003" displayName="Lymphomatoid granulomatosis"/>
+	<concept-descriptor xmlns="" ckey="20508.100004300" code="128801005" displayName="ALK positive large B-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3817.100004300" code="397400006" displayName="Burkitt lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3823.100004300" code="128821006" displayName="T-cell prolymphocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="3824.100004300" code="128819001" displayName="T-cell large granular lymphocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="3825.100004300" code="128833001" displayName="Aggressive NK-cell leukemia"/>
+	<concept-descriptor xmlns="" ckey="3826.100004300" code="77430005" displayName="Adult T-cell leukemia / lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3834.100004300" code="128805001" displayName="Extranodal NK / T-cell lymphoma, nasal type"/>
+	<concept-descriptor xmlns="" ckey="3837.100004300" code="103686008" displayName="Enteropathy-associated T-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3838.100004300" code="103685007" displayName="Hepatosplenic T-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3829.100004300" code="90120004" displayName="Mycosis fungoides"/>
+	<concept-descriptor xmlns="" ckey="3841.100004300" code="835009" displayName="Angioimmunoblastic T-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3843.100004300" code="53237008" displayName="Anaplastic large cell lymphoma, ALK-positive"/>
+	<concept-descriptor xmlns="" ckey="20511.100004300" code="53237008" displayName="! Anaplastic large cell lymphoma, ALK-negative"/>
+	<concept-descriptor xmlns="" ckey="3847.100004300" code="70600005" displayName="Nodular lymphocyte predominant Hodgkin lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3848.100004300" code="14537002" displayName="Classical Hodgkin lymphoma"/>
+	<concept-descriptor xmlns="" ckey="3855.100004300" code="128813000" displayName="Histiocytic sarcoma"/>
+	<concept-descriptor xmlns="" ckey="3856.100004300" code="128809007" displayName="Langerhans cell histiocytosis"/>
+	<concept-descriptor xmlns="" ckey="3857.100004300" code="128814006" displayName="Langerhans cell sarcoma"/>
+	<concept-descriptor xmlns="" ckey="3858.100004300" code="128815007" displayName="Interdigitating dendritic cell sarcoma"/>
+	<concept-descriptor xmlns="" ckey="3859.100004300" code="128816008" displayName="Follicular dendritic cell sarcoma"/>
+	<concept-descriptor xmlns="" ckey="3860.100004300" code="128622001" displayName="Histiocytic neoplasm, NOS"/>
+	<concept-descriptor xmlns="" ckey="3820.100004300" code="397351004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="2801.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="2805.100004300" code="43719000" displayName="Epiphysis or apophysis"/>
+	<concept-descriptor xmlns="" ckey="2806.100004300" code="33251002" displayName="Metaphysis"/>
+	<concept-descriptor xmlns="" ckey="2807.100004300" code="53394001" displayName="Diaphysis"/>
+	<concept-descriptor xmlns="" ckey="2808.100004300" code="87791003" displayName="Cortex"/>
+	<concept-descriptor xmlns="" ckey="2809.100004300" code="46535001" displayName="Medullary cavity"/>
+	<concept-descriptor xmlns="" ckey="2810.100004300" code="425647002" displayName="Surface"/>
+	<concept-descriptor xmlns="" ckey="2811.100004300" code="39352004" displayName="Tumor involves joint"/>
+	<concept-descriptor xmlns="" ckey="2824.100004300" code="86049000" displayName="Cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="3889.100004300" code="371480007" displayName="Specimen (Note A)"/>
+	<concept-descriptor xmlns="" ckey="3890.100004300" code="272673000" displayName="Specify bone involved (if known)"/>
+	<concept-descriptor xmlns="" ckey="3891.100004300" code="272673000" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="3894.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="3896.100004300" code="43719000" displayName="Epiphysis or apophysis"/>
+	<concept-descriptor xmlns="" ckey="3897.100004300" code="33251002" displayName="Metaphysis"/>
+	<concept-descriptor xmlns="" ckey="3898.100004300" code="53394001" displayName="Diaphysis"/>
+	<concept-descriptor xmlns="" ckey="3899.100004300" code="87791003" displayName="Cortical"/>
+	<concept-descriptor xmlns="" ckey="3900.100004300" code="46535001" displayName="Medullary cavity"/>
+	<concept-descriptor xmlns="" ckey="3901.100004300" code="425647002" displayName="Surface"/>
+	<concept-descriptor xmlns="" ckey="3902.100004300" code="39352004" displayName="Tumor involves joint"/>
+	<concept-descriptor xmlns="" ckey="3904.100004300" code="87784001" displayName="Tumor involves extension into soft tissue"/>
+	<concept-descriptor xmlns="" ckey="3915.100004300" code="86049000" displayName="Cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="3985.100004300" code="371480007" displayName="Tumor Site (Note E)"/>
+	<concept-descriptor xmlns="" ckey="3987.100004300" code="83678007" displayName="Brain / Cerebrum"/>
+	<concept-descriptor xmlns="" ckey="3991.100004300" code="32610002" displayName="Basal ganglia"/>
+	<concept-descriptor xmlns="" ckey="3992.100004300" code="42695009" displayName="Thalamus"/>
+	<concept-descriptor xmlns="" ckey="3993.100004300" code="67923007" displayName="Hypothalamus"/>
+	<concept-descriptor xmlns="" ckey="3995.100004300" code="45793000" displayName="Pineal"/>
+	<concept-descriptor xmlns="" ckey="3996.100004300" code="113305005" displayName="Cerebellum"/>
+	<concept-descriptor xmlns="" ckey="3997.100004300" code="21362003" displayName="Cerebellopontine angle"/>
+	<concept-descriptor xmlns="" ckey="3994.100004300" code="15328005" displayName="Suprasellar"/>
+	<concept-descriptor xmlns="" ckey="3998.100004300" code="35764002" displayName="Ventricle"/>
+	<concept-descriptor xmlns="" ckey="3999.100004300" code="15926001" displayName="Brainstem"/>
+	<concept-descriptor xmlns="" ckey="4000.100004300" code="2748008" displayName="Spinal cord"/>
+	<concept-descriptor xmlns="" ckey="4001.100004300" code="40958000" displayName="Spinal nerve root(s)"/>
+	<concept-descriptor xmlns="" ckey="4003.100004300" code="21483005" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="4012.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4015.100004300" code="128854008" displayName="Pilocytic astrocytoma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4018.100004300" code="38713004" displayName="Subependymal giant cell astrocytoma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4016.100004300" code="78838008" displayName="Pleomorphic xanthoastrocytoma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="20344.100004300" code="78838008" displayName="Pleomorphic xanthoastrocytoma with anaplastic features (WHO grade not assigned)"/>
+	<concept-descriptor xmlns="" ckey="4014.100004300" code="397381007" displayName="Diffuse astrocytoma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="20345.100004300" code="71314006" displayName="Fibrillary astrocytoma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="4017.100004300" code="55353007" displayName="Anaplastic astrocytoma (WHO grade III)"/>
+	<concept-descriptor xmlns="" ckey="4021.100004300" code="63634009" displayName="Glioblastoma (WHO grade IV)"/>
+	<concept-descriptor xmlns="" ckey="4022.100004300" code="35262004" displayName="Gliosarcoma (WHO grade IV)"/>
+	<concept-descriptor xmlns="" ckey="4013.100004300" code="38713004" displayName="Astrocytoma, not otherwise characterized (WHO grades I-IV)"/>
+	<concept-descriptor xmlns="" ckey="4023.100004300" code="73348003" displayName="Oligodendroglioma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="4024.100004300" code="3102004" displayName="Anaplastic oligodendroglioma (WHO grade III)"/>
+	<concept-descriptor xmlns="" ckey="4025.100004300" code="22217002" displayName="Oligoastrocytoma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="4026.100004300" code="253072003" displayName="Anaplastic oligoastrocytoma (WHO grade III)"/>
+	<concept-descriptor xmlns="" ckey="4039.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4045.100004300" code="4553004" displayName="Subependymoma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4042.100004300" code="1623000" displayName="Myxopapillary ependymoma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="20354.100004300" code="57706008" displayName="Ependymoma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="4044.100004300" code="57706008" displayName="Cellular ependymoma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="4041.100004300" code="397378002" displayName="Tanycytic ependymoma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="4043.100004300" code="21589007" displayName="Anaplastic ependymoma (WHO grade III)"/>
+	<concept-descriptor xmlns="" ckey="4027.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4028.100004300" code="18021007" displayName="Choroid plexus papilloma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="20356.100004300" code="18021007" displayName="Atypical choroid plexus papilloma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="4029.100004300" code="88252006" displayName="Choroid plexus carcinoma (WHO grade III)"/>
+	<concept-descriptor xmlns="" ckey="4087.100004300" code="128787000" displayName="Desmoplastic infantile astrocytoma / ganglioglioma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4086.100004300" code="128788005" displayName="Dysembryoplastic neuroepithelial tumor (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4019.100004300" code="128919000" displayName="Gangliocytoma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4020.100004300" code="89880005" displayName="Ganglioglioma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4075.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4076.100004300" code="89096009" displayName="Pineocytoma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4078.100004300" code="397379005" displayName="Pineal parenchymal tumor of intermediate differentiation (WHO II-III)"/>
+	<concept-descriptor xmlns="" ckey="4077.100004300" code="31671006" displayName="Pineoblastoma (WHO grade IV)"/>
+	<concept-descriptor xmlns="" ckey="4035.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4061.100004300" code="83217000" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4062.100004300" code="32456001" displayName="Desmoplastic / nodular medulloblastoma (WHO grade IV)"/>
+	<concept-descriptor xmlns="" ckey="4064.100004300" code="397380008" displayName="Medulloblastoma with extensive nodularity (WHO grade IV)"/>
+	<concept-descriptor xmlns="" ckey="4063.100004300" code="128790006" displayName="Large cell medulloblastoma (WHO grade IV)"/>
+	<concept-descriptor xmlns="" ckey="4036.100004300" code="39781001" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4065.100004300" code="83217000" displayName="Medulloepithelioma (WHO grade IV)"/>
+	<concept-descriptor xmlns="" ckey="4037.100004300" code="87364003" displayName="Neuroblastoma (WHO grade IV)"/>
+	<concept-descriptor xmlns="" ckey="4038.100004300" code="128792003" displayName="Atypical teratoid / rhabdoid tumor (WHO grade IV)"/>
+	<concept-descriptor xmlns="" ckey="4079.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4081.100004300" code="253086004" displayName="Cellular (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4082.100004300" code="253087008" displayName="Plexiform (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4083.100004300" code="253088003" displayName="Melanotic (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4084.100004300" code="985004" displayName="Neurofibroma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4091.100004300" code="41252002" displayName="Plexiform (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4057.100004300" code="253093000" displayName="Epithelioid (WHO grade II-IV)"/>
+	<concept-descriptor xmlns="" ckey="4056.100004300" code="19897006" displayName="MPNST with divergent mesenchymal and / or epithelial differentiation (WHO grade II-IV)"/>
+	<concept-descriptor xmlns="" ckey="4066.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4067.100004300" code="19453003" displayName="Meningothelial (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="20393.100004300" code="19453003" displayName="Fibrous (fibroblastic) (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="20394.100004300" code="19453003" displayName="Transitional (mixed) (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="20395.100004300" code="19453003" displayName="Psammomatous (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4074.100004300" code="73918009" displayName="Angiomatous (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="20396.100004300" code="253084001" displayName="Microcystic (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="20397.100004300" code="127579001" displayName="Secretory (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="20398.100004300" code="127579001" displayName="Lymphoplasmacyte-rich (lymphoplasmacytic) (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="20399.100004300" code="127579001" displayName="Metaplastic (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4068.100004300" code="128914005" displayName="Atypical meningioma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="4072.100004300" code="57606003" displayName="Clear cell meningioma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="4071.100004300" code="399709001" displayName="Chordoid meningioma (WHO grade II)"/>
+	<concept-descriptor xmlns="" ckey="4073.100004300" code="78303004" displayName="Anaplastic meningioma (WHO grade III)"/>
+	<concept-descriptor xmlns="" ckey="4069.100004300" code="128840000" displayName="Papillary meningioma (WHO grade III)"/>
+	<concept-descriptor xmlns="" ckey="4070.100004300" code="399469000" displayName="Rhabdoid meningioma (WHO grade III)"/>
+	<concept-descriptor xmlns="" ckey="20400.100004300" code="19453003" displayName="Other (specify)"/>
+	<concept-descriptor xmlns="" ckey="4089.100004300" code="81201000" displayName="Hemangioblastoma (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4085.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4088.100004300" code="21964009" displayName="Malignant lymphoma (specify type, if possible)"/>
+	<concept-descriptor xmlns="" ckey="20375.100004300" code="21964009" displayName="Plasmacytoma"/>
+	<concept-descriptor xmlns="" ckey="20377.100004300" code="21964009" displayName="Granulocytic sarcoma"/>
+	<concept-descriptor xmlns="" ckey="20376.100004300" code="21964009" displayName="Hematopoietic neoplasm, other (specify type, if possible)"/>
+	<concept-descriptor xmlns="" ckey="4046.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4047.100004300" code="28307001" displayName="Germinoma"/>
+	<concept-descriptor xmlns="" ckey="4048.100004300" code="28047004" displayName="Embryonal carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4049.100004300" code="74409009" displayName="Yolk sac tumor"/>
+	<concept-descriptor xmlns="" ckey="4050.100004300" code="44769000" displayName="Choriocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="4051.100004300" code="55818009" displayName="Teratoma, mature"/>
+	<concept-descriptor xmlns="" ckey="4052.100004300" code="19467007" displayName="Teratoma, immature"/>
+	<concept-descriptor xmlns="" ckey="4053.100004300" code="88334008" displayName="Teratoma with malignant transformation"/>
+	<concept-descriptor xmlns="" ckey="4054.100004300" code="32844007" displayName="Malignant mixed germ cell tumor"/>
+	<concept-descriptor xmlns="" ckey="4030.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4032.100004300" code="128781004" displayName="Craniopharyngioma, adamantinomatous (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4033.100004300" code="128782006" displayName="Craniopharyngioma, papillary (WHO grade I)"/>
+	<concept-descriptor xmlns="" ckey="4092.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4094.100004300" code="86049000" displayName="Malignant neoplasm, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="5429.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="5432.100004300" code="76365002" displayName="Upper outer quadrant"/>
+	<concept-descriptor xmlns="" ckey="5433.100004300" code="33564002" displayName="Lower outer quadrant"/>
+	<concept-descriptor xmlns="" ckey="5434.100004300" code="77831004" displayName="Upper inner quadrant"/>
+	<concept-descriptor xmlns="" ckey="5437.100004300" code="19100000" displayName="Lower inner quadrant"/>
+	<concept-descriptor xmlns="" ckey="5438.100004300" code="49058007" displayName="Central"/>
+	<concept-descriptor xmlns="" ckey="5450.100004300" code="76752008" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="5548.100004300" code="371441004" displayName="Histologic Type (Note D)"/>
+	<concept-descriptor xmlns="" ckey="6454.100004300" code="86616005" displayName="Ductal carcinoma in situ.  Classified as Tis (DCIS) or Tis (Paget)"/>
+	<concept-descriptor xmlns="" ckey="16250.100004300" code="371480007" displayName="Tumor Site: Invasive Carcinoma (Note D)"/>
+	<concept-descriptor xmlns="" ckey="16251.100004300" code="76365002" displayName="Upper outer quadrant"/>
+	<concept-descriptor xmlns="" ckey="16252.100004300" code="33564002" displayName="Lower outer quadrant"/>
+	<concept-descriptor xmlns="" ckey="16253.100004300" code="77831004" displayName="Upper inner quadrant"/>
+	<concept-descriptor xmlns="" ckey="16254.100004300" code="19100000" displayName="Lower inner quadrant"/>
+	<concept-descriptor xmlns="" ckey="16255.100004300" code="49058007" displayName="Central"/>
+	<concept-descriptor xmlns="" ckey="16258.100004300" code="76752008" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="16272.100004300" code="371441004" displayName="Histologic Type of Invasive Carcinoma (Note H)"/>
+	<concept-descriptor xmlns="" ckey="16280.100004300" code="82711006" displayName="Invasive ductal carcinoma (no special type or not otherwise specified)"/>
+	<concept-descriptor xmlns="" ckey="16283.100004300" code="89740008" displayName="Invasive lobular carcinoma"/>
+	<concept-descriptor xmlns="" ckey="16284.100004300" code="35232005" displayName="Invasive carcinoma with ductal and lobular features (“Mixed type carcinoma”)"/>
+	<concept-descriptor xmlns="" ckey="16285.100004300" code="72495009" displayName="Invasive mucinous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="16286.100004300" code="32913002" displayName="Invasive medullary carcinoma"/>
+	<concept-descriptor xmlns="" ckey="16288.100004300" code="4631006" displayName="Invasive tubular carcinoma"/>
+	<concept-descriptor xmlns="" ckey="16289.100004300" code="30156004" displayName="Invasive cribriform carcinoma"/>
+	<concept-descriptor xmlns="" ckey="16290.100004300" code="68453008" displayName="Invasive carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="2029.100004300" code="371480007" displayName="Tumor Site (Note A)"/>
+	<concept-descriptor xmlns="" ckey="2030.100004300" code="32713005" displayName="Cecum"/>
+	<concept-descriptor xmlns="" ckey="2031.100004300" code="51342009" displayName="Right (ascending) colon"/>
+	<concept-descriptor xmlns="" ckey="2032.100004300" code="48338005" displayName="Hepatic flexure"/>
+	<concept-descriptor xmlns="" ckey="2033.100004300" code="485005" displayName="Transverse colon"/>
+	<concept-descriptor xmlns="" ckey="2034.100004300" code="72592005" displayName="Splenic flexure"/>
+	<concept-descriptor xmlns="" ckey="2035.100004300" code="55572008" displayName="Left (descending) colon"/>
+	<concept-descriptor xmlns="" ckey="2036.100004300" code="60184004" displayName="Sigmoid colon"/>
+	<concept-descriptor xmlns="" ckey="2037.100004300" code="34402009" displayName="Rectum"/>
+	<concept-descriptor xmlns="" ckey="2038.100004300" code="14742008" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="2045.100004300" code="395498009" displayName="Pedunculated with stalk"/>
+	<concept-descriptor xmlns="" ckey="2048.100004300" code="103679000" displayName="Sessile"/>
+	<concept-descriptor xmlns="" ckey="2057.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="2058.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="2059.100004300" code="72495009" displayName="Mucinous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="2061.100004300" code="87737001" displayName="Signet-ring cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2062.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2060.100004300" code="32913002" displayName="Medullary carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2063.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="2065.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="2101.100004300" code="19665009" displayName="Tubular adenoma"/>
+	<concept-descriptor xmlns="" ckey="2102.100004300" code="128859003" displayName="Villous adenoma"/>
+	<concept-descriptor xmlns="" ckey="2104.100004300" code="61722000" displayName="Tubulovillous adenoma"/>
+	<concept-descriptor xmlns="" ckey="2103.100004300" code="128653004" displayName="Traditional serrated adenoma"/>
+	<concept-descriptor xmlns="" ckey="2105.100004300" code="27391005" displayName="Hamartomatous polup"/>
+	<concept-descriptor xmlns="" ckey="1435.100004300" code="371480007" displayName="Tumor Site (Note A)"/>
+	<concept-descriptor xmlns="" ckey="1436.100004300" code="32713005" displayName="Cecum"/>
+	<concept-descriptor xmlns="" ckey="1437.100004300" code="51342009" displayName="Right (ascending) colon"/>
+	<concept-descriptor xmlns="" ckey="1438.100004300" code="48338005" displayName="Hepatic flexure"/>
+	<concept-descriptor xmlns="" ckey="1439.100004300" code="485005" displayName="Transverse colon"/>
+	<concept-descriptor xmlns="" ckey="1440.100004300" code="72592005" displayName="Splenic flexure"/>
+	<concept-descriptor xmlns="" ckey="1441.100004300" code="55572008" displayName="Left (descending) colon"/>
+	<concept-descriptor xmlns="" ckey="1442.100004300" code="60184004" displayName="Sigmoid colon"/>
+	<concept-descriptor xmlns="" ckey="1443.100004300" code="81922002" displayName="Rectosigmoid"/>
+	<concept-descriptor xmlns="" ckey="1444.100004300" code="34402009" displayName="Rectum"/>
+	<concept-descriptor xmlns="" ckey="1445.100004300" code="71854001" displayName="Colon, not otherwise specified"/>
+	<concept-descriptor xmlns="" ckey="1446.100004300" code="14742008" displayName="Cannot be determined (explain)"/>
+	<concept-descriptor xmlns="" ckey="1463.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="1464.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="1465.100004300" code="72495009" displayName="Mucinous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="1467.100004300" code="87737001" displayName="Signet-ring cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="1468.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="1466.100004300" code="32913002" displayName="Medullary carcinoma"/>
+	<concept-descriptor xmlns="" ckey="1469.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="1479.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="1586.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="20647.100004300" code="2739003" displayName="Anterior endometrium"/>
+	<concept-descriptor xmlns="" ckey="1588.100004300" code="2739003" displayName="Posterior endometrium"/>
+	<concept-descriptor xmlns="" ckey="1605.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="1606.100004300" code="30289006" displayName="Endometrioid adenocarcinoma, not otherwise characterized"/>
+	<concept-descriptor xmlns="" ckey="1607.100004300" code="128680006" displayName="Endometrioid adenocarcinoma, variant (specify)"/>
+	<concept-descriptor xmlns="" ckey="1613.100004300" code="72495009" displayName="Mucinous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="1611.100004300" code="90725004" displayName="Serous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="1612.100004300" code="30546008" displayName="Clear cell adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="1615.100004300" code="38958001" displayName="Mixed carcinoma (specify types and percentages)"/>
+	<concept-descriptor xmlns="" ckey="1614.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="20648.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="1616.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="20649.100004300" code="84427001" displayName="Carcinosarcoma (malignant müllerian mixed tumor)"/>
+	<concept-descriptor xmlns="" ckey="1596.100004300" code="20837000" displayName=""/>
+	<concept-descriptor xmlns="" ckey="1597.100004300" code="43981004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="1598.100004300" code="2033006" displayName=""/>
+	<concept-descriptor xmlns="" ckey="1599.100004300" code="113293009" displayName=""/>
+	<concept-descriptor xmlns="" ckey="21693.100004300" code="76784001" displayName=""/>
+	<concept-descriptor xmlns="" ckey="1601.100004300" code="76784001" displayName=""/>
+	<concept-descriptor xmlns="" ckey="1602.100004300" code="34402009" displayName=""/>
+	<concept-descriptor xmlns="" ckey="1600.100004300" code="89837001" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4163.100004300" code="371480007" displayName="Tumor Site  (Note B)"/>
+	<concept-descriptor xmlns="" ckey="16987.100004300" code="371480007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="4165.100004300" code="32849002" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="4172.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="4173.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4174.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="4175.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4176.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4177.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4179.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="4250.100004300" code="69310004" displayName="Intestinal metaplasia (Barrett's esophagus)"/>
+	<concept-descriptor xmlns="" ckey="23914.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="23916.100004300" code="371480007" displayName="Specify site (if known)"/>
+	<concept-descriptor xmlns="" ckey="5907.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="5909.100004300" code="371480007" displayName="Specify site(s)"/>
+	<concept-descriptor xmlns="" ckey="4363.100004300" code="371480007" displayName="Tumor Site (Note A)"/>
+	<concept-descriptor xmlns="" ckey="4364.100004300" code="2033006" displayName="Right fallopian tube"/>
+	<concept-descriptor xmlns="" ckey="4371.100004300" code="113293009" displayName="Left fallopian tube"/>
+	<concept-descriptor xmlns="" ckey="4378.100004300" code="31435000" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="4387.100004300" code="22675007" displayName="Fimbria(e)"/>
+	<concept-descriptor xmlns="" ckey="4388.100004300" code="65608004" displayName="Ampulla"/>
+	<concept-descriptor xmlns="" ckey="4389.100004300" code="8100009" displayName="Infundibular portion"/>
+	<concept-descriptor xmlns="" ckey="4390.100004300" code="79281009" displayName="Isthmus"/>
+	<concept-descriptor xmlns="" ckey="4397.100004300" code="371441004" displayName="Histologic Type (Notes D and E)"/>
+	<concept-descriptor xmlns="" ckey="4399.100004300" code="90725004" displayName="Serous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4400.100004300" code="72495009" displayName="Mucinous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4401.100004300" code="30289006" displayName="Endometrioid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4402.100004300" code="30546008" displayName="Clear cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4403.100004300" code="27090000" displayName="Transitional cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4404.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4405.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4407.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="4465.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="4466.100004300" code="14347000" displayName="Fundus"/>
+	<concept-descriptor xmlns="" ckey="4467.100004300" code="3578005" displayName="Body"/>
+	<concept-descriptor xmlns="" ckey="4468.100004300" code="47742008" displayName="Neck"/>
+	<concept-descriptor xmlns="" ckey="4470.100004300" code="28231008" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="4477.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="4478.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="4479.100004300" code="4797003" displayName="Papillary adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="4480.100004300" code="25190001" displayName="Adenocarcinoma, intestinal type"/>
+	<concept-descriptor xmlns="" ckey="4482.100004300" code="72495009" displayName="Mucinous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="18758.100004300" code="87737001" displayName="Signet-ring cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4483.100004300" code="30546008" displayName="Clear cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="18759.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4484.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4485.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4487.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4489.100004300" code="68453008" displayName="Carcinoma, not otherwise specified"/>
+	<concept-descriptor xmlns="" ckey="4646.100004300" code="371480007" displayName="Tumor Site "/>
+	<concept-descriptor xmlns="" ckey="4647.100004300" code="76848001" displayName="Pericardium"/>
+	<concept-descriptor xmlns="" ckey="4648.100004300" code="53085002" displayName="Right ventricle"/>
+	<concept-descriptor xmlns="" ckey="4649.100004300" code="87878005" displayName="Left ventricle"/>
+	<concept-descriptor xmlns="" ckey="4650.100004300" code="73829009" displayName="Right atrium"/>
+	<concept-descriptor xmlns="" ckey="4651.100004300" code="82471001" displayName="Left atrium"/>
+	<concept-descriptor xmlns="" ckey="4653.100004300" code="409708007" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="4661.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="4662.100004300" code="39000009" displayName="Angiosarcoma"/>
+	<concept-descriptor xmlns="" ckey="4665.100004300" code="53654007" displayName="Fibrosarcoma"/>
+	<concept-descriptor xmlns="" ckey="4667.100004300" code="30924005" displayName="Rhabdomyosarcoma"/>
+	<concept-descriptor xmlns="" ckey="4666.100004300" code="51549004" displayName="Leiomyosarcoma"/>
+	<concept-descriptor xmlns="" ckey="4668.100004300" code="21708004" displayName="Osteosarcoma"/>
+	<concept-descriptor xmlns="" ckey="4669.100004300" code="63211008" displayName="Synovial sarcoma"/>
+	<concept-descriptor xmlns="" ckey="4722.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="4999.100004300" code="10200004" displayName="Liver"/>
+	<concept-descriptor xmlns="" ckey="5018.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="5019.100004300" code="25370001" displayName="Hepatocellular carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5020.100004300" code="15619004" displayName="Fibrolamellar hepatocellular carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5024.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5026.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="4807.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="4808.100004300" code="59441001" displayName="Lymph node(s), site not specified"/>
+	<concept-descriptor xmlns="" ckey="4809.100004300" code="59441001" displayName="Lymph node(s)"/>
+	<concept-descriptor xmlns="" ckey="4819.100004300" code="371441004" displayName="Histologic Type (based on the 2008 WHO classification) (Note C)"/>
+	<concept-descriptor xmlns="" ckey="4826.100004300" code="128930002" displayName="Hodgkin lymphoma, histologic subtype cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="4821.100004300" code="52248008" displayName="Classical Hodgkin lymphoma, histologic subtype cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="4820.100004300" code="70600005" displayName="Nodular lymphocyte predominant Hodgkin lymphoma"/>
+	<concept-descriptor xmlns="" ckey="18799.100004300" code="52248008" displayName="Nodular sclerosis classical Hodgkin lymphoma"/>
+	<concept-descriptor xmlns="" ckey="4822.100004300" code="41529000" displayName="Mixed cellularity classical Hodgkin lymphoma"/>
+	<concept-descriptor xmlns="" ckey="4823.100004300" code="128799007" displayName="Lymphocyte-rich classical Hodgkin lymphoma"/>
+	<concept-descriptor xmlns="" ckey="4824.100004300" code="112687003" displayName="Lymphocyte-depleted classical Hodgkin lymphoma"/>
+	<concept-descriptor xmlns="" ckey="4859.100004300" code="9846003" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="4860.100004300" code="18639004" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="4863.100004300" code="371441004" displayName="Histologic Type (Note A)"/>
+	<concept-descriptor xmlns="" ckey="4865.100004300" code="30546008" displayName="Clear cell renal cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4866.100004300" code="4797003" displayName="Papillary renal carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4867.100004300" code="128667008" displayName="Chromophobe renal carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4868.100004300" code="128669006" displayName="Carcinoma of the collecting ducts of Bellini"/>
+	<concept-descriptor xmlns="" ckey="4869.100004300" code="128668003" displayName="Tubulocystic renal cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4870.100004300" code="41607009" displayName="Renal cell carcinoma, unclassified"/>
+	<concept-descriptor xmlns="" ckey="21092.100004300" code="128668003" displayName="Sarcomatoid Features (Note B)"/>
+	<concept-descriptor xmlns="" ckey="21093.100004300" code="128668003" displayName="Present"/>
+	<concept-descriptor xmlns="" ckey="4896.100004300" code="9846003" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="4897.100004300" code="18639004" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="4899.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="4900.100004300" code="5324007" displayName="Upper pole"/>
+	<concept-descriptor xmlns="" ckey="4901.100004300" code="119275002" displayName="Middle"/>
+	<concept-descriptor xmlns="" ckey="4902.100004300" code="89658009" displayName="Lower pole"/>
+	<concept-descriptor xmlns="" ckey="4904.100004300" code="64033007" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="4920.100004300" code="371441004" displayName="Histologic Type (Note A)"/>
+	<concept-descriptor xmlns="" ckey="4921.100004300" code="30546008" displayName="Clear cell renal cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4922.100004300" code="4797003" displayName="Papillary renal carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4923.100004300" code="128667008" displayName="Chromophobe renal carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4924.100004300" code="128669006" displayName="Carcinoma of the collecting ducts of Bellini"/>
+	<concept-descriptor xmlns="" ckey="4927.100004300" code="41607009" displayName="Renal cell carcinoma, unclassified"/>
+	<concept-descriptor xmlns="" ckey="21109.100004300" code="128668003" displayName="Sarcomatoid Features (Note B)"/>
+	<concept-descriptor xmlns="" ckey="4925.100004300" code="128668003" displayName="Present"/>
+	<concept-descriptor xmlns="" ckey="22947.100004300" code="371480007" displayName="Tumor Site (Note A)"/>
+	<concept-descriptor xmlns="" ckey="22955.100004300" code="119254005" displayName="Larynx, subglottis"/>
+	<concept-descriptor xmlns="" ckey="22971.100004300" code="28899001" displayName="Squamous cell carcinoma, conventional"/>
+	<concept-descriptor xmlns="" ckey="24346.100004300" code="85956000" displayName="Acantholytic squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="22975.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="22976.100004300" code="128634009" displayName="Basaloid squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="22977.100004300" code="39056008" displayName="Papillary squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="22974.100004300" code="10288008" displayName="Spindle cell squamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="22973.100004300" code="89906000" displayName="Verrucous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24345.100004300" code="42596004" displayName="Giant cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23001.100004300" code="7300000" displayName="Lymphoepithelioma-like carcinoma (non-nasopharyngeal)"/>
+	<concept-descriptor xmlns="" ckey="22997.100004300" code="81622000" displayName="Typical carcinoid tumor (well differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="22998.100004300" code="128658008" displayName="Atypical carcinoid tumor (moderately differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="22999.100004300" code="74364000" displayName="Small cell carcinoma (poorly differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="24348.100004300" code="74364000" displayName="Combined (or composite) small cell carcinoma, neuroendocrine type"/>
+	<concept-descriptor xmlns="" ckey="23008.100004300" code="11671000" displayName="Adenoid cystic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24350.100004300" code="397079001" displayName="Mucoepidermoid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23016.100004300" code="397079001" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="23017.100004300" code="397080003" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="23018.100004300" code="397081004" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="23031.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="23176.100004300" code="68956006" displayName="Severe (carcinoma in situ)"/>
+	<concept-descriptor xmlns="" ckey="24403.100004300" code="68956006" displayName="Severe (carcinoma in situ)"/>
+	<concept-descriptor xmlns="" ckey="23177.100004300" code="23583003" displayName="Inflammation (specify type)"/>
+	<concept-descriptor xmlns="" ckey="23178.100004300" code="31390008" displayName="Epithelial hyperplasia"/>
+	<concept-descriptor xmlns="" ckey="23179.100004300" code="61313004" displayName="Colonization"/>
+	<concept-descriptor xmlns="" ckey="23189.100004300" code="371480007" displayName="Specimen (Note A)"/>
+	<concept-descriptor xmlns="" ckey="23190.100004300" code="48477009" displayName="Vermilion border upper lip"/>
+	<concept-descriptor xmlns="" ckey="24412.100004300" code="48477009" displayName="Vermilion border lower lip"/>
+	<concept-descriptor xmlns="" ckey="24413.100004300" code="48477009" displayName="Mucosa of upper lip"/>
+	<concept-descriptor xmlns="" ckey="24414.100004300" code="48477009" displayName="Mucosa of lower lip"/>
+	<concept-descriptor xmlns="" ckey="24415.100004300" code="48477009" displayName="Commissure of lip"/>
+	<concept-descriptor xmlns="" ckey="23191.100004300" code="74262004" displayName="Upper gingiva (gum)"/>
+	<concept-descriptor xmlns="" ckey="24421.100004300" code="74262004" displayName="Lower gingiva (gum)"/>
+	<concept-descriptor xmlns="" ckey="24422.100004300" code="74262004" displayName="Anterior floor of mouth"/>
+	<concept-descriptor xmlns="" ckey="23209.100004300" code="371480007" displayName="Tumor Site  (Note A)"/>
+	<concept-descriptor xmlns="" ckey="24454.100004300" code="48477009" displayName="Vermilion border upper lip"/>
+	<concept-descriptor xmlns="" ckey="24455.100004300" code="48477009" displayName="Vermilion border lower lip"/>
+	<concept-descriptor xmlns="" ckey="24456.100004300" code="48477009" displayName="Mucosa of upper lip"/>
+	<concept-descriptor xmlns="" ckey="24457.100004300" code="48477009" displayName="Mucosa of lower lip"/>
+	<concept-descriptor xmlns="" ckey="24458.100004300" code="48477009" displayName="Commissure of lip"/>
+	<concept-descriptor xmlns="" ckey="24464.100004300" code="74262004" displayName="Upper gingiva (gum)"/>
+	<concept-descriptor xmlns="" ckey="24465.100004300" code="74262004" displayName="Lower gingiva (gum)"/>
+	<concept-descriptor xmlns="" ckey="24466.100004300" code="74262004" displayName="Anterior floor of mouth"/>
+	<concept-descriptor xmlns="" ckey="23213.100004300" code="28899001" displayName="Squamous cell carcinoma, conventional"/>
+	<concept-descriptor xmlns="" ckey="23217.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23218.100004300" code="128634009" displayName="Basaloid squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23219.100004300" code="39056008" displayName="Papillary squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23216.100004300" code="10288008" displayName="Spindle cell squamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23215.100004300" code="89906000" displayName="Verrucous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23243.100004300" code="7300000" displayName="Lymphoepithelial carcinoma (non-nasopharyngeal)"/>
+	<concept-descriptor xmlns="" ckey="23249.100004300" code="45410002" displayName="Acinic cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23250.100004300" code="11671000" displayName="Adenoid cystic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24503.100004300" code="413449008" displayName="Adenocarcinoma, not otherwise specified (NOS)"/>
+	<concept-descriptor xmlns="" ckey="23251.100004300" code="413449008" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="23252.100004300" code="413448000" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="23253.100004300" code="413447005" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="23263.100004300" code="34603009" displayName="Basal cell adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="23256.100004300" code="17264009" displayName="Carcinoma ex pleomorphic adenoma (malignant mixed tumor)"/>
+	<concept-descriptor xmlns="" ckey="24504.100004300" code="17264009" displayName="Low-grade"/>
+	<concept-descriptor xmlns="" ckey="24505.100004300" code="17264009" displayName="High-grade"/>
+	<concept-descriptor xmlns="" ckey="24506.100004300" code="17264009" displayName="Invasive"/>
+	<concept-descriptor xmlns="" ckey="24507.100004300" code="17264009" displayName="Minimally invasive (Note C)"/>
+	<concept-descriptor xmlns="" ckey="24508.100004300" code="17264009" displayName="Invasive (Note C)"/>
+	<concept-descriptor xmlns="" ckey="24509.100004300" code="17264009" displayName="Intracapsular (noninvasive)"/>
+	<concept-descriptor xmlns="" ckey="23273.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="24510.100004300" code="63264007" displayName="Carcinosarcoma"/>
+	<concept-descriptor xmlns="" ckey="23265.100004300" code="21008007" displayName="Cystadenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="23262.100004300" code="9618003" displayName="Epithelial-myoepithelial carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24513.100004300" code="397079001" displayName="Mucoepidermoid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23258.100004300" code="397079001" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="23259.100004300" code="397080003" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="23260.100004300" code="397081004" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="23266.100004300" code="72495009" displayName="Mucinous adenocarcinoma (colloid carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23269.100004300" code="128884000" displayName="Myoepithelial carcinoma (malignant myoepithelioma)"/>
+	<concept-descriptor xmlns="" ckey="23267.100004300" code="57596004" displayName="Oncocytic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23261.100004300" code="128702009" displayName="Polymorphous low-grade adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="23268.100004300" code="397082006" displayName="Salivary duct carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24514.100004300" code="413449008" displayName="Adenocarcinoma, not otherwise specified (NOS)"/>
+	<concept-descriptor xmlns="" ckey="23235.100004300" code="413449008" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="23236.100004300" code="413448000" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="23237.100004300" code="413447005" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="23239.100004300" code="81622000" displayName="Typical carcinoid tumor (well differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23240.100004300" code="128658008" displayName="Atypical carcinoid tumor (moderately differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23241.100004300" code="74364000" displayName="Small cell carcinoma (poorly differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23270.100004300" code="74364000" displayName="Combined (or composite) small cell carcinoma, neuroendocrine type"/>
+	<concept-descriptor xmlns="" ckey="23245.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="23418.100004300" code="68956006" displayName="Severe (carcinoma in situ)"/>
+	<concept-descriptor xmlns="" ckey="24571.100004300" code="68956006" displayName="Severe (carcinoma in situ)"/>
+	<concept-descriptor xmlns="" ckey="23419.100004300" code="23583003" displayName="Inflammation (specify type)"/>
+	<concept-descriptor xmlns="" ckey="23420.100004300" code="31390008" displayName="Epithelial hyperplasia"/>
+	<concept-descriptor xmlns="" ckey="23421.100004300" code="61313004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="1694.100004300" code="3341006" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="1695.100004300" code="44029006" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="1697.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="1698.100004300" code="45653009" displayName="Upper lobe"/>
+	<concept-descriptor xmlns="" ckey="1699.100004300" code="40020002" displayName="Middle lobe"/>
+	<concept-descriptor xmlns="" ckey="1700.100004300" code="90572001" displayName="Lower lobe"/>
+	<concept-descriptor xmlns="" ckey="1702.100004300" code="39607008" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="1709.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="1730.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="15728.100004300" code="128632008" displayName="Non-small cell carcinoma, subtype cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="1712.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="1713.100004300" code="21326004" displayName="Combined small cell carcinoma (small cell carcinoma and non-small cell component)"/>
+	<concept-descriptor xmlns="" ckey="1710.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15725.100004300" code="39056008" displayName="Squamous cell carcinoma, papillary variant"/>
+	<concept-descriptor xmlns="" ckey="15729.100004300" code="128635005" displayName="Squamous cell carcinoma, clear cell variant"/>
+	<concept-descriptor xmlns="" ckey="15726.100004300" code="128634009" displayName="Squamous cell carcinoma, basaloid variant"/>
+	<concept-descriptor xmlns="" ckey="1714.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="15727.100004300" code="38958001" displayName="Adenocarcinoma, mixed subtype"/>
+	<concept-descriptor xmlns="" ckey="15723.100004300" code="45410002" displayName="Acinar adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="15724.100004300" code="4797003" displayName="Papillary adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="1715.100004300" code="112677002" displayName="Bronchioloalveolar carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15732.100004300" code="128659000" displayName="Bronchioloalveolar carcinoma, nonmucinous"/>
+	<concept-descriptor xmlns="" ckey="15937.100004300" code="128660005" displayName="Bronchioloalveolar carcinoma, mucinous"/>
+	<concept-descriptor xmlns="" ckey="15938.100004300" code="128661009" displayName="Bronchioloalveolar carcinoma, mixed nonmucinous and mucinous"/>
+	<concept-descriptor xmlns="" ckey="15940.100004300" code="128893004" displayName="Fetal adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="15941.100004300" code="72495009" displayName="Mucinous (colloid) adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="15942.100004300" code="79143006" displayName="Mucinous cystadenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="15733.100004300" code="87737001" displayName="Signet ring adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="15943.100004300" code="30546008" displayName="Clear cell adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="1720.100004300" code="22687000" displayName="Large cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="1719.100004300" code="128628002" displayName="Large cell neuroendocrine carcinoma"/>
+	<concept-descriptor xmlns="" ckey="1721.100004300" code="5843004" displayName="Basaloid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15731.100004300" code="7300000" displayName="Lymphoepithelioma-like carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15944.100004300" code="30546008" displayName="Clear cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15946.100004300" code="128629005" displayName="Large cell carcinoma with rhabdoid phenotype"/>
+	<concept-descriptor xmlns="" ckey="1722.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15947.100004300" code="23109009" displayName="Sarcomatoid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15950.100004300" code="16741004" displayName="Pleomorphic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15949.100004300" code="65692009" displayName="Spindle cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15948.100004300" code="42596004" displayName="Giant cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15952.100004300" code="63264007" displayName="Carcinosarcoma"/>
+	<concept-descriptor xmlns="" ckey="15953.100004300" code="43149009" displayName="Pulmonary blastoma"/>
+	<concept-descriptor xmlns="" ckey="1723.100004300" code="81622000" displayName="Typical carcinoid tumor"/>
+	<concept-descriptor xmlns="" ckey="1724.100004300" code="128658008" displayName="Atypical carcinoid tumor"/>
+	<concept-descriptor xmlns="" ckey="1726.100004300" code="4079000" displayName="Mucoepidermoid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="1725.100004300" code="11671000" displayName="Adenoid cystic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15951.100004300" code="9618003" displayName="Epithelial-myoepithelial carcinoma"/>
+	<concept-descriptor xmlns="" ckey="1801.100004300" code="17665002" displayName="Metaplasia (specify type)"/>
+	<concept-descriptor xmlns="" ckey="5089.100004300" code="371480007" displayName="Tumor Site (Note A)"/>
+	<concept-descriptor xmlns="" ckey="5091.100004300" code="45289007" displayName="Parotid gland"/>
+	<concept-descriptor xmlns="" ckey="5092.100004300" code="44989006" displayName="Superficial lobe"/>
+	<concept-descriptor xmlns="" ckey="5090.100004300" code="385296007" displayName="Submandibular gland"/>
+	<concept-descriptor xmlns="" ckey="5093.100004300" code="88481005" displayName="Sublingual gland"/>
+	<concept-descriptor xmlns="" ckey="5112.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="5113.100004300" code="45410002" displayName="Acinic cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5114.100004300" code="11671000" displayName="Adenoid cystic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5115.100004300" code="413449008" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="5116.100004300" code="413448000" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="5117.100004300" code="413447005" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="5126.100004300" code="34603009" displayName="Basal cell adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="5119.100004300" code="17264009" displayName="Carcinoma ex pleomorphic adenoma (malignant mixed tumor)"/>
+	<concept-descriptor xmlns="" ckey="5120.100004300" code="63264007" displayName="Carcinosarcoma (true malignant mixed tumor)"/>
+	<concept-descriptor xmlns="" ckey="5128.100004300" code="21008007" displayName="Cystadenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="5125.100004300" code="9618003" displayName="Epithelial-myoepithelial carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5121.100004300" code="397079001" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="5122.100004300" code="397080003" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="5123.100004300" code="397081004" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="5129.100004300" code="72495009" displayName="Mucinous adenocarcinoma (colloid carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="5132.100004300" code="128884000" displayName="Myoepithelial carcinoma (malignant myoepithelioma)"/>
+	<concept-descriptor xmlns="" ckey="5130.100004300" code="57596004" displayName="Oncocytic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5124.100004300" code="128702009" displayName="Polymorphous low-grade adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="5131.100004300" code="397082006" displayName="Salivary duct carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5127.100004300" code="54734006" displayName="Sebaceous adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="5133.100004300" code="74364000" displayName="Small cell (neuroendocrine) carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5118.100004300" code="28899001" displayName="Squamous cell carcinoma, primary"/>
+	<concept-descriptor xmlns="" ckey="5134.100004300" code="38549000" displayName="Undifferentiated carcinoma, large cell type"/>
+	<concept-descriptor xmlns="" ckey="5136.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="5833.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="5838.100004300" code="397384004" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="5851.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="5852.100004300" code="65278006" displayName="Epithelioid mesothelioma"/>
+	<concept-descriptor xmlns="" ckey="5853.100004300" code="399477001" displayName="Sarcomatoid mesothelioma"/>
+	<concept-descriptor xmlns="" ckey="5854.100004300" code="30383009" displayName="Biphasic mesothelioma"/>
+	<concept-descriptor xmlns="" ckey="5855.100004300" code="388650006" displayName="Desmoplastic mesothelioma"/>
+	<concept-descriptor xmlns="" ckey="5893.100004300" code="397325001" displayName="Asbestos bodies"/>
+	<concept-descriptor xmlns="" ckey="5896.100004300" code="23583003" displayName="Inflammation (specify type)"/>
+	<concept-descriptor xmlns="" ckey="1896.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="1898.100004300" code="39937001" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="1915.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="1927.100004300" code="2092003" displayName="Melanoma, not otherwise classified"/>
+	<concept-descriptor xmlns="" ckey="1916.100004300" code="55320002" displayName="Superficial spreading melanoma"/>
+	<concept-descriptor xmlns="" ckey="1918.100004300" code="2142002" displayName="Nodular melanoma"/>
+	<concept-descriptor xmlns="" ckey="1917.100004300" code="44474009" displayName="Lentigo maligna melanoma"/>
+	<concept-descriptor xmlns="" ckey="1919.100004300" code="16974005" displayName="Acral-lentiginous melanoma"/>
+	<concept-descriptor xmlns="" ckey="1921.100004300" code="51757004" displayName="Desmoplastic and / or desmoplastic neurotropic melanoma"/>
+	<concept-descriptor xmlns="" ckey="1923.100004300" code="67159000" displayName="Melanoma arising from blue nevus"/>
+	<concept-descriptor xmlns="" ckey="1924.100004300" code="75931002" displayName="Melanoma arising in a giant congenital nevus"/>
+	<concept-descriptor xmlns="" ckey="1925.100004300" code="399475009" displayName="Nevoid melanoma"/>
+	<concept-descriptor xmlns="" ckey="1982.100004300" code="371480007" displayName="Specify Location(s), if possible"/>
+	<concept-descriptor xmlns="" ckey="1984.100004300" code="371480007" displayName="Specify Location(s), if possible"/>
+	<concept-descriptor xmlns="" ckey="1988.100004300" code="371480007" displayName="Specify Location(s), if possible"/>
+	<concept-descriptor xmlns="" ckey="1990.100004300" code="371480007" displayName="Specify Location(s), if possible"/>
+	<concept-descriptor xmlns="" ckey="1997.100004300" code="371480007" displayName="Specify Location(s), if possible"/>
+	<concept-descriptor xmlns="" ckey="1999.100004300" code="371480007" displayName="Specify Location(s), if possible"/>
+	<concept-descriptor xmlns="" ckey="2020.100004300" code="399642006" displayName="Nevus remnant"/>
+	<concept-descriptor xmlns="" ckey="23431.100004300" code="371480007" displayName="Tumor Site (Note A)"/>
+	<concept-descriptor xmlns="" ckey="23440.100004300" code="15924003" displayName=""/>
+	<concept-descriptor xmlns="" ckey="24620.100004300" code="15924003" displayName="Septum"/>
+	<concept-descriptor xmlns="" ckey="24621.100004300" code="15924003" displayName="Floor"/>
+	<concept-descriptor xmlns="" ckey="24622.100004300" code="15924003" displayName="Lateral wall"/>
+	<concept-descriptor xmlns="" ckey="24623.100004300" code="15924003" displayName="Vestibule"/>
+	<concept-descriptor xmlns="" ckey="24624.100004300" code="15924003" displayName="Paranasal sinus(es), maxillary"/>
+	<concept-descriptor xmlns="" ckey="23441.100004300" code="54215007" displayName="Paranasal sinus(es), ethmoid"/>
+	<concept-descriptor xmlns="" ckey="24625.100004300" code="15924003" displayName="Paranasal sinus(es), frontal"/>
+	<concept-descriptor xmlns="" ckey="24626.100004300" code="15924003" displayName="Paranasal sinus(es), sphenoid"/>
+	<concept-descriptor xmlns="" ckey="23450.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="23463.100004300" code="18048008" displayName="Keratinizing"/>
+	<concept-descriptor xmlns="" ckey="23464.100004300" code="45490001" displayName="Nonkeratinizing (formerly cylindrical cell, transitional cell)"/>
+	<concept-descriptor xmlns="" ckey="23459.100004300" code="59367005" displayName="Acantholytic squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24642.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23460.100004300" code="128634009" displayName="Basaloid squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23461.100004300" code="39056008" displayName="Papillary squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23458.100004300" code="10288008" displayName="Spindle cell squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23457.100004300" code="89906000" displayName="Verrucous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23485.100004300" code="7300000" displayName="Lymphoepithelial carcinoma (non-nasopharyngeal)"/>
+	<concept-descriptor xmlns="" ckey="23465.100004300" code="38549000" displayName="Sinonasal undifferentiated carcinoma (SNUC)"/>
+	<concept-descriptor xmlns="" ckey="23475.100004300" code="4797003" displayName="Papillary-type"/>
+	<concept-descriptor xmlns="" ckey="24643.100004300" code="25190001" displayName="Colonic-type"/>
+	<concept-descriptor xmlns="" ckey="24645.100004300" code="25190001" displayName="Solid type"/>
+	<concept-descriptor xmlns="" ckey="24647.100004300" code="25190001" displayName="Mucinous type"/>
+	<concept-descriptor xmlns="" ckey="24653.100004300" code="25190001" displayName="Mixed type"/>
+	<concept-descriptor xmlns="" ckey="24654.100004300" code="413449008" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="23478.100004300" code="413448000" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="23479.100004300" code="413447005" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="23491.100004300" code="45410002" displayName="Acinic cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23492.100004300" code="11671000" displayName="Adenoid cystic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24655.100004300" code="413449008" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="23494.100004300" code="413448000" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="23495.100004300" code="413447005" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="23498.100004300" code="17264009" displayName="Carcinoma ex pleomorphic adenoma (malignant mixed tumor)"/>
+	<concept-descriptor xmlns="" ckey="23493.100004300" code="413449008" displayName="Clear cell adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="23504.100004300" code="9618003" displayName="Epithelial-myoepithelial carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23500.100004300" code="397079001" displayName="Mucoepidermoid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24656.100004300" code="397079001" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="23501.100004300" code="397080003" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="23502.100004300" code="397081004" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="23511.100004300" code="128884000" displayName="Myoepithelial carcinoma (malignant myoepithelioma)"/>
+	<concept-descriptor xmlns="" ckey="23509.100004300" code="57596004" displayName="Oncocytic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23503.100004300" code="128702009" displayName="Polymorphous low-grade adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="23510.100004300" code="397082006" displayName="Salivary duct carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23481.100004300" code="81622000" displayName="Typical carcinoid tumor (well differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23482.100004300" code="128658008" displayName="Atypical carcinoid tumor (moderately differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23483.100004300" code="74364000" displayName="Small cell carcinoma (poorly differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="24657.100004300" code="74364000" displayName="Combined (or composite) small cell carcinoma, neuroendocrine type"/>
+	<concept-descriptor xmlns="" ckey="23487.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="23660.100004300" code="68956006" displayName="Carcinoma in situ (Note M)"/>
+	<concept-descriptor xmlns="" ckey="23663.100004300" code="61313004" displayName="Epithelial dysplasia (Note M)"/>
+	<concept-descriptor xmlns="" ckey="2225.100004300" code="61313004" displayName="Specify"/>
+	<concept-descriptor xmlns="" ckey="23661.100004300" code="23583003" displayName="Inflammation (specify type)"/>
+	<concept-descriptor xmlns="" ckey="23662.100004300" code="31390008" displayName="Epithelial hyperplasia"/>
+	<concept-descriptor xmlns="" ckey="19076.100004300" code="87364003" displayName="Neuroblastoma"/>
+	<concept-descriptor xmlns="" ckey="5208.100004300" code="69515008" displayName="Ganglioneuroblastoma"/>
+	<concept-descriptor xmlns="" ckey="19082.100004300" code="53801007" displayName="Ganglioneuroma"/>
+	<concept-descriptor xmlns="" ckey="5290.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="5291.100004300" code="59441001" displayName="Lymph node(s), site not specified"/>
+	<concept-descriptor xmlns="" ckey="5292.100004300" code="59441001" displayName="Lymph node(s)"/>
+	<concept-descriptor xmlns="" ckey="5298.100004300" code="128929007" displayName="Histologic type cannot be assessed"/>
+	<concept-descriptor xmlns="" ckey="5301.100004300" code="314922006" displayName="B lymphoblastic leukemia / lymphoma, not otherwise specified (NOS)#"/>
+	<concept-descriptor xmlns="" ckey="5302.100004300" code="397347001" displayName="B-cell lymphoblastic leukemia / lymphoma, with t(9;22)(q34;q11.2); BCR-ABL1"/>
+	<concept-descriptor xmlns="" ckey="18958.100004300" code="397347001" displayName="B lymphoblastic leukemia / lymphoma with t(v;11q23); MLL rearranged"/>
+	<concept-descriptor xmlns="" ckey="18959.100004300" code="397347001" displayName="B lymphoblastic leukemia / lymphoma with t(12;21)(p13;q22); TEL-AML1 (ETV6-RUNX1)"/>
+	<concept-descriptor xmlns="" ckey="18960.100004300" code="397347001" displayName="B lymphoblastic leukemia / lymphoma with hyperdiploidy"/>
+	<concept-descriptor xmlns="" ckey="18961.100004300" code="397347001" displayName="B lymphoblastic leukemia / lymphoma with hypodiploidy (hypodiploid ALL)"/>
+	<concept-descriptor xmlns="" ckey="18962.100004300" code="397347001" displayName="B lymphoblastic leukemia / lymphoma with t(5;14)(q31;q32); IL3-IGH"/>
+	<concept-descriptor xmlns="" ckey="18963.100004300" code="397347001" displayName="B lymphoblastic leukemia / lymphoma with t(1;19)(q23;p13.3); E2A-PBX1 (TCF3-PBX1)"/>
+	<concept-descriptor xmlns="" ckey="5328.100004300" code="397348006" displayName="T-lymphoblastic leukemia / lymphoma"/>
+	<concept-descriptor xmlns="" ckey="18964.100004300" code="314922006" displayName="B-cell lymphoma, subtype cannot be determined (Note: not a category within the WHO classification)"/>
+	<concept-descriptor xmlns="" ckey="5303.100004300" code="51092000" displayName="Chronic lymphocytic leukemia / small lymphocytic lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5304.100004300" code="128820007" displayName="B-cell prolymphocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="5306.100004300" code="128802003" displayName="Splenic B-cell marginal zone lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5307.100004300" code="54087003" displayName="Hairy cell leukemia"/>
+	<concept-descriptor xmlns="" ckey="18965.100004300" code="128802003" displayName="Splenic B-cell lymphoma / leukemia, unclassifiable ^^"/>
+	<concept-descriptor xmlns="" ckey="18966.100004300" code="128802003" displayName="Splenic diffuse red pulp small B-cell lymphoma ^^"/>
+	<concept-descriptor xmlns="" ckey="18967.100004300" code="54087003" displayName="Hairy cell leukemia-variant ^^"/>
+	<concept-descriptor xmlns="" ckey="5305.100004300" code="19340000" displayName="Lymphoplasmacytic lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5308.100004300" code="399456004" displayName="Plasma cell myeloma"/>
+	<concept-descriptor xmlns="" ckey="18971.100004300" code="399456004" displayName="Solitary plasmacytoma of bone"/>
+	<concept-descriptor xmlns="" ckey="18972.100004300" code="399456004" displayName="Extraosseous plasmacytoma"/>
+	<concept-descriptor xmlns="" ckey="5309.100004300" code="397350003" displayName="Extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue (MALT lymphoma)"/>
+	<concept-descriptor xmlns="" ckey="5310.100004300" code="397349003" displayName="Nodal marginal zone lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5311.100004300" code="46744002" displayName="Follicular lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5314.100004300" code="397467006" displayName="Primary cutaneous follicle center lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5317.100004300" code="74654000" displayName="Mantle cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5318.100004300" code="46732000" displayName="Diffuse large B-cell lymphoma (DLBCL), NOS"/>
+	<concept-descriptor xmlns="" ckey="18977.100004300" code="46732000" displayName="Primary DLBCL of the central nervous system (CNS)"/>
+	<concept-descriptor xmlns="" ckey="18978.100004300" code="46732000" displayName="Primary cutaneous DLBCL, leg type"/>
+	<concept-descriptor xmlns="" ckey="18979.100004300" code="46732000" displayName="Epstein-Barr virus (EBV)-positive DLBCL of the elderly ^^"/>
+	<concept-descriptor xmlns="" ckey="18980.100004300" code="46732000" displayName="DLBCL associated with chronic inflammation"/>
+	<concept-descriptor xmlns="" ckey="5319.100004300" code="128801005" displayName="Primary mediastinal (thymic) large B-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5320.100004300" code="399648005" displayName="Intravascular large B-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5321.100004300" code="128800006" displayName="Primary effusion lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5322.100004300" code="397400006" displayName="Burkitt lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5324.100004300" code="314922006" displayName="Other (specify)"/>
+	<concept-descriptor xmlns="" ckey="5327.100004300" code="314926009" displayName="T-cell lymphoma, subtype cannot be determined (Note: not a category within the WHO classification)"/>
+	<concept-descriptor xmlns="" ckey="5329.100004300" code="128821006" displayName="T-cell prolymphocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="5330.100004300" code="128819001" displayName="T-cell large granular lymphocytic leukemia"/>
+	<concept-descriptor xmlns="" ckey="5331.100004300" code="128833001" displayName="Aggressive NK cell leukemia"/>
+	<concept-descriptor xmlns="" ckey="5332.100004300" code="77430005" displayName="Adult T-cell leukemia / lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5333.100004300" code="128805001" displayName="Extranodal NK / T-cell lymphoma, nasal type"/>
+	<concept-descriptor xmlns="" ckey="5334.100004300" code="103686008" displayName="Enteropathy-associated T-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5335.100004300" code="103685007" displayName="Hepatosplenic T-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5336.100004300" code="103682005" displayName="Subcutaneous panniculitis-like T-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5337.100004300" code="90120004" displayName="Mycosis fungoides"/>
+	<concept-descriptor xmlns="" ckey="5339.100004300" code="4950009" displayName="Sézary syndrome"/>
+	<concept-descriptor xmlns="" ckey="5340.100004300" code="397352006" displayName="Primary cutaneous anaplastic large cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5344.100004300" code="397353001" displayName="Lymphomatoid papulosis"/>
+	<concept-descriptor xmlns="" ckey="5341.100004300" code="3172003" displayName="Peripheral T-cell lymphoma, NOS"/>
+	<concept-descriptor xmlns="" ckey="5342.100004300" code="835009" displayName="Angioimmunoblastic T-cell lymphoma"/>
+	<concept-descriptor xmlns="" ckey="5343.100004300" code="53237008" displayName="Anaplastic large cell lymphoma, ALK-positive"/>
+	<concept-descriptor xmlns="" ckey="18990.100004300" code="53237008" displayName="Anaplastic large cell lymphoma, ALK-negative ^^"/>
+	<concept-descriptor xmlns="" ckey="5345.100004300" code="314926009" displayName="Other (specify)"/>
+	<concept-descriptor xmlns="" ckey="5380.100004300" code="371480007" displayName="Specimen (Note A)"/>
+	<concept-descriptor xmlns="" ckey="5393.100004300" code="43981004" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="5387.100004300" code="20837000" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="5419.100004300" code="371441004" displayName="Histologic Type (Notes F and G)"/>
+	<concept-descriptor xmlns="" ckey="5425.100004300" code="90725004" displayName="Serous, carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5428.100004300" code="128852007" displayName="Mucinous, borderline tumor, endocervical type (seromucinous type)"/>
+	<concept-descriptor xmlns="" ckey="5430.100004300" code="72495009" displayName="Mucinous, carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5431.100004300" code="75987005" displayName="Endometrioid borderline tumor"/>
+	<concept-descriptor xmlns="" ckey="5435.100004300" code="30289006" displayName="Endometrioid, carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5440.100004300" code="30546008" displayName="Clear cell, carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5445.100004300" code="42194009" displayName="Transitional cell, carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5446.100004300" code="399417005" displayName="Mixed epithelial borderline tumor (specify types and percentages)"/>
+	<concept-descriptor xmlns="" ckey="5447.100004300" code="38958001" displayName="Mixed epithelial carcinoma (specify types and percentages)"/>
+	<concept-descriptor xmlns="" ckey="5448.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5453.100004300" code="28307001" displayName="Malignant germ cell tumor (specify types and percentages)"/>
+	<concept-descriptor xmlns="" ckey="5385.100004300" code="370102000" displayName="Present"/>
+	<concept-descriptor xmlns="" ckey="5505.100004300" code="280108007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="20581.100004300" code="280108007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="20582.100004300" code="280108007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="20583.100004300" code="280108007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="5507.100004300" code="27398004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="5508.100004300" code="35039007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="5509.100004300" code="15425007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="5563.100004300" code="28231008" displayName="Gallbladder"/>
+	<concept-descriptor xmlns="" ckey="5562.100004300" code="78961009" displayName="Spleen"/>
+	<concept-descriptor xmlns="" ckey="5537.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="5538.100004300" code="64163001" displayName="Pancreatic head"/>
+	<concept-descriptor xmlns="" ckey="5539.100004300" code="30045001" displayName="Uncinate process"/>
+	<concept-descriptor xmlns="" ckey="5540.100004300" code="40133006" displayName="Pancreatic body"/>
+	<concept-descriptor xmlns="" ckey="5541.100004300" code="73239005" displayName="Pancreatic tail"/>
+	<concept-descriptor xmlns="" ckey="5543.100004300" code="15776009" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="5640.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="5641.100004300" code="64163001" displayName="Pancreatic head"/>
+	<concept-descriptor xmlns="" ckey="5642.100004300" code="30045001" displayName="Uncinate process"/>
+	<concept-descriptor xmlns="" ckey="5643.100004300" code="40133006" displayName="Pancreatic body"/>
+	<concept-descriptor xmlns="" ckey="5644.100004300" code="73239005" displayName="Pancreatic tail"/>
+	<concept-descriptor xmlns="" ckey="5645.100004300" code="15776009" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="5657.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="5658.100004300" code="82711006" displayName="Ductal adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="5659.100004300" code="72495009" displayName="Mucinous noncystic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5660.100004300" code="87737001" displayName="Signet-ring cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5661.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5662.100004300" code="58248003" displayName="Undifferentiated (anaplastic) carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5663.100004300" code="128631001" displayName="Undifferentiated carcinoma with osteoclast-like giant cells"/>
+	<concept-descriptor xmlns="" ckey="5664.100004300" code="396892009" displayName="Mixed ductal-endocrine carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5665.100004300" code="90725004" displayName="Serous cystadenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="5667.100004300" code="128692006" displayName=""/>
+	<concept-descriptor xmlns="" ckey="5668.100004300" code="45410002" displayName="Acinar cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5669.100004300" code="128703004" displayName="Acinar cell cystadenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="5670.100004300" code="396891002" displayName="Mixed acinar-endocrine carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5729.100004300" code="396871009" displayName="Pancreatic intraepithelial neoplasia"/>
+	<concept-descriptor xmlns="" ckey="5742.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="5744.100004300" code="15425007" displayName="Cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="5743.100004300" code="15425007" displayName="Specify Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="5753.100004300" code="371441004" displayName="Histologic Type (Note A, Note B)"/>
+	<concept-descriptor xmlns="" ckey="5754.100004300" code="65278006" displayName="Malignant mesothelioma, epithelioid"/>
+	<concept-descriptor xmlns="" ckey="5755.100004300" code="54443001" displayName="Malignant mesothelioma, sarcomatoid (spindle cell)"/>
+	<concept-descriptor xmlns="" ckey="5756.100004300" code="30383009" displayName="Malignant mesothelioma, biphasic"/>
+	<concept-descriptor xmlns="" ckey="5757.100004300" code="62064005" displayName="Malignant mesothelioma, other (specify)"/>
+	<concept-descriptor xmlns="" ckey="5758.100004300" code="128849004" displayName="Serous borderline tumor (of low malignant potential)"/>
+	<concept-descriptor xmlns="" ckey="5759.100004300" code="90725004" displayName="Serous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="5767.100004300" code="86049000" displayName="Malignant tumor, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="5781.100004300" code="397325001" displayName="Ferruginous bodies"/>
+	<concept-descriptor xmlns="" ckey="23673.100004300" code="371480007" displayName="Tumor Site (Note A)"/>
+	<concept-descriptor xmlns="" ckey="23676.100004300" code="31389004" displayName="Oropharynx"/>
+	<concept-descriptor xmlns="" ckey="24744.100004300" code="31389004" displayName="Palatine tonsil"/>
+	<concept-descriptor xmlns="" ckey="24745.100004300" code="31389004" displayName="Base of tongue, including lingual tonsil"/>
+	<concept-descriptor xmlns="" ckey="24746.100004300" code="31389004" displayName="Soft palate"/>
+	<concept-descriptor xmlns="" ckey="24747.100004300" code="31389004" displayName="Uvula"/>
+	<concept-descriptor xmlns="" ckey="24748.100004300" code="31389004" displayName="Pharyngeal wall (posterior)"/>
+	<concept-descriptor xmlns="" ckey="24749.100004300" code="31389004" displayName="Other"/>
+	<concept-descriptor xmlns="" ckey="23678.100004300" code="71836000" displayName="Nasopharynx"/>
+	<concept-descriptor xmlns="" ckey="24750.100004300" code="71836000" displayName="Nasopharyngeal tonsils (adenoids)"/>
+	<concept-descriptor xmlns="" ckey="23677.100004300" code="81502006" displayName="Hypopharynx"/>
+	<concept-descriptor xmlns="" ckey="24751.100004300" code="81502006" displayName="Piriform sinus"/>
+	<concept-descriptor xmlns="" ckey="24752.100004300" code="81502006" displayName="Postcricoid"/>
+	<concept-descriptor xmlns="" ckey="24753.100004300" code="81502006" displayName="Pharyngeal wall (posterior and / or lateral)"/>
+	<concept-descriptor xmlns="" ckey="24754.100004300" code="81502006" displayName="Other"/>
+	<concept-descriptor xmlns="" ckey="23693.100004300" code="371480007" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="23697.100004300" code="28899001" displayName="Squamous cell carcinoma, conventional"/>
+	<concept-descriptor xmlns="" ckey="23696.100004300" code="371441004" displayName="Variants of Squamous Cell Carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23701.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23702.100004300" code="128634009" displayName="Basaloid squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23703.100004300" code="39056008" displayName="Papillary squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23700.100004300" code="10288008" displayName="Spindle cell squamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23699.100004300" code="89906000" displayName="Verrucous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23727.100004300" code="7300000" displayName="Lymphoepithelial carcinoma (non-nasopharyngeal)"/>
+	<concept-descriptor xmlns="" ckey="23708.100004300" code="371441004" displayName="Carcinomas of the Nasopharynx"/>
+	<concept-descriptor xmlns="" ckey="23709.100004300" code="18048008" displayName="Keratinizing squamous cell carcinoma (formerly WHO-1)"/>
+	<concept-descriptor xmlns="" ckey="23710.100004300" code="45490001" displayName="Nonkeratinizing carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23711.100004300" code="399582005" displayName="Differentiated carcinoma (formerly WHO-2; transitional carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23712.100004300" code="7300000" displayName="Undifferentiated carcinoma (formerly WHO-3; lymphoepithelioma)"/>
+	<concept-descriptor xmlns="" ckey="23713.100004300" code="128634009" displayName="Basaloid squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23714.100004300" code="371441004" displayName="Adenocarcinomas (Non-Salivary Gland Type)"/>
+	<concept-descriptor xmlns="" ckey="23717.100004300" code="4797003" displayName="Nasopharyngeal papillary adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="23719.100004300" code="413449008" displayName="Adenocarcinoma, not otherwise specified (NOS)"/>
+	<concept-descriptor xmlns="" ckey="24772.100004300" code="413449008" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="23720.100004300" code="413448000" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="23721.100004300" code="413447005" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="23732.100004300" code="371441004" displayName="Carcinomas of Minor Salivary Glands"/>
+	<concept-descriptor xmlns="" ckey="23733.100004300" code="45410002" displayName="Acinic cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23734.100004300" code="11671000" displayName="Adenoid cystic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23735.100004300" code="413449008" displayName="Adenocarcinoma, not otherwise specified (NOS)"/>
+	<concept-descriptor xmlns="" ckey="24773.100004300" code="413449008" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="23736.100004300" code="413448000" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="23737.100004300" code="413447005" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="23747.100004300" code="34603009" displayName="Basal cell adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="23740.100004300" code="17264009" displayName="Carcinoma ex pleomorphic adenoma (malignant mixed tumor)"/>
+	<concept-descriptor xmlns="" ckey="23757.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="23749.100004300" code="21008007" displayName="Cystadenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="23746.100004300" code="9618003" displayName="Epithelial-myoepithelial carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23742.100004300" code="4079000" displayName="Mucoepidermoid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24776.100004300" code="397079001" displayName="Low grade"/>
+	<concept-descriptor xmlns="" ckey="23743.100004300" code="397080003" displayName="Intermediate grade"/>
+	<concept-descriptor xmlns="" ckey="23744.100004300" code="397081004" displayName="High grade"/>
+	<concept-descriptor xmlns="" ckey="23750.100004300" code="72495009" displayName="Mucinous adenocarcinoma (colloid carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23753.100004300" code="128884000" displayName="Myoepithelial carcinoma (malignant myoepithelioma)"/>
+	<concept-descriptor xmlns="" ckey="23751.100004300" code="57596004" displayName="Oncocytic carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23745.100004300" code="128702009" displayName="Polymorphous low-grade adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="23752.100004300" code="397082006" displayName="Salivary duct carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23722.100004300" code="371441004" displayName="Neuroendocrine Carcinoma"/>
+	<concept-descriptor xmlns="" ckey="23723.100004300" code="81622000" displayName="Typical carcinoid tumor (well differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23724.100004300" code="128658008" displayName="Atypical carcinoid tumor (moderately differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23725.100004300" code="74364000" displayName="Small cell carcinoma (poorly differentiated neuroendocrine carcinoma)"/>
+	<concept-descriptor xmlns="" ckey="23729.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="23902.100004300" code="68956006" displayName="Severe (carcinoma in situ)"/>
+	<concept-descriptor xmlns="" ckey="24836.100004300" code="68956006" displayName="Severe (carcinoma in situ)"/>
+	<concept-descriptor xmlns="" ckey="23903.100004300" code="23583003" displayName="Inflammation (specify type)"/>
+	<concept-descriptor xmlns="" ckey="23904.100004300" code="31390008" displayName="Epithelial hyperplasia"/>
+	<concept-descriptor xmlns="" ckey="16984.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="16985.100004300" code="41216001" displayName="Prostatic structure"/>
+	<concept-descriptor xmlns="" ckey="16988.100004300" code="371441004" displayName="Histologic Type (Note A)"/>
+	<concept-descriptor xmlns="" ckey="16990.100004300" code="35917007" displayName="Adenocarcinoma (acinar, not otherwise specified)"/>
+	<concept-descriptor xmlns="" ckey="17034.100004300" code="128640002" displayName="High-grade prostatic intraepithelial neoplasia (PIN) (Note F)"/>
+	<concept-descriptor xmlns="" ckey="17035.100004300" code="17474009" displayName="Atypical adenomatous hyperplasia (adenosis)"/>
+	<concept-descriptor xmlns="" ckey="16797.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="16798.100004300" code="41216001" displayName="Prostatic structure"/>
+	<concept-descriptor xmlns="" ckey="16800.100004300" code="371441004" displayName="Histologic Type (Note A)"/>
+	<concept-descriptor xmlns="" ckey="16802.100004300" code="35917007" displayName="Adenocarcinoma (acinar, not otherwise specified)"/>
+	<concept-descriptor xmlns="" ckey="16803.100004300" code="82711006" displayName="Prostatic duct adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="16804.100004300" code="72495009" displayName="Mucinous (colloid) adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="16805.100004300" code="87737001" displayName="Signet-ring cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="16806.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="16807.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="16808.100004300" code="23109009" displayName="Sarcomatoid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="16810.100004300" code="38549000" displayName="Undifferentiated carcinoma, not otherwise specified"/>
+	<concept-descriptor xmlns="" ckey="16905.100004300" code="128640002" displayName="High-grade prostatic intraepithelial neoplasia (PIN) (Note F)"/>
+	<concept-descriptor xmlns="" ckey="16907.100004300" code="17474009" displayName="Atypical adenomatous hyperplasia (adenosis)"/>
+	<concept-descriptor xmlns="" ckey="16914.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="16915.100004300" code="41216001" displayName="Prostatic structure"/>
+	<concept-descriptor xmlns="" ckey="16924.100004300" code="371441004" displayName="Histologic Type (Note A)"/>
+	<concept-descriptor xmlns="" ckey="16926.100004300" code="35917007" displayName="Adenocarcinoma (acinar, not otherwise specified)"/>
+	<concept-descriptor xmlns="" ckey="16975.100004300" code="128640002" displayName="High-grade prostatic intraepithelial neoplasia (PIN) (Note F)"/>
+	<concept-descriptor xmlns="" ckey="16976.100004300" code="17474009" displayName="Atypical adenomatous hyperplasia (adenosis)"/>
+	<concept-descriptor xmlns="" ckey="5998.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="5999.100004300" code="25990002" displayName="Renal pelvis structure"/>
+	<concept-descriptor xmlns="" ckey="6006.100004300" code="54444007" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="6007.100004300" code="38594006" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="6015.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="6016.100004300" code="27090000" displayName="Urothelial (transitional cell) carcinoma"/>
+	<concept-descriptor xmlns="" ckey="6017.100004300" code="399464005" displayName="Urothelial (transitional cell) carcinoma with squamous differentiation"/>
+	<concept-descriptor xmlns="" ckey="6018.100004300" code="399564007" displayName="Urothelial (transitional cell) carcinoma with glandular differentiation"/>
+	<concept-descriptor xmlns="" ckey="6019.100004300" code="27090000" displayName="Urothelial (transitional cell) carcinoma with variant histology (specify type)"/>
+	<concept-descriptor xmlns="" ckey="6020.100004300" code="28899001" displayName="Squamous cell carcinoma, typical"/>
+	<concept-descriptor xmlns="" ckey="6021.100004300" code="252988009" displayName="Squamous cell carcinoma, variant histology (specify type)"/>
+	<concept-descriptor xmlns="" ckey="6022.100004300" code="35917007" displayName="Adenocarcinoma, typical"/>
+	<concept-descriptor xmlns="" ckey="6023.100004300" code="399961007" displayName="Adenocarcinoma, variant histology (specify type)"/>
+	<concept-descriptor xmlns="" ckey="6024.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="6025.100004300" code="38549000" displayName="Undifferentiated carcinoma (specify type)"/>
+	<concept-descriptor xmlns="" ckey="6028.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="6031.100004300" code="45083001" displayName="Urothelial (transitional cell) papilloma (World Health Organization [WHO] / International Society of Urologic Pathology [ISUP], 1998; WHO 2004)"/>
+	<concept-descriptor xmlns="" ckey="6032.100004300" code="46580000" displayName="Urothelial (transitional cell) papilloma, inverted type"/>
+	<concept-descriptor xmlns="" ckey="6033.100004300" code="128625004" displayName="Papillary urothelial (transitional cell) neoplasm, low malignant potential (WHO / ISUP 1998; WHO 2004)"/>
+	<concept-descriptor xmlns="" ckey="6096.100004300" code="53530009" displayName="Urothelial carcinoma in situ"/>
+	<concept-descriptor xmlns="" ckey="6097.100004300" code="399466007" displayName="Urothelial dysplasia (low-grade intraurothelial neoplasia)"/>
+	<concept-descriptor xmlns="" ckey="6098.100004300" code="399403001" displayName="Inflammation / regenerative changes"/>
+	<concept-descriptor xmlns="" ckey="6099.100004300" code="399591009" displayName="Therapy-related changes"/>
+	<concept-descriptor xmlns="" ckey="6101.100004300" code="38069001" displayName="Keratinizing squamous metaplasia"/>
+	<concept-descriptor xmlns="" ckey="6102.100004300" code="69310004" displayName="Intestinal metaplasia"/>
+	<concept-descriptor xmlns="" ckey="6180.100004300" code="371441004" displayName="Histologic Type"/>
+	<concept-descriptor xmlns="" ckey="6187.100004300" code="19906005" displayName="Retinoblastoma, NOS"/>
+	<concept-descriptor xmlns="" ckey="6118.100004300" code="18944008" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="6119.100004300" code="8966001" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="6137.100004300" code="371480007" displayName="Tumor Site (macroscopic examination / transilumination) (Notes D, E)"/>
+	<concept-descriptor xmlns="" ckey="6139.100004300" code="399748001" displayName="Superotemporal quadrant of globe"/>
+	<concept-descriptor xmlns="" ckey="6140.100004300" code="399685002" displayName="Superonasal quadrant of globe"/>
+	<concept-descriptor xmlns="" ckey="6141.100004300" code="399577003" displayName="Inferotemporal quadrant of globe"/>
+	<concept-descriptor xmlns="" ckey="6142.100004300" code="399700002" displayName="Inferonasal quadrant of globe"/>
+	<concept-descriptor xmlns="" ckey="6181.100004300" code="12354007" displayName="Undifferentiated"/>
+	<concept-descriptor xmlns="" ckey="6182.100004300" code="26019009" displayName="Differentiated"/>
+	<concept-descriptor xmlns="" ckey="6184.100004300" code="40633007" displayName="Homer Wright rosettes"/>
+	<concept-descriptor xmlns="" ckey="6185.100004300" code="38698001" displayName="Flexner-Wintersteiner rosettes"/>
+	<concept-descriptor xmlns="" ckey="6186.100004300" code="399386007" displayName="Fleurettes"/>
+	<concept-descriptor xmlns="" ckey="6179.100004300" code="34823008" displayName="Necrotic"/>
+	<concept-descriptor xmlns="" ckey="6242.100004300" code="18115005" displayName="Calcifications"/>
+	<concept-descriptor xmlns="" ckey="6244.100004300" code="20663007" displayName="Apoptosis"/>
+	<concept-descriptor xmlns="" ckey="6245.100004300" code="399708009" displayName="Basophilic vascular deposits"/>
+	<concept-descriptor xmlns="" ckey="6246.100004300" code="23583003" displayName="Inflammatory cells"/>
+	<concept-descriptor xmlns="" ckey="6247.100004300" code="50960005" displayName="Hemorrhage"/>
+	<concept-descriptor xmlns="" ckey="6280.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="6282.100004300" code="371480007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="6283.100004300" code="89837001" displayName="Tumor present at urinary bladder"/>
+	<concept-descriptor xmlns="" ckey="6285.100004300" code="1101003" displayName="Cranial parameningeal"/>
+	<concept-descriptor xmlns="" ckey="6286.100004300" code="66019005" displayName="Extremity"/>
+	<concept-descriptor xmlns="" ckey="6287.100004300" code="21514008" displayName="Genitourinary (not bladder / prostate)"/>
+	<concept-descriptor xmlns="" ckey="6288.100004300" code="774007" displayName="Head and neck (excluding parameningeal)"/>
+	<concept-descriptor xmlns="" ckey="6290.100004300" code="363654007" displayName="Orbit"/>
+	<concept-descriptor xmlns="" ckey="6294.100004300" code="371441004" displayName="Histologic Type  (Note C)"/>
+	<concept-descriptor xmlns="" ckey="6295.100004300" code="405943005" displayName="Embryonal, botryoid"/>
+	<concept-descriptor xmlns="" ckey="6296.100004300" code="128749008" displayName="Embryonal, spindle cell"/>
+	<concept-descriptor xmlns="" ckey="6297.100004300" code="14269005" displayName="Embryonal, not otherwise specified (NOS)"/>
+	<concept-descriptor xmlns="" ckey="6298.100004300" code="63449009" displayName="Alveolar"/>
+	<concept-descriptor xmlns="" ckey="6299.100004300" code="62383007" displayName="Mixed embryonal and alveolar rhabdomyosarcoma"/>
+	<concept-descriptor xmlns="" ckey="6300.100004300" code="128734000" displayName="Undifferentiated sarcoma"/>
+	<concept-descriptor xmlns="" ckey="20729.100004300" code="128750008" displayName="Ectomesenchymoma"/>
+	<concept-descriptor xmlns="" ckey="6302.100004300" code="30924005" displayName="Rhabdosarcoma, subtype indeterminate"/>
+	<concept-descriptor xmlns="" ckey="6521.100004300" code="371480007" displayName="Tumor Site (Note A)"/>
+	<concept-descriptor xmlns="" ckey="6522.100004300" code="38848004" displayName="Duodenum"/>
+	<concept-descriptor xmlns="" ckey="6523.100004300" code="21306003" displayName="Jejunum"/>
+	<concept-descriptor xmlns="" ckey="6524.100004300" code="34516001" displayName="Ileum"/>
+	<concept-descriptor xmlns="" ckey="6525.100004300" code="30315005" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="6540.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="6541.100004300" code="35917007" displayName="Adenocarcinoma (not otherwise characterized)"/>
+	<concept-descriptor xmlns="" ckey="6542.100004300" code="72495009" displayName="Mucinous adenocarcinoma (greater than 50% mucinous)"/>
+	<concept-descriptor xmlns="" ckey="6543.100004300" code="87737001" displayName="Signet-ring cell carcinoma (greater than 50% signet-ring cells)"/>
+	<concept-descriptor xmlns="" ckey="6544.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="6545.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="6546.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="6547.100004300" code="32913002" displayName="Medullary carcinoma"/>
+	<concept-descriptor xmlns="" ckey="6548.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="6549.100004300" code="51465000" displayName="Mixed carcinoid-adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="6672.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="6673.100004300" code="87784001" displayName="Specify (if known)"/>
+	<concept-descriptor xmlns="" ckey="6674.100004300" code="87784001" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="6760.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="6761.100004300" code="87784001" displayName="Specify (if known)"/>
+	<concept-descriptor xmlns="" ckey="6762.100004300" code="87784001" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="6360.100004300" code="371480007" displayName="Tumor Site (Note A)"/>
+	<concept-descriptor xmlns="" ckey="6362.100004300" code="39937001" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="6378.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="6395.100004300" code="28899001" displayName="Squamous cell carcinoma (SCC)"/>
+	<concept-descriptor xmlns="" ckey="6398.100004300" code="85956000" displayName="Acantholytic SCC"/>
+	<concept-descriptor xmlns="" ckey="6397.100004300" code="10288008" displayName="Spindle cell (sarcomatoid) SCC"/>
+	<concept-descriptor xmlns="" ckey="6399.100004300" code="89906000" displayName="Verrucous SCC"/>
+	<concept-descriptor xmlns="" ckey="6408.100004300" code="252988009" displayName="Squamous cell carcinoma, type not otherwise specified"/>
+	<concept-descriptor xmlns="" ckey="6905.100004300" code="371480007" displayName="Tumor Site (Note B)"/>
+	<concept-descriptor xmlns="" ckey="6907.100004300" code="414003" displayName="Fundus"/>
+	<concept-descriptor xmlns="" ckey="6908.100004300" code="371480007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="6909.100004300" code="127869006" displayName="Anterior wall"/>
+	<concept-descriptor xmlns="" ckey="6910.100004300" code="127870007" displayName="Posterior wall"/>
+	<concept-descriptor xmlns="" ckey="6911.100004300" code="68560004" displayName="Body"/>
+	<concept-descriptor xmlns="" ckey="6912.100004300" code="371480007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="6913.100004300" code="127871006" displayName="Anterior wall"/>
+	<concept-descriptor xmlns="" ckey="6914.100004300" code="127872004" displayName="Posterior wall"/>
+	<concept-descriptor xmlns="" ckey="6915.100004300" code="127873009" displayName="Lesser curvature"/>
+	<concept-descriptor xmlns="" ckey="6916.100004300" code="127874003" displayName="Greater curvature"/>
+	<concept-descriptor xmlns="" ckey="6917.100004300" code="66051006" displayName="Antrum"/>
+	<concept-descriptor xmlns="" ckey="6918.100004300" code="371480007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="6919.100004300" code="127875002" displayName="Anterior wall"/>
+	<concept-descriptor xmlns="" ckey="6920.100004300" code="127876001" displayName="Posterior wall"/>
+	<concept-descriptor xmlns="" ckey="6921.100004300" code="127877005" displayName="Lesser curvature"/>
+	<concept-descriptor xmlns="" ckey="6922.100004300" code="127878000" displayName="Greater curvature"/>
+	<concept-descriptor xmlns="" ckey="6924.100004300" code="69695003" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="6938.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="6939.100004300" code="25190001" displayName="Adenocarcinoma, intestinal type"/>
+	<concept-descriptor xmlns="" ckey="6940.100004300" code="24505004" displayName="Adenocarcinoma, diffuse type"/>
+	<concept-descriptor xmlns="" ckey="6941.100004300" code="4797003" displayName="Papillary adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="6942.100004300" code="4631006" displayName="Tubular adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="6943.100004300" code="72495009" displayName="Mucinous adenocarcinoma (greater than 50% mucinous)"/>
+	<concept-descriptor xmlns="" ckey="6944.100004300" code="87737001" displayName="Signet-ring cell carcinoma (greater than 50% signet-ring cells)"/>
+	<concept-descriptor xmlns="" ckey="6946.100004300" code="68453008" displayName="Carcinoma, not otherwise specified"/>
+	<concept-descriptor xmlns="" ckey="7023.100004300" code="69310004" displayName="Intestinal metaplasia"/>
+	<concept-descriptor xmlns="" ckey="7039.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="7040.100004300" code="40689003" displayName="Testis structure"/>
+	<concept-descriptor xmlns="" ckey="7042.100004300" code="15598003" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="7043.100004300" code="63239009" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="7044.100004300" code="42774007" displayName="Both"/>
+	<concept-descriptor xmlns="" ckey="7056.100004300" code="371441004" displayName="Histologic Type (Note B, Note C)"/>
+	<concept-descriptor xmlns="" ckey="7057.100004300" code="128902002" displayName="Intratubular germ cell neoplasia, unclassified only"/>
+	<concept-descriptor xmlns="" ckey="7058.100004300" code="36741007" displayName="Seminoma, classic type"/>
+	<concept-descriptor xmlns="" ckey="21028.100004300" code="36741007" displayName="Seminoma with associated scar (Note D)"/>
+	<concept-descriptor xmlns="" ckey="7059.100004300" code="399712003" displayName="Seminoma with syncytiotrophoblastic cells"/>
+	<concept-descriptor xmlns="" ckey="7060.100004300" code="32844007" displayName="Mixed germ cell tumor (specify components and approximate percentages)"/>
+	<concept-descriptor xmlns="" ckey="7061.100004300" code="28047004" displayName="Embryonal carcinoma"/>
+	<concept-descriptor xmlns="" ckey="7062.100004300" code="74409009" displayName="Yolk sac tumor"/>
+	<concept-descriptor xmlns="" ckey="7063.100004300" code="399380001" displayName="Choriocarcinoma, biphasic"/>
+	<concept-descriptor xmlns="" ckey="7064.100004300" code="399669007" displayName="Choriocarcinoma, monophasic"/>
+	<concept-descriptor xmlns="" ckey="7065.100004300" code="75320001" displayName="Placental site trophoblastic tumor"/>
+	<concept-descriptor xmlns="" ckey="7066.100004300" code="42717009" displayName="Teratoma"/>
+	<concept-descriptor xmlns="" ckey="7068.100004300" code="88334008" displayName="Teratoma with a secondary somatic-type malignant component (specify type)"/>
+	<concept-descriptor xmlns="" ckey="7069.100004300" code="399702005" displayName="Monodermal teratoma, carcinoid"/>
+	<concept-descriptor xmlns="" ckey="7070.100004300" code="399552004" displayName="Monodermal teratoma, primitive neuroectodermal tumor"/>
+	<concept-descriptor xmlns="" ckey="7071.100004300" code="399632009" displayName="Monodermal teratoma, other (specify)"/>
+	<concept-descriptor xmlns="" ckey="7074.100004300" code="9294008" displayName="Spermatocytic seminoma"/>
+	<concept-descriptor xmlns="" ckey="7075.100004300" code="399399005" displayName="Spermatocytic seminoma with a sarcomatous component"/>
+	<concept-descriptor xmlns="" ckey="7077.100004300" code="406095005" displayName="Mixed germ cell-sex cord-stromal tumor, gonadoblastoma"/>
+	<concept-descriptor xmlns="" ckey="7078.100004300" code="406096006" displayName="Mixed germ cell-sex cord-stromal tumor, others (specify)"/>
+	<concept-descriptor xmlns="" ckey="7076.100004300" code="399523002" displayName=""/>
+	<concept-descriptor xmlns="" ckey="21029.100004300" code="399523002" displayName="Scar only"/>
+	<concept-descriptor xmlns="" ckey="21030.100004300" code="399523002" displayName="Scar with intratubular germ cell neoplasia"/>
+	<concept-descriptor xmlns="" ckey="7080.100004300" code="86049000" displayName="Malignant neoplasm, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="7135.100004300" code="128902002" displayName="Intratubular germ cell neoplasia"/>
+	<concept-descriptor xmlns="" ckey="7247.100004300" code="36741007" displayName="Seminoma, classic type"/>
+	<concept-descriptor xmlns="" ckey="7248.100004300" code="399712003" displayName="Seminoma with syncytiotrophoblastic cells"/>
+	<concept-descriptor xmlns="" ckey="7251.100004300" code="32844007" displayName="Mixed germ cell tumor (specify components and approximate percentages)"/>
+	<concept-descriptor xmlns="" ckey="7252.100004300" code="28047004" displayName="Embryonal carcinoma"/>
+	<concept-descriptor xmlns="" ckey="7305.100004300" code="74409009" displayName="Yolk sac tumor"/>
+	<concept-descriptor xmlns="" ckey="7306.100004300" code="399380001" displayName="Choriocarcinoma, biphasic"/>
+	<concept-descriptor xmlns="" ckey="7307.100004300" code="399669007" displayName="Choriocarcinoma, monophasic"/>
+	<concept-descriptor xmlns="" ckey="7308.100004300" code="75320001" displayName="Placental site trophoblastic tumor"/>
+	<concept-descriptor xmlns="" ckey="7309.100004300" code="55818009" displayName="Teratoma"/>
+	<concept-descriptor xmlns="" ckey="7313.100004300" code="88334008" displayName="Teratoma with a secondary somatic-type malignant component (specify type)"/>
+	<concept-descriptor xmlns="" ckey="7310.100004300" code="19467007" displayName="Monodermal teratoma (specify type)"/>
+	<concept-descriptor xmlns="" ckey="7388.100004300" code="9294008" displayName="Spermatocytic seminoma"/>
+	<concept-descriptor xmlns="" ckey="7389.100004300" code="399399005" displayName="Spermatocytic seminoma with a sarcomatous component"/>
+	<concept-descriptor xmlns="" ckey="7391.100004300" code="86049000" displayName="Malignant neoplasm, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="8045.100004300" code="371480007" displayName="Specimen"/>
+	<concept-descriptor xmlns="" ckey="8048.100004300" code="9875009" displayName="Thymus"/>
+	<concept-descriptor xmlns="" ckey="8129.100004300" code="9875009" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="8136.100004300" code="371441004" displayName="Histologic Type (Note A)"/>
+	<concept-descriptor xmlns="" ckey="8174.100004300" code="128708008" displayName="Type A thymoma"/>
+	<concept-descriptor xmlns="" ckey="8210.100004300" code="128710005" displayName="Type AB thymoma"/>
+	<concept-descriptor xmlns="" ckey="8182.100004300" code="128712002" displayName="Type B1 thymoma"/>
+	<concept-descriptor xmlns="" ckey="8187.100004300" code="128714001" displayName="Type B2 thymoma"/>
+	<concept-descriptor xmlns="" ckey="8197.100004300" code="128716004" displayName="Type B3 thymoma"/>
+	<concept-descriptor xmlns="" ckey="8266.100004300" code="45490001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="8296.100004300" code="5843004" displayName="Basaloid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="8299.100004300" code="4079000" displayName="Mucoepidermoid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="8261.100004300" code="7300000" displayName="Lymphoepithelioma-like carcinoma"/>
+	<concept-descriptor xmlns="" ckey="8276.100004300" code="23109009" displayName="Sarcomatoid carcinoma"/>
+	<concept-descriptor xmlns="" ckey="8290.100004300" code="30546008" displayName="Clear cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="19610.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="24254.100004300" code="29565003" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="24256.100004300" code="79163004" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="24253.100004300" code="29565003" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="24255.100004300" code="79163004" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="20769.100004300" code="29565003" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="24257.100004300" code="79163004" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="20772.100004300" code="69748006" displayName="Other"/>
+	<concept-descriptor xmlns="" ckey="20771.100004300" code="40867004" displayName="Midline (isthmus)"/>
+	<concept-descriptor xmlns="" ckey="8618.100004300" code="371480007" displayName="Tumor Laterality"/>
+	<concept-descriptor xmlns="" ckey="8718.100004300" code="29565003" displayName="Right lobe"/>
+	<concept-descriptor xmlns="" ckey="8719.100004300" code="79163004" displayName="Left lobe"/>
+	<concept-descriptor xmlns="" ckey="8720.100004300" code="40867004" displayName="Isthmus"/>
+	<concept-descriptor xmlns="" ckey="8721.100004300" code="69748006" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="8871.100004300" code="371441004" displayName="Histologic Type (Note D)"/>
+	<concept-descriptor xmlns="" ckey="8963.100004300" code="4797003" displayName="Papillary carcinoma"/>
+	<concept-descriptor xmlns="" ckey="8965.100004300" code="128674003" displayName="Classical (usual)"/>
+	<concept-descriptor xmlns="" ckey="9008.100004300" code="421630008" displayName="Clear cell variant"/>
+	<concept-descriptor xmlns="" ckey="9074.100004300" code="422238009" displayName="Cribriform-morular variant"/>
+	<concept-descriptor xmlns="" ckey="9077.100004300" code="62681000" displayName="Diffuse sclerosing variant"/>
+	<concept-descriptor xmlns="" ckey="8967.100004300" code="21968007" displayName="Follicular variant"/>
+	<concept-descriptor xmlns="" ckey="8968.100004300" code="421414006" displayName="Macrofollicular variant"/>
+	<concept-descriptor xmlns="" ckey="9076.100004300" code="421918000" displayName="Microcarcinoma (occult, latent, small, papillary microtumor)"/>
+	<concept-descriptor xmlns="" ckey="8969.100004300" code="128675002" displayName="Oncocytic or oxyphilic variant"/>
+	<concept-descriptor xmlns="" ckey="9073.100004300" code="421980000" displayName="Solid variant"/>
+	<concept-descriptor xmlns="" ckey="9078.100004300" code="422198004" displayName="Tall cell variant"/>
+	<concept-descriptor xmlns="" ckey="9075.100004300" code="421658000" displayName="Warthin-like variant"/>
+	<concept-descriptor xmlns="" ckey="8966.100004300" code="128676001" displayName="Other, specify"/>
+	<concept-descriptor xmlns="" ckey="24270.100004300" code="128674003" displayName="Classical (papillary)"/>
+	<concept-descriptor xmlns="" ckey="24272.100004300" code="422238009" displayName="Cribriform-morular"/>
+	<concept-descriptor xmlns="" ckey="24273.100004300" code="62681000" displayName="Diffuse sclerosing"/>
+	<concept-descriptor xmlns="" ckey="24274.100004300" code="21968007" displayName="Follicular"/>
+	<concept-descriptor xmlns="" ckey="24275.100004300" code="421414006" displayName="Macrofollicular"/>
+	<concept-descriptor xmlns="" ckey="24276.100004300" code="421980000" displayName="Solid"/>
+	<concept-descriptor xmlns="" ckey="24271.100004300" code="128674003" displayName="Other, specify"/>
+	<concept-descriptor xmlns="" ckey="24277.100004300" code="128674003" displayName="Classical"/>
+	<concept-descriptor xmlns="" ckey="24278.100004300" code="421630008" displayName="Clear cell"/>
+	<concept-descriptor xmlns="" ckey="24279.100004300" code="128677005" displayName="Columnar cell"/>
+	<concept-descriptor xmlns="" ckey="24280.100004300" code="128675002" displayName="Oncocytic or oxyphilic"/>
+	<concept-descriptor xmlns="" ckey="24281.100004300" code="422198004" displayName="Tall cell"/>
+	<concept-descriptor xmlns="" ckey="8872.100004300" code="5257006" displayName="Follicular carcinoma"/>
+	<concept-descriptor xmlns="" ckey="8962.100004300" code="421686008" displayName="Clear cell"/>
+	<concept-descriptor xmlns="" ckey="8961.100004300" code="57596004" displayName="Oncocytic (Hürthle cell)"/>
+	<concept-descriptor xmlns="" ckey="9082.100004300" code="128673009" displayName="Poorly differentiated thyroid carcinomas, including insular carcinoma"/>
+	<concept-descriptor xmlns="" ckey="9083.100004300" code="32913002" displayName="Medullary carcinoma"/>
+	<concept-descriptor xmlns="" ckey="9097.100004300" code="58248003" displayName="Undifferentiated (anaplastic) carcinoma"/>
+	<concept-descriptor xmlns="" ckey="9134.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="4639.100004300" code="371480007" displayName="Tumor Laterality"/>
+	<concept-descriptor xmlns="" ckey="4640.100004300" code="29565003" displayName="Right lobe"/>
+	<concept-descriptor xmlns="" ckey="4641.100004300" code="79163004" displayName="Left lobe"/>
+	<concept-descriptor xmlns="" ckey="4642.100004300" code="40867004" displayName="Isthmus"/>
+	<concept-descriptor xmlns="" ckey="4643.100004300" code="69748006" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="4663.100004300" code="371441004" displayName="Histologic Type"/>
+	<concept-descriptor xmlns="" ckey="4664.100004300" code="4797003" displayName="Papillary carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4671.100004300" code="128674003" displayName="Classical (usual)"/>
+	<concept-descriptor xmlns="" ckey="4673.100004300" code="421630008" displayName="Clear cell variant"/>
+	<concept-descriptor xmlns="" ckey="4677.100004300" code="422238009" displayName="Cribriform-morular variant"/>
+	<concept-descriptor xmlns="" ckey="4678.100004300" code="62681000" displayName="Diffuse sclerosing variant"/>
+	<concept-descriptor xmlns="" ckey="4680.100004300" code="21968007" displayName="Follicular variant"/>
+	<concept-descriptor xmlns="" ckey="4684.100004300" code="421414006" displayName="Macrofollicular variant"/>
+	<concept-descriptor xmlns="" ckey="4694.100004300" code="421918000" displayName="Microcarcinoma (occult, latent, small, papillary microtumor)"/>
+	<concept-descriptor xmlns="" ckey="4695.100004300" code="128675002" displayName="Oncocytic or oxyphilic variant"/>
+	<concept-descriptor xmlns="" ckey="4699.100004300" code="421980000" displayName="Solid variant"/>
+	<concept-descriptor xmlns="" ckey="4700.100004300" code="422198004" displayName="Tall cell variant"/>
+	<concept-descriptor xmlns="" ckey="4702.100004300" code="421658000" displayName="Warthin-like variant"/>
+	<concept-descriptor xmlns="" ckey="4721.100004300" code="128676001" displayName="Other, specify"/>
+	<concept-descriptor xmlns="" ckey="4737.100004300" code="128674003" displayName="Classical (papillary)"/>
+	<concept-descriptor xmlns="" ckey="4739.100004300" code="422238009" displayName="Cribriform-morular"/>
+	<concept-descriptor xmlns="" ckey="4767.100004300" code="62681000" displayName="Diffuse sclerosing"/>
+	<concept-descriptor xmlns="" ckey="4768.100004300" code="21968007" displayName="Follicular"/>
+	<concept-descriptor xmlns="" ckey="4771.100004300" code="421414006" displayName="Macrofollicular"/>
+	<concept-descriptor xmlns="" ckey="4774.100004300" code="421980000" displayName="Solid"/>
+	<concept-descriptor xmlns="" ckey="4776.100004300" code="128674003" displayName="Other, specify"/>
+	<concept-descriptor xmlns="" ckey="4786.100004300" code="128674003" displayName="Classical"/>
+	<concept-descriptor xmlns="" ckey="4787.100004300" code="421630008" displayName="Clear cell"/>
+	<concept-descriptor xmlns="" ckey="4799.100004300" code="128677005" displayName="Columnar cell"/>
+	<concept-descriptor xmlns="" ckey="4800.100004300" code="128675002" displayName="Oncocytic or oxyphilic"/>
+	<concept-descriptor xmlns="" ckey="4801.100004300" code="422198004" displayName="Tall cell"/>
+	<concept-descriptor xmlns="" ckey="4803.100004300" code="5257006" displayName="Follicular carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4812.100004300" code="421686008" displayName="Clear cell"/>
+	<concept-descriptor xmlns="" ckey="4813.100004300" code="57596004" displayName="Oncocytic (Hürthle cell)"/>
+	<concept-descriptor xmlns="" ckey="4815.100004300" code="128673009" displayName="Poorly differentiated thyroid carcinomas, including insular carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4816.100004300" code="32913002" displayName="Medullary carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4817.100004300" code="58248003" displayName="Undifferentiated (anaplastic) carcinoma"/>
+	<concept-descriptor xmlns="" ckey="4825.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="9658.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="9671.100004300" code="25149004" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="9738.100004300" code="371441004" displayName="Histologic Type (Notes B and C)"/>
+	<concept-descriptor xmlns="" ckey="9739.100004300" code="48430004" displayName="Hydatidiform mole, complete"/>
+	<concept-descriptor xmlns="" ckey="9740.100004300" code="51793002" displayName="Hydatidiform mole, partial"/>
+	<concept-descriptor xmlns="" ckey="9741.100004300" code="18799007" displayName="Hydatidiform mole, invasive"/>
+	<concept-descriptor xmlns="" ckey="9742.100004300" code="44769000" displayName="Choriocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="9743.100004300" code="75320001" displayName="Placental site trophoblastic tumor"/>
+	<concept-descriptor xmlns="" ckey="9744.100004300" code="128767001" displayName="Epithelioid trophoblastic tumor"/>
+	<concept-descriptor xmlns="" ckey="9765.100004300" code="399479003" displayName="Malignant trophoblastic tumor, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="12903.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="12904.100004300" code="431938005" displayName="Urinary tract structure"/>
+	<concept-descriptor xmlns="" ckey="12989.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="12990.100004300" code="27090000" displayName="Urothelial (transitional cell) carcinoma"/>
+	<concept-descriptor xmlns="" ckey="12996.100004300" code="399464005" displayName="Urothelial (transitional cell) carcinoma with squamous differentiation"/>
+	<concept-descriptor xmlns="" ckey="13002.100004300" code="399564007" displayName="Urothelial (transitional cell) carcinoma with glandular differentiation"/>
+	<concept-descriptor xmlns="" ckey="13075.100004300" code="27090000" displayName="Urothelial (transitional cell) carcinoma with variant histology (specify)"/>
+	<concept-descriptor xmlns="" ckey="13076.100004300" code="28899001" displayName="Squamous cell carcinoma, typical"/>
+	<concept-descriptor xmlns="" ckey="13106.100004300" code="252988009" displayName="Squamous cell carcinoma, variant histology (specify)"/>
+	<concept-descriptor xmlns="" ckey="13107.100004300" code="35917007" displayName="Adenocarcinoma, typical"/>
+	<concept-descriptor xmlns="" ckey="13108.100004300" code="399961007" displayName="Adenocarcinoma, variant histology (specify)"/>
+	<concept-descriptor xmlns="" ckey="13109.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="13110.100004300" code="38549000" displayName="Undifferentiated carcinoma (specify)"/>
+	<concept-descriptor xmlns="" ckey="13113.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="13240.100004300" code="45083001" displayName="Urothelial (transitional cell) papilloma (World Health Organization [WHO] / International Society of Urologic Pathology [ISUP], 1998; WHO 2004)"/>
+	<concept-descriptor xmlns="" ckey="13241.100004300" code="46580000" displayName="Urothelial (transitional cell) papilloma, inverted type"/>
+	<concept-descriptor xmlns="" ckey="13242.100004300" code="128625004" displayName="Papillary urothelial (transitional cell) neoplasm, low malignant potential (WHO / ISUP 1998; WHO 2004)"/>
+	<concept-descriptor xmlns="" ckey="13453.100004300" code="399466007" displayName="Urothelial dysplasia (low-grade intraurothelial neoplasia)"/>
+	<concept-descriptor xmlns="" ckey="13454.100004300" code="399403001" displayName="Inflammation / regenerative changes"/>
+	<concept-descriptor xmlns="" ckey="13455.100004300" code="399591009" displayName="Therapy-related changes"/>
+	<concept-descriptor xmlns="" ckey="13456.100004300" code="44698007" displayName="Cautery artifact"/>
+	<concept-descriptor xmlns="" ckey="13460.100004300" code="38069001" displayName="Keratinizing squamous metaplasia"/>
+	<concept-descriptor xmlns="" ckey="13484.100004300" code="69310004" displayName="Intestinal metaplasia"/>
+	<concept-descriptor xmlns="" ckey="12004.100004300" code="25308007" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="12007.100004300" code="26559004" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="12133.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="12134.100004300" code="27090000" displayName="Urothelial (transitional cell) carcinoma"/>
+	<concept-descriptor xmlns="" ckey="12135.100004300" code="399464005" displayName="Urothelial (transitional cell) carcinoma with squamous differentiation"/>
+	<concept-descriptor xmlns="" ckey="12143.100004300" code="399564007" displayName="Urothelial (transitional cell) carcinoma with glandular differentiation"/>
+	<concept-descriptor xmlns="" ckey="12173.100004300" code="27090000" displayName="Urothelial (transitional cell) carcinoma with variant histology (specify type)"/>
+	<concept-descriptor xmlns="" ckey="12182.100004300" code="28899001" displayName="Squamous cell carcinoma, typical"/>
+	<concept-descriptor xmlns="" ckey="12186.100004300" code="252988009" displayName="Squamous cell carcinoma, variant histology (specify type)"/>
+	<concept-descriptor xmlns="" ckey="12194.100004300" code="35917007" displayName="Adenocarcinoma, typical"/>
+	<concept-descriptor xmlns="" ckey="12223.100004300" code="399961007" displayName="Adenocarcinoma, variant histology (specify type)"/>
+	<concept-descriptor xmlns="" ckey="12232.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="12235.100004300" code="38549000" displayName="Undifferentiated carcinoma (specify type)"/>
+	<concept-descriptor xmlns="" ckey="12258.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="12261.100004300" code="45083001" displayName="Urothelial (transitional cell) papilloma (World Health Organization [WHO] / International Society of Urologic Pathology [ISUP], 1998; WHO 2004)"/>
+	<concept-descriptor xmlns="" ckey="12262.100004300" code="46580000" displayName="Urothelial (transitional cell) papilloma, inverted type"/>
+	<concept-descriptor xmlns="" ckey="12263.100004300" code="128625004" displayName="Papillary urothelial (transitional cell) neoplasm, low malignant potential (WHO / ISUP 1998; WHO 2004)"/>
+	<concept-descriptor xmlns="" ckey="12732.100004300" code="53530009" displayName="Urothelial carcinoma in situ"/>
+	<concept-descriptor xmlns="" ckey="12733.100004300" code="399466007" displayName="Urothelial dysplasia (low-grade intraurothelial neoplasia)"/>
+	<concept-descriptor xmlns="" ckey="12734.100004300" code="399403001" displayName="Inflammation / regenerative changes"/>
+	<concept-descriptor xmlns="" ckey="12735.100004300" code="399591009" displayName="Therapy-related changes"/>
+	<concept-descriptor xmlns="" ckey="12764.100004300" code="38069001" displayName="Keratinizing squamous metaplasia"/>
+	<concept-descriptor xmlns="" ckey="12768.100004300" code="69310004" displayName="Intestinal metaplasia"/>
+	<concept-descriptor xmlns="" ckey="22271.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="22272.100004300" code="27090000" displayName="Urothelial (transitional cell) carcinoma"/>
+	<concept-descriptor xmlns="" ckey="22273.100004300" code="399464005" displayName="Urothelial (transitional cell) carcinoma with squamous differentiation"/>
+	<concept-descriptor xmlns="" ckey="22274.100004300" code="399564007" displayName="Urothelial (transitional cell) carcinoma with glandular differentiation"/>
+	<concept-descriptor xmlns="" ckey="22275.100004300" code="27090000" displayName="Urothelial (transitional cell) carcinoma with variant histology (specify)"/>
+	<concept-descriptor xmlns="" ckey="22276.100004300" code="28899001" displayName="Squamous cell carcinoma, typical"/>
+	<concept-descriptor xmlns="" ckey="22277.100004300" code="252988009" displayName="Squamous cell carcinoma, variant histology (specify)"/>
+	<concept-descriptor xmlns="" ckey="22278.100004300" code="35917007" displayName="Adenocarcinoma, typical"/>
+	<concept-descriptor xmlns="" ckey="22279.100004300" code="399961007" displayName="Adenocarcinoma, variant histology (specify)"/>
+	<concept-descriptor xmlns="" ckey="22280.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="22281.100004300" code="38549000" displayName="Undifferentiated carcinoma (specify)"/>
+	<concept-descriptor xmlns="" ckey="22284.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="22342.100004300" code="45083001" displayName="Urothelial (transitional cell) papilloma (World Health Organization [WHO] 2004 / International Society of Urologic Pathology [ISUP])"/>
+	<concept-descriptor xmlns="" ckey="22343.100004300" code="46580000" displayName="Urothelial (transitional cell) papilloma, inverted type"/>
+	<concept-descriptor xmlns="" ckey="22344.100004300" code="128625004" displayName="Papillary urothelial (transitional cell) neoplasm, low malignant potential (WHO 2004 / ISUP)"/>
+	<concept-descriptor xmlns="" ckey="22393.100004300" code="399466007" displayName="Urothelial dysplasia (low-grade intraurothelial neoplasia)"/>
+	<concept-descriptor xmlns="" ckey="22394.100004300" code="399403001" displayName="Inflammation / regenerative changes"/>
+	<concept-descriptor xmlns="" ckey="22395.100004300" code="399591009" displayName="Therapy-related changes"/>
+	<concept-descriptor xmlns="" ckey="22397.100004300" code="38069001" displayName="Keratinizing squamous metaplasia"/>
+	<concept-descriptor xmlns="" ckey="22398.100004300" code="69310004" displayName="Intestinal metaplasia"/>
+	<concept-descriptor xmlns="" ckey="13606.100004300" code="371480007" displayName="Tumor Site "/>
+	<concept-descriptor xmlns="" ckey="13636.100004300" code="21740000" displayName="Trigone"/>
+	<concept-descriptor xmlns="" ckey="13638.100004300" code="250930003" displayName="Right lateral wall"/>
+	<concept-descriptor xmlns="" ckey="13664.100004300" code="251028007" displayName="Left lateral wall"/>
+	<concept-descriptor xmlns="" ckey="13703.100004300" code="50858009" displayName="Anterior wall"/>
+	<concept-descriptor xmlns="" ckey="13738.100004300" code="25640004" displayName="Posterior wall"/>
+	<concept-descriptor xmlns="" ckey="13739.100004300" code="367608002" displayName="Dome"/>
+	<concept-descriptor xmlns="" ckey="13741.100004300" code="89837001" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="13762.100004300" code="371441004" displayName="Histologic Type (Note B)"/>
+	<concept-descriptor xmlns="" ckey="13763.100004300" code="27090000" displayName="Urothelial (transitional cell) carcinoma"/>
+	<concept-descriptor xmlns="" ckey="13764.100004300" code="399464005" displayName="Urothelial (transitional cell) carcinoma with squamous differentiation"/>
+	<concept-descriptor xmlns="" ckey="13765.100004300" code="399564007" displayName="Urothelial (transitional cell) carcinoma with glandular differentiation"/>
+	<concept-descriptor xmlns="" ckey="13766.100004300" code="27090000" displayName="Urothelial (transitional cell) carcinoma with variant histology (specify)"/>
+	<concept-descriptor xmlns="" ckey="13767.100004300" code="28899001" displayName="Squamous cell carcinoma, typical"/>
+	<concept-descriptor xmlns="" ckey="13768.100004300" code="252988009" displayName="Squamous cell carcinoma, variant histology (specify)"/>
+	<concept-descriptor xmlns="" ckey="13861.100004300" code="35917007" displayName="Adenocarcinoma, typical"/>
+	<concept-descriptor xmlns="" ckey="13895.100004300" code="399961007" displayName="Adenocarcinoma, variant histology (specify)"/>
+	<concept-descriptor xmlns="" ckey="13896.100004300" code="74364000" displayName="Small cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="13897.100004300" code="38549000" displayName="Undifferentiated carcinoma (specify)"/>
+	<concept-descriptor xmlns="" ckey="13900.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="13903.100004300" code="45083001" displayName="Urothelial (transitional cell) papilloma (World Health Organization [WHO] 2004 / International Society of Urologic Pathology [ISUP])"/>
+	<concept-descriptor xmlns="" ckey="13904.100004300" code="46580000" displayName="Urothelial (transitional cell) papilloma, inverted type"/>
+	<concept-descriptor xmlns="" ckey="13905.100004300" code="128625004" displayName="Papillary urothelial (transitional cell) neoplasm, low malignant potential (WHO 2004 / ISUP)"/>
+	<concept-descriptor xmlns="" ckey="14292.100004300" code="399466007" displayName="Urothelial dysplasia (low-grade intraurothelial neoplasia)"/>
+	<concept-descriptor xmlns="" ckey="14296.100004300" code="399403001" displayName="Inflammation / regenerative changes"/>
+	<concept-descriptor xmlns="" ckey="14300.100004300" code="399591009" displayName="Therapy-related changes"/>
+	<concept-descriptor xmlns="" ckey="14318.100004300" code="38069001" displayName="Keratinizing squamous metaplasia"/>
+	<concept-descriptor xmlns="" ckey="14323.100004300" code="69310004" displayName="Intestinal metaplasia"/>
+	<concept-descriptor xmlns="" ckey="14679.100004300" code="371480007" displayName="Tumor Site (Notes A, B, and C)"/>
+	<concept-descriptor xmlns="" ckey="14680.100004300" code="127902004" displayName="Right superior quadrant (12 to 3 o’clock)"/>
+	<concept-descriptor xmlns="" ckey="14681.100004300" code="127901006" displayName="Right inferior quadrant (3 to 6 o’clock)"/>
+	<concept-descriptor xmlns="" ckey="14682.100004300" code="127899002" displayName="Left inferior quadrant (6 to 9 o’clock)"/>
+	<concept-descriptor xmlns="" ckey="14683.100004300" code="127900007" displayName="Left superior quadrant (9 to 12 o’clock)"/>
+	<concept-descriptor xmlns="" ckey="14684.100004300" code="71252005" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="14692.100004300" code="371441004" displayName="Histologic Type (Note D)"/>
+	<concept-descriptor xmlns="" ckey="14693.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="14694.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14695.100004300" code="18048008" displayName="Keratinizing"/>
+	<concept-descriptor xmlns="" ckey="14696.100004300" code="45490001" displayName="Non-keratinizing"/>
+	<concept-descriptor xmlns="" ckey="14697.100004300" code="252988009" displayName="Other (specify)"/>
+	<concept-descriptor xmlns="" ckey="14698.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="14699.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14700.100004300" code="72495009" displayName="Mucinous"/>
+	<concept-descriptor xmlns="" ckey="14701.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14702.100004300" code="128682003" displayName="Endocervical type"/>
+	<concept-descriptor xmlns="" ckey="14703.100004300" code="399449005" displayName="Intestinal type"/>
+	<concept-descriptor xmlns="" ckey="14704.100004300" code="30289006" displayName="Endometrioid"/>
+	<concept-descriptor xmlns="" ckey="14705.100004300" code="30546008" displayName="Clear cell"/>
+	<concept-descriptor xmlns="" ckey="14706.100004300" code="399961007" displayName="Other (specify)"/>
+	<concept-descriptor xmlns="" ckey="14708.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="14763.100004300" code="14391000" displayName="Koilocytosis"/>
+	<concept-descriptor xmlns="" ckey="14589.100004300" code="23952005" displayName="Uterine corpus"/>
+	<concept-descriptor xmlns="" ckey="14585.100004300" code="20837000" displayName="Right ovary"/>
+	<concept-descriptor xmlns="" ckey="14586.100004300" code="43981004" displayName="Left ovary"/>
+	<concept-descriptor xmlns="" ckey="14587.100004300" code="2033006" displayName="Right fallopian tube"/>
+	<concept-descriptor xmlns="" ckey="14588.100004300" code="113293009" displayName="Left fallopian tube"/>
+	<concept-descriptor xmlns="" ckey="14590.100004300" code="76784001" displayName="Vagina"/>
+	<concept-descriptor xmlns="" ckey="14591.100004300" code="89837001" displayName="Urinary bladder"/>
+	<concept-descriptor xmlns="" ckey="14592.100004300" code="34402009" displayName="Rectum"/>
+	<concept-descriptor xmlns="" ckey="14572.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="14573.100004300" code="127902004" displayName="Right superior quadrant (12 to 3 o'clock)"/>
+	<concept-descriptor xmlns="" ckey="14574.100004300" code="127901006" displayName="Right inferior quadrant  (3 to 6 o'clock)"/>
+	<concept-descriptor xmlns="" ckey="14575.100004300" code="127900007" displayName="Left superior quadrant  (6 to 9 o'clock)"/>
+	<concept-descriptor xmlns="" ckey="14576.100004300" code="127899002" displayName="Left inferior quadrant  (9 to 12 o'clock)"/>
+	<concept-descriptor xmlns="" ckey="14577.100004300" code="71252005" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="14595.100004300" code="371441004" displayName="Histologic Type (Note D)"/>
+	<concept-descriptor xmlns="" ckey="14596.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="14597.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14598.100004300" code="18048008" displayName="Keratinizing"/>
+	<concept-descriptor xmlns="" ckey="14599.100004300" code="45490001" displayName="Non-keratinizing"/>
+	<concept-descriptor xmlns="" ckey="14600.100004300" code="252988009" displayName="Other (specify)"/>
+	<concept-descriptor xmlns="" ckey="14601.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="14602.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14603.100004300" code="72495009" displayName="Mucinous"/>
+	<concept-descriptor xmlns="" ckey="14604.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14605.100004300" code="128682003" displayName="Endocervical type"/>
+	<concept-descriptor xmlns="" ckey="14606.100004300" code="399449005" displayName="Intestinal type"/>
+	<concept-descriptor xmlns="" ckey="14607.100004300" code="30289006" displayName="Endometrioid"/>
+	<concept-descriptor xmlns="" ckey="14608.100004300" code="30546008" displayName="Clear cell"/>
+	<concept-descriptor xmlns="" ckey="14609.100004300" code="399961007" displayName="Other (specify)"/>
+	<concept-descriptor xmlns="" ckey="14611.100004300" code="68453008" displayName="Carcinoma, type cannot be determined"/>
+	<concept-descriptor xmlns="" ckey="14778.100004300" code="18944008" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="14779.100004300" code="8966001" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="14798.100004300" code="371480007" displayName="Tumor Site (macroscopic examination / transillumination) (Note B)"/>
+	<concept-descriptor xmlns="" ckey="14800.100004300" code="399748001" displayName="Superotemporal quadrant of globe"/>
+	<concept-descriptor xmlns="" ckey="14801.100004300" code="399685002" displayName="Superonasal quadrant of globe"/>
+	<concept-descriptor xmlns="" ckey="14802.100004300" code="399577003" displayName="Inferotemporal quadrant of globe"/>
+	<concept-descriptor xmlns="" ckey="14803.100004300" code="399700002" displayName="Inferonasal quadrant of globe"/>
+	<concept-descriptor xmlns="" ckey="14846.100004300" code="371441004" displayName="Histologic Type (Note E)"/>
+	<concept-descriptor xmlns="" ckey="14848.100004300" code="68827007" displayName="Spindle cell type"/>
+	<concept-descriptor xmlns="" ckey="14849.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14850.100004300" code="24653009" displayName="Spindle cell type, spindle A"/>
+	<concept-descriptor xmlns="" ckey="14851.100004300" code="40244008" displayName="Spindle cell type, spindle B"/>
+	<concept-descriptor xmlns="" ckey="14852.100004300" code="37138001" displayName="Epithelioid cell type"/>
+	<concept-descriptor xmlns="" ckey="14853.100004300" code="50813003" displayName="Mixed cell type"/>
+	<concept-descriptor xmlns="" ckey="14854.100004300" code="399521000" displayName="Necrotic"/>
+	<concept-descriptor xmlns="" ckey="14855.100004300" code="39274007" displayName="* Balloon cell"/>
+	<concept-descriptor xmlns="" ckey="14922.100004300" code="18695008" displayName="Drusen"/>
+	<concept-descriptor xmlns="" ckey="14926.100004300" code="50960005" displayName="Hemorrhage"/>
+	<concept-descriptor xmlns="" ckey="14927.100004300" code="13018008" displayName="Neovascularization"/>
+	<concept-descriptor xmlns="" ckey="14939.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="14940.100004300" code="29038004" displayName="Upper third"/>
+	<concept-descriptor xmlns="" ckey="14941.100004300" code="38121002" displayName="Middle third"/>
+	<concept-descriptor xmlns="" ckey="14942.100004300" code="65857004" displayName="Lower third"/>
+	<concept-descriptor xmlns="" ckey="14943.100004300" code="76784001" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="14945.100004300" code="371441004" displayName="Histologic Type (Note E)"/>
+	<concept-descriptor xmlns="" ckey="14946.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24153.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14948.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="14949.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14951.100004300" code="30546008" displayName="Clear cell"/>
+	<concept-descriptor xmlns="" ckey="14950.100004300" code="72495009" displayName="Mucinous"/>
+	<concept-descriptor xmlns="" ckey="14952.100004300" code="35917007" displayName="Not otherwise specified"/>
+	<concept-descriptor xmlns="" ckey="14947.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="14954.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="14989.100004300" code="371480007" displayName="Tumor Site (select all that apply)"/>
+	<concept-descriptor xmlns="" ckey="14990.100004300" code="29038004" displayName="Upper third"/>
+	<concept-descriptor xmlns="" ckey="14991.100004300" code="371480007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14992.100004300" code="127887009" displayName="Circumferential"/>
+	<concept-descriptor xmlns="" ckey="14993.100004300" code="127883008" displayName="Anterior"/>
+	<concept-descriptor xmlns="" ckey="14994.100004300" code="127884002" displayName="Posterior"/>
+	<concept-descriptor xmlns="" ckey="14995.100004300" code="127885001" displayName="Left lateral"/>
+	<concept-descriptor xmlns="" ckey="14996.100004300" code="127886000" displayName="Right lateral"/>
+	<concept-descriptor xmlns="" ckey="14997.100004300" code="38121002" displayName="Middle third"/>
+	<concept-descriptor xmlns="" ckey="14998.100004300" code="371480007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="14999.100004300" code="127892006" displayName="Circumferential"/>
+	<concept-descriptor xmlns="" ckey="15000.100004300" code="127888004" displayName="Anterior"/>
+	<concept-descriptor xmlns="" ckey="15001.100004300" code="127889007" displayName="Posterior"/>
+	<concept-descriptor xmlns="" ckey="15002.100004300" code="127890003" displayName="Left lateral"/>
+	<concept-descriptor xmlns="" ckey="15003.100004300" code="127891004" displayName="Right lateral"/>
+	<concept-descriptor xmlns="" ckey="15004.100004300" code="65857004" displayName="Lower third"/>
+	<concept-descriptor xmlns="" ckey="15005.100004300" code="371480007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="15006.100004300" code="127897000" displayName="Circumferential"/>
+	<concept-descriptor xmlns="" ckey="15007.100004300" code="127893001" displayName="Anterior"/>
+	<concept-descriptor xmlns="" ckey="15008.100004300" code="127894007" displayName="Posterior"/>
+	<concept-descriptor xmlns="" ckey="15009.100004300" code="127895008" displayName="Left lateral"/>
+	<concept-descriptor xmlns="" ckey="15010.100004300" code="127896009" displayName="Right lateral"/>
+	<concept-descriptor xmlns="" ckey="15011.100004300" code="76784001" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="15018.100004300" code="371441004" displayName="Histologic Type (Note E)"/>
+	<concept-descriptor xmlns="" ckey="15019.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="24152.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="15021.100004300" code="35917007" displayName="Adenocarcinoma"/>
+	<concept-descriptor xmlns="" ckey="15022.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="15024.100004300" code="30546008" displayName="Clear cell"/>
+	<concept-descriptor xmlns="" ckey="15023.100004300" code="72495009" displayName="Mucinous"/>
+	<concept-descriptor xmlns="" ckey="15025.100004300" code="35917007" displayName="Not otherwise specified"/>
+	<concept-descriptor xmlns="" ckey="15020.100004300" code="59367005" displayName="Adenosquamous carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15027.100004300" code="38549000" displayName="Undifferentiated carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15096.100004300" code="371480007" displayName="Tumor Site"/>
+	<concept-descriptor xmlns="" ckey="15097.100004300" code="60895007" displayName="Right vulva"/>
+	<concept-descriptor xmlns="" ckey="15098.100004300" code="371480007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="15099.100004300" code="397114004" displayName="Labium majus"/>
+	<concept-descriptor xmlns="" ckey="15100.100004300" code="397115003" displayName="Labium minus"/>
+	<concept-descriptor xmlns="" ckey="15101.100004300" code="89850000" displayName="Left vulva"/>
+	<concept-descriptor xmlns="" ckey="15102.100004300" code="371480007" displayName=""/>
+	<concept-descriptor xmlns="" ckey="15103.100004300" code="397113005" displayName="Labium majus"/>
+	<concept-descriptor xmlns="" ckey="15104.100004300" code="397116002" displayName="Labium minus"/>
+	<concept-descriptor xmlns="" ckey="15105.100004300" code="65439009" displayName="Clitoris"/>
+	<concept-descriptor xmlns="" ckey="15107.100004300" code="45292006" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="15114.100004300" code="371441004" displayName="Histologic Type (Notes C and D)"/>
+	<concept-descriptor xmlns="" ckey="15115.100004300" code="28899001" displayName="Squamous cell carcinoma"/>
+	<concept-descriptor xmlns="" ckey="15116.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="15117.100004300" code="18048008" displayName="Keratinizing"/>
+	<concept-descriptor xmlns="" ckey="15118.100004300" code="45490001" displayName="Nonkeratinizing"/>
+	<concept-descriptor xmlns="" ckey="15119.100004300" code="128634009" displayName="Basaloid"/>
+	<concept-descriptor xmlns="" ckey="15120.100004300" code="399408005" displayName="Warty"/>
+	<concept-descriptor xmlns="" ckey="15122.100004300" code="89906000" displayName="Verrucous"/>
+	<concept-descriptor xmlns="" ckey="15121.100004300" code="252988009" displayName="Other (specify)"/>
+	<concept-descriptor xmlns="" ckey="15123.100004300" code="35917007" displayName="Glandular tumors"/>
+	<concept-descriptor xmlns="" ckey="15124.100004300" code="371441004" displayName=""/>
+	<concept-descriptor xmlns="" ckey="15128.100004300" code="71447003" displayName="Paget disease"/>
+	<concept-descriptor xmlns="" ckey="15125.100004300" code="399666000" displayName="Adenocarcinoma of mammary gland type"/>
+	<concept-descriptor xmlns="" ckey="15126.100004300" code="128686000" displayName="Adenocarcinoma of Skene gland origin"/>
+	<concept-descriptor xmlns="" ckey="15130.100004300" code="68453008" displayName="Carcinoma, type cannot be determined (explain)"/>
+	<concept-descriptor xmlns="" ckey="15202.100004300" code="9846003" displayName="Right"/>
+	<concept-descriptor xmlns="" ckey="15203.100004300" code="18639004" displayName="Left"/>
+	<concept-descriptor xmlns="" ckey="15211.100004300" code="371480007" displayName="Tumor Site(s)"/>
+	<concept-descriptor xmlns="" ckey="15212.100004300" code="5324007" displayName="Upper pole"/>
+	<concept-descriptor xmlns="" ckey="15213.100004300" code="119275002" displayName="Middle"/>
+	<concept-descriptor xmlns="" ckey="15214.100004300" code="89658009" displayName="Lower pole"/>
+	<concept-descriptor xmlns="" ckey="15216.100004300" code="64033007" displayName="Not specified"/>
+	<concept-descriptor xmlns="" ckey="15239.100004300" code="371441004" displayName="Histologic Type (Note C)"/>
+	<concept-descriptor xmlns="" ckey="15240.100004300" code="405937008" displayName="Wilms tumor, favorable histology"/>
+	<concept-descriptor xmlns="" ckey="15241.100004300" code="405938003" displayName="Wilms tumor, focal anaplasia"/>
+	<concept-descriptor xmlns="" ckey="15242.100004300" code="405939006" displayName="Wilms tumor, diffuse anaplasia"/>
+	<concept-descriptor xmlns="" ckey="15243.100004300" code="405940008" displayName="Congenital mesoblastic nephroma, classical"/>
+	<concept-descriptor xmlns="" ckey="15244.100004300" code="405941007" displayName="Congenital mesoblastic nephroma, cellular"/>
+	<concept-descriptor xmlns="" ckey="15245.100004300" code="405942000" displayName="Congenital mesoblastic nephroma, mixed"/>
+	<concept-descriptor xmlns="" ckey="15246.100004300" code="24007003" displayName="Clear cell sarcoma"/>
+	<concept-descriptor xmlns="" ckey="15247.100004300" code="83118000" displayName="Rhabdoid tumor"/>
+	<concept-descriptor xmlns="" ckey="15249.100004300" code="86049000" displayName="Malignant neoplasm, type indeterminate"/>
+	<concept-descriptor xmlns="" ckey="15251.100004300" code="405934001" displayName="Nephrogenic rests, intralobar"/>
+	<concept-descriptor xmlns="" ckey="15252.100004300" code="405935000" displayName="Nephrogenic rests, perilobar"/>
+	<concept-descriptor xmlns="" ckey="20132.100004300" code="405935000" displayName="Diffuse, hyperplastic"/>
+	<concept-descriptor xmlns="" ckey="20133.100004300" code="405935000" displayName="Multifocal"/>
+	<concept-descriptor xmlns="" ckey="20134.100004300" code="405935000" displayName="Focal"/>
+	<concept-descriptor xmlns="" ckey="15253.100004300" code="405936004" displayName="Nephrogenic rests, unclassified"/>
+</concept-descriptors>

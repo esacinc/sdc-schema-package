@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template-toc xmlns="http://www.cap.org/pert/2009/01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schema-version="1.0.20090126.1" xsi:schemaLocation="http://www.cap.org/pert/2009/01/ S:\DIHIT\ECCPRO~1\2010RE~1\RELEAS~1\Content\eCC-schemas\sr-toc.xsd">
+	<template-link xmlns="">
+		<template-uri>AdrenalGlandBiopsy(CoreNe[Bx]_2.000.000.xml</template-uri>
+		<display-name>Adrenal Gland: Biopsy (Core Needle, Incisional, Excisional); Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>AmpullaofVaterAmpullectomy_2.000.000.xml</template-uri>
+		<display-name>Ampulla of Vater: Ampullectomy, Pancreaticoduodenectomy (Whipple Resection), 10/9/2009 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>AnusAbdominoperinealResecti_2.000.000.xml</template-uri>
+		<display-name>Anus: Abdominoperineal Resection, 10/9/2009 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>AnusExcisionalBiopsyorLoc[Bx]_2.000.000.xml</template-uri>
+		<display-name>Anus: Excisional Biopsy or Local Excision (Transanal Disk Excision), 10/9/2009 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>AppendixResection_2.000.000.xml</template-uri>
+		<display-name>Appendix: Resection, 10/9/2009 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>BileDuctsDistalExtrahepati_2.000.000.xml</template-uri>
+		<display-name>Bile Ducts, Distal Extrahepatic: Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>BileDuctsIntrahepaticRese_1.000.000.xml</template-uri>
+		<display-name>Bile Ducts, Intrahepatic: Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>BileDuctsPerihilar_1.000.000.xml</template-uri>
+		<display-name>Bile Ducts: Perihilar, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>BoneBiopsy[Bx]_2.000.000.xml</template-uri>
+		<display-name>Bone: Biopsy, 10/9/2009 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>BoneMarrowAspirationCore[Bx]_2.000.000.xml</template-uri>
+		<display-name>Bone Marrow: Aspiration, Core (Trephine) Biopsy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>BoneResection_2.000.000.xml</template-uri>
+		<display-name>Bone: Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>BrainSpinalCordBiopsyRese[Bx]_2.000.000.xml</template-uri>
+		<display-name>Brain/Spinal Cord: Biopsy/Resection,10/9/2009 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>BreastCompleteExcisionand_2.000.000.xml</template-uri>
+		<display-name>Breast: Complete Excision and Mastectomy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>BreastDCISCompleteExcision_1.000.000.xml</template-uri>
+		<display-name>Breast DCIS: Complete Excision and Mastectomy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>ColonandRectumExcisionalB[Bx]_2.000.000.xml</template-uri>
+		<display-name>Colon and Rectum: Excisional Biopsy (Polypectomy), 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>ColonandRectumResectioni_2.000.000.xml</template-uri>
+		<display-name>Colon and Rectum: Resection, including Transanal Disk Excision of Rectal Neoplasms, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>EndometriumHysterectomyWit_2.000.000.xml</template-uri>
+		<display-name>Endometrium: Hysterectomy, With or Without Other Organs or Tissues, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>EsophagusEndoscopicResectio_2.000.000.xml</template-uri>
+		<display-name>Esophagus: Endoscopic Resection, Esophagectomy, or Esophagogastrectomy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>EwingSarcomaPrimitiveNeuroe[Bx]_2.000.000.xml</template-uri>
+		<display-name>Ewing Sarcoma/Primitive Neuroectodermal Tumor: Biopsy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>EwingSarcomaPrimitiveNeuroe_2.000.000.xml</template-uri>
+		<display-name>Ewing Sarcoma/Primitive Neuroectodermal Tumor: Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>FallopianTubeUnilateralSal_2.000.000.xml</template-uri>
+		<display-name>Fallopian Tube: Unilateral Salpingectomy, Salpingo-Oophorectomy, or Hysterectomy with Salpingo-oophorectomy. 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>GallbladderResectionCholecy_2.000.000.xml</template-uri>
+		<display-name>Gallbladder: Resection/Cholecystectomy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>HeartResection_2.000.000.xml</template-uri>
+		<display-name>Heart: Resection, 10/9/2009 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>Hepatoblastoma_2.000.000.xml</template-uri>
+		<display-name>Hepatoblastoma, 10/9/2009 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>HepatocellularCarcinomaHepa_2.000.000.xml</template-uri>
+		<display-name>Hepatocellular Carcinoma: Hepatic Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>HodgkinLymphomaBiopsyRese[Bx]_2.000.000.xml</template-uri>
+		<display-name>Hodgkin Lymphoma: Biopsy, Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>KidneyBiopsy[Bx]_2.000.000.xml</template-uri>
+		<display-name>Kidney: Biopsy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>KidneyNephrectomyPartialo_2.000.000.xml</template-uri>
+		<display-name>Kidney: Nephrectomy, Partial or Radical, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>Larynx(SupraglottisGlottis[Bx]_2.000.000.xml</template-uri>
+		<display-name>Larynx (Supraglottis, Glottis, Subglottis): Incisional Biopsy, Excisional Biopsy, Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>LipandOralCavityIncisiona[Bx]_2.000.000.xml</template-uri>
+		<display-name>Lip and Oral Cavity: Incisional Biopsy, Excisional Biopsy, Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>LungResection_2.000.000.xml</template-uri>
+		<display-name>Lung: Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>MajorSalivaryGlandsIncisio[Bx]_2.000.000.xml</template-uri>
+		<display-name>Major Salivary Glands: Incisional biopsy, Excisional Biopsy, Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>MalignantPleuralMesothelioma_2.000.000.xml</template-uri>
+		<display-name>Malignant Pleural Mesothelioma: Pleura Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>MelanomaofTheSkinBiopsy[Bx]_2.000.000.xml</template-uri>
+		<display-name>Melanoma of The Skin: Biopsy, Excision, Re-Excision, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>NasalCavityandParanasalSin[Bx]_2.000.000.xml</template-uri>
+		<display-name>Nasal Cavity and Paranasal Sinuses: Incisional Biopsy, Excisional Biopsy, Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>NeuroblastomaResectionBiop[Bx]_2.000.000.xml</template-uri>
+		<display-name>Neuroblastoma: Resection, Biopsy,  10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>Non-HodgkinLymphomaBiopsy[Bx]_2.000.000.xml</template-uri>
+		<display-name>Non-Hodgkin Lymphoma: Biopsy, Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>OvaryOophorectomySalpingo-_2.000.000.xml</template-uri>
+		<display-name>Ovary: Oophorectomy, Salpingo-Oophorectomy, Subtotal Oophorectomy or Removal of Tumor in Fragments, Hysterectomy with Salpingo-Oophorectomy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>Pancreas(Endocrine)Resecti_2.000.000.xml</template-uri>
+		<display-name>Pancreas (Endocrine):  Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>Pancreas(Exocrine)Resection_2.000.000.xml</template-uri>
+		<display-name>Pancreas (Exocrine): Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>PeritoneumResection_2.000.000.xml</template-uri>
+		<display-name>Peritoneum: Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>Pharynx(OropharynxHypophary[Bx]_2.000.000.xml</template-uri>
+		<display-name>Pharynx (Oropharynx, Hypopharynx, Nasopharynx): Incisional Biopsy, Excisional Biopsy, Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>ProstateGlandNeedleBiops[Bx]_2.000.000.xml</template-uri>
+		<display-name>Prostate Gland: Needle Biopsy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>ProstateGlandRadicalProsta_2.000.000.xml</template-uri>
+		<display-name>Prostate Gland: Radical Prostatectomy, 10/9/2009 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>ProstateGlandTransurethral_2.000.000.xml</template-uri>
+		<display-name>Prostate Gland: Transurethral Prostatic Resection (TUR), Enucleation Specimen (Subtotal Prostatectomy), 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>RenalPelvisResectionNephro_2.000.000.xml</template-uri>
+		<display-name>Renal Pelvis: Resection/Nephroureterectomy, Partial or Complete, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>RetinoblastomaEnucleationP_2.000.000.xml</template-uri>
+		<display-name>Retinoblastoma: Enucleation, Partial or Complete Exenteration, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>RhabdomyosarcomaandRelatedN[Bx]_2.000.000.xml</template-uri>
+		<display-name>Rhabdomyosarcoma and Related Neoplasms: Resection or Biopsy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>SmallIntestineSegmentalRe_2.000.000.xml</template-uri>
+		<display-name>Small Intestine:  Segmental Resection, Pancreaticoduodenectomy (Whipple Resection), 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>SoftTissueBiopsy[Bx]_2.000.000.xml</template-uri>
+		<display-name>Soft Tissue: Biopsy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>SoftTissueResection_2.000.000.xml</template-uri>
+		<display-name>Soft Tissue: Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>SquamousCellCarcinomaofthe[Bx]_2.000.000.xml</template-uri>
+		<display-name>Squamous Cell Carcinoma of the Skin: Biopsy, Excision, Re-excision, Lymphadenectomy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>StomachResectionGastrectom_2.000.000.xml</template-uri>
+		<display-name>Stomach: Resection, Gastrectomy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>TestisRadicalOrchiectomy_2.000.000.xml</template-uri>
+		<display-name>Testis: Radical Orchiectomy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>TestisRetroperitonealLympha_2.000.000.xml</template-uri>
+		<display-name>Testis: Retroperitoneal Lymphadenectomy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>ThymomaandThymicCarcinoma_2.000.000.xml</template-uri>
+		<display-name>Thymoma and Thymic Carcinoma: Thymus:  Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>ThyroidGlandResection_2.000.000.xml</template-uri>
+		<display-name>Thyroid Gland: Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>TrophoblastDilationandCure_2.000.000.xml</template-uri>
+		<display-name>Trophoblast: Dilation and Curettage, Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>UreterRenalPelvisBiopsy[Bx]_2.000.000.xml</template-uri>
+		<display-name>Ureter, Renal Pelvis: Biopsy, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>UreterResection_2.000.000.xml</template-uri>
+		<display-name>Ureter: Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>UrinaryBladderBiopsyandTr[Bx]_1.000.000.xml</template-uri>
+		<display-name>Urinary Bladder: Biopsy and Transurethral Resection of Bladder Tumor (TURBT), 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>UrinarybladderCystectomyP_2.000.000.xml</template-uri>
+		<display-name>Urinary bladder: Cystectomy, Partial, Total, or Radical; Anterior Exenteration, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>UterineCervixExcision(Cone_2.000.000.xml</template-uri>
+		<display-name>Uterine Cervix: Excision (Cone/LEEP), 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>UterineCervixTrachelectomy_2.000.000.xml</template-uri>
+		<display-name>Uterine Cervix: Trachelectomy, Hysterectomy, Pelvic Exenteration, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>UvealMelanomaResection(Lo_2.000.000.xml</template-uri>
+		<display-name>Uveal Melanoma:  Resection (Local Resection, Enucleation, Limited or Complete Exenteration) , 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>VaginaBiopsy(Optional)[Bx]_2.000.000.xml</template-uri>
+		<display-name>Vagina: Biopsy (Optional), 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>VaginaExcisionalBiopsyRes[Bx]_2.000.000.xml</template-uri>
+		<display-name>Vagina: Excisional Biopsy, Resection(Vaginectomy, Radical Vaginectomy), 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>VulvaExcisionalBiopsyRese[Bx]_2.000.000.xml</template-uri>
+		<display-name>Vulva: Excisional Biopsy, Resection, 10/9/09 </display-name>
+	</template-link>
+	<template-link xmlns="">
+		<template-uri>WilmsTumorKidneyResectio_2.000.000.xml</template-uri>
+		<display-name>Wilms Tumor, Kidney:  Resection for Pediatric Renal Tumor, 10/9/09 </display-name>
+	</template-link>
+</template-toc>
