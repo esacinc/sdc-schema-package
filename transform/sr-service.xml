@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sr-service xmlns="http://www.cap.org/pert/2009/01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schema-version="1.0.20090126.1" >
+    <service-uri xmlns="">javascript:openMessageData()</service-uri>
+
+</sr-service>
+
+
