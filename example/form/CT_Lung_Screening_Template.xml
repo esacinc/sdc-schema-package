@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FormDesign xmlns="http://healthIT.gov/sdc"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://healthIT.gov/sdc file:/M:/SDC/IHE/SDC%20Schemas%20Phase%20II%20Mar%2016,%202016/SDCFormDesign.xsd" ID="LDCT_PNS">
+<FormDesign
+    ID="LDCT_PNS"
+    xmlns="http://healthIT.gov/sdc"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Body title="LDCT Lung Screening Template" ID="root" styleClass="title">
         <OtherText type="Publisher" val="Cancer Care Ontario"/>
         <OtherText type="Version" val="version 0.7"/>
