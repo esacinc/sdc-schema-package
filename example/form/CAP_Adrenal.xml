@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FormDesign xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="129.1000043" baseURI="www.cap.org/eCC/SDC/IHE" xmlns="http://healthIT.gov/sdc">
   <Header styleClass="left" ID="Header.129.1000043" title="ADRENAL GLAND">
-    <OtherText name="Copyright" type="meta" styleClass="copyright" val="(c) 2016 College of American Pathologists.  All rights reserved.  License required for use." />
     <OtherText styleClass="float-right" val="CAP approved" />
     <OtherText name="GenericHeaderText" type="meta" styleClass="left" val="Surgical Pathology Cancer Case Summary (Checklist)" />
     <OtherText name="OfficialName" type="meta" val="ADRENAL GLAND: Biopsy (Core Needle, Incisional, Excisional); Resection" />
@@ -19,9 +18,9 @@
     <OtherText name="CS_Version" type="meta" styleClass="right" val="Version 2" />
     <OtherText name="FIGO_Version" type="meta" styleClass="right" />
   </Header>
-  <Body ID="129.1000043_DefaultBodyGUID:_18b9cd14-2d84-4c8f-8bb6-7da6db5f05c6">
+  <Body ID="Body_129.1000043_18b9cd14-2d84-4c8f-8bb6-7da6db5f05c6">
     <ChildItems>
-      <Section name="4257.100004300_21" ID="4257.100004300" mustImplement="false" minCard="0">
+      <Section name="Section_4257.100004300_21" ID="4257.100004300" mustImplement="false" minCard="0">
         <ChildItems>
           <Question name="Tum_Site_23" ID="2118.100004300" title="Tumor Site" mustImplement="false" minCard="0" readOnly="true">
             <ListField>
@@ -32,7 +31,7 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="17537.100004300_27" ID="17537.100004300" title="CLINICAL" mustImplement="false" minCard="0">
+      <Section name="Section_17537.100004300_27" ID="17537.100004300" title="CLINICAL" mustImplement="false" minCard="0">
         <ChildItems>
           <Question name="Non_Pathologic_Findings_29" ID="20899.100004300" title="Non-Pathology Findings (Notes J and K)" mustImplement="false" minCard="0">
             <OtherText name="Non_Pathologic_Findings_30" type="reportText" val="Non-Pathology Findings" />
@@ -96,7 +95,7 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="17875.100004300_66" ID="17875.100004300" title="SPECIMEN">
+      <Section name="Section_17875.100004300_66" ID="17875.100004300" title="SPECIMEN">
         <ChildItems>
           <Question name="Adrenal_Gland_Received_68" ID="20850.100004300" title="Adrenal Gland Received">
             <ListField>
@@ -172,7 +171,7 @@
                   <ResponseUnits val="cm" />
                 </ResponseField>
               </Question>
-              <Section name="24855.100004300_118" ID="24855.100004300" title="Additional dimensions (repeat section if more than one part)" minCard="0">
+              <Section name="Section_24855.100004300_118" ID="24855.100004300" title="Additional dimensions (repeat section if more than one part)" minCard="0">
                 <OtherText name="_119" type="reportText" val="{no text}" />
                 <ChildItems>
                   <Question name="Spec_Add_Dim_121" ID="24069.100004300" title="Additional Dimension (cm)" mustImplement="false" minCard="0">
@@ -300,7 +299,7 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="17876.100004300_199" ID="17876.100004300" title="TUMOR" mustImplement="false" minCard="0">
+      <Section name="Section_17876.100004300_199" ID="17876.100004300" title="TUMOR" mustImplement="false" minCard="0">
         <ChildItems>
           <Question name="Histologic_Type_201" ID="2116.100004300" title="Histologic Type (Notes C through E)" mustImplement="false" minCard="0" readOnly="true">
             <OtherText name="Histologic_Type_202" type="reportText" val="Histologic Type" />
@@ -312,7 +311,7 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="17877.100004300_206" ID="17877.100004300" title="EXTENT" mustImplement="false" minCard="0">
+      <Section name="Section_17877.100004300_206" ID="17877.100004300" title="EXTENT" mustImplement="false" minCard="0">
         <ChildItems>
           <Question name="Micro_Ext_Spfy_208" ID="20873.100004300" title="Microscopic Tumor Extension (specify)" mustImplement="false" minCard="0">
             <OtherText name="Micro_Ext_Spfy_209" type="reportText" val="Microscopic Tumor Extension" />
@@ -324,7 +323,7 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="17878.100004300_213" ID="17878.100004300" title="MARGINS">
+      <Section name="Section_17878.100004300_213" ID="17878.100004300" title="MARGINS">
         <ChildItems>
           <Question name="Marg_Status_215" ID="2153.100004300">
             <ListField>
@@ -426,7 +425,7 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="17879.100004300_273" ID="17879.100004300" title="ACCESSORY FINDINGS">
+      <Section name="Section_17879.100004300_273" ID="17879.100004300" title="ACCESSORY FINDINGS">
         <ChildItems>
           <Question name="Tx_Effect_275" ID="20875.100004300" title="Treatment Effect (applicable to carcinomas treated with neoadjuvant therapy)" mustImplement="false" minCard="0">
             <OtherText name="Tx_Effect_276" type="reportText" val="Treatment Effect" />
@@ -531,7 +530,7 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="17880.100004300_336" ID="17880.100004300" title="SPECIAL STUDIES" mustImplement="false" minCard="0">
+      <Section name="Section_17880.100004300_336" ID="17880.100004300" title="SPECIAL STUDIES" mustImplement="false" minCard="0">
         <ChildItems>
           <Question name="Anc_Study_338" ID="6202.100004300" title="Ancillary Studies (Note L)" mustImplement="false" minCard="0">
             <OtherText name="Anc_Study_339" type="reportText" val="Ancillary Studies" />
@@ -558,7 +557,7 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="17881.100004300_352" ID="17881.100004300" title="LYMPH NODES" mustImplement="false" minCard="0">
+      <Section name="Section_17881.100004300_352" ID="17881.100004300" title="LYMPH NODES" mustImplement="false" minCard="0">
         <ChildItems>
           <Question name="Extranodal_Ext_354" ID="20885.100004300" title="Lymph Nodes, Extranodal Extension" mustImplement="false" minCard="0">
             <ListField>
@@ -578,7 +577,7 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="2136.100004300_364" ID="2136.100004300" title="STAGE (pTNM) (Note G)">
+      <Section name="Section_2136.100004300_364" ID="2136.100004300" title="STAGE (pTNM) (Note G)">
         <OtherText name="_365" type="reportText" val="STAGE (pTNM)" />
         <ChildItems>
           <Question name="TNM_Descriptors_367" ID="20880.100004300" title="?TNM Descriptors">
@@ -612,7 +611,7 @@
                 <ListItem name="pT0_386" ID="20889.100004300" title="pT0: No evidence of primary tumor" />
                 <ListItem name="pT1_387" ID="2138.100004300" title="pT1: Tumor 5 cm or less in greatest dimension, no extra-adrenal invasion" />
                 <ListItem name="pT2_388" ID="2139.100004300" title="pT2: Tumor greater than 5 cm, no extra-adrenal invasion" />
-                <DisplayedItem name="20893.100004300_389" ID="20893.100004300" title="# Adjacent organs include kidney, diaphragm, great vessels, pancreas, and liver.">
+                <DisplayedItem name="_20893.100004300_389" ID="20893.100004300" title="# Adjacent organs include kidney, diaphragm, great vessels, pancreas, and liver.">
                   <OtherText name="_390" type="reportText" val="{no text}" />
                 </DisplayedItem>
                 <ListItem name="pT3_391" ID="2140.100004300" title="pT3: Tumor of any size with local invasion, but not invading adjacent organs#">
@@ -624,7 +623,7 @@
               </List>
             </ListField>
             <ChildItems>
-              <DisplayedItem name="20894.100004300_396" ID="20894.100004300" title="Note: There is no category of carcinoma in situ (pTis) relative to carcinomas of the adrenal gland.">
+              <DisplayedItem name="_20894.100004300_396" ID="20894.100004300" title="Note: There is no category of carcinoma in situ (pTis) relative to carcinomas of the adrenal gland.">
                 <OtherText name="_397" type="reportText" val="{no text}" />
               </DisplayedItem>
             </ChildItems>
@@ -723,7 +722,7 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="17884.100004300_452" ID="17884.100004300" title="ADDITIONAL NON-TUMOR" mustImplement="false" minCard="0">
+      <Section name="Section_17884.100004300_452" ID="17884.100004300" title="ADDITIONAL NON-TUMOR" mustImplement="false" minCard="0">
         <ChildItems>
           <Question name="AF_454" ID="2162.100004300" title="Additional Pathologic Findings" mustImplement="false" minCard="0">
             <ListField>
@@ -763,9 +762,9 @@
           </Response>
         </ResponseField>
       </Question>
-      <Section name="22894.100004300_476" ID="22894.100004300" title="(Deprecated Items)" mustImplement="false" minCard="0">
+      <Section name="Section_22894.100004300_476" ID="22894.100004300" title="(Deprecated Items)" mustImplement="false" minCard="0">
         <ChildItems>
-          <Question name="29221.100004300_478" ID="29221.100004300" title="(Deprecated Answers)" mustImplement="false" minCard="0">
+          <Question name="_29221.100004300_478" ID="29221.100004300" title="(Deprecated Answers)" mustImplement="false" minCard="0">
             <ListField>
               <List>
                 <ListItem name="Spfy_cm_481" ID="26360.100004300" title="Specify (cm)" mustImplement="false">
@@ -871,7 +870,7 @@
       </Section>
     </ChildItems>
   </Body>
-  <Footer>
+  <Footer ID="Footer_129.1000043_18b9cd14-2d84-4c8f-8bb6-7da6db5f05c6">
     <OtherText name="Copyright" type="meta" styleClass="copyright" val="(c) 2016 College of American Pathologists.  All rights reserved.  License required for use." />
   </Footer>
 </FormDesign>

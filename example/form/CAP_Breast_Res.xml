@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FormDesign xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="189.1000043" baseURI="www.cap.org/eCC/SDC/IHE" xmlns="http://healthIT.gov/sdc">
   <Header styleClass="left" ID="Header.189.1000043" title="INVASIVE CARCINOMA OF THE BREAST">
-    <OtherText name="Copyright" type="meta" styleClass="copyright" val="(c) 2016 College of American Pathologists.  All rights reserved.  License required for use." />
     <OtherText styleClass="float-right" val="CAP approved" />
     <OtherText name="GenericHeaderText" type="meta" styleClass="left" val="Surgical Pathology Cancer Case Summary (Checklist)" />
     <OtherText name="OfficialName" type="meta" val="INVASIVE CARCINOMA OF THE BREAST: Complete Excision (Less Than Total Mastectomy, Including Specimens Designated Biopsy, Lumpectomy, Quadrantectomy, and Partial Mastectomy With or Without Axillary Contents) and Mastectomy (Total, Modified Radical, Radical With or Without Axillary Contents)Radical, Radical With or Without Axillary Contents)" />
@@ -19,7 +18,7 @@
     <OtherText name="CS_Version" type="meta" styleClass="right" val="Version 2" />
     <OtherText name="FIGO_Version" type="meta" styleClass="right" />
   </Header>
-  <Body ID="189.1000043_DefaultBodyGUID:_2bb10408-18f2-4b8f-bc93-146af1f74af0">
+  <Body ID="Body_189.1000043_2bb10408-18f2-4b8f-bc93-146af1f74af0">
     <ChildItems>
       <DisplayedItem ID="16073.100004300" title="Note:  If there are multiple invasive carcinomas, size, grade, histologic type, and the results of studies for estrogen receptor (ER), progesterone receptor (PR), and HER2 should pertain to the largest invasive carcinoma.  If smaller invasive carcinomas differ in any of these features, this information may be included in the &quot;Comments&quot; section.">
         <OtherText type="reportText" val="{no text}" />
@@ -1835,11 +1834,16 @@ no cancer is present in the specimen.">
               <List>
                 <ListItem ID="16407.100004300" title="Invasive carcinoma directly invades into the dermis or epidermis" mustImplement="false">
                   <ChildItems>
+                    <!--
+                    TODO: Re-enable once nested List element is populated/valid.
+                    -->
+                    <!--
                     <Question ID="16408.100004300">
                       <ListField>
                         <List />
                       </ListField>
                     </Question>
+                    -->
                   </ChildItems>
                 </ListItem>
                 <ListItem ID="16461.100004300" title="No known presurgical therapy" mustImplement="false" />
@@ -1983,11 +1987,16 @@ no cancer is present in the specimen.">
               </Response>
             </ResponseField>
           </Question>
+          <!--
+          TODO: Re-enable once nested List element is populated/valid.
+          -->
+          <!--
           <Question ID="16262.100004300">
             <ListField>
               <List />
             </ListField>
           </Question>
+          -->
           <Question ID="21482.100004300" title="Results (average intensity of tumor cell nuclei staining)">
             <ListField>
               <List>
@@ -2499,11 +2508,16 @@ no cancer is present in the specimen.">
               </Question>
             </ChildItems>
           </Question>
+          <!--
+          TODO: Re-enable once nested List element is populated/valid.
+          -->
+          <!--
           <Question ID="26970.100004300" title="Closest Uninvolved Margin" mustImplement="false" minCard="0">
             <ListField>
               <List />
             </ListField>
           </Question>
+          -->
           <Question ID="27522.100004300" title="?Estrogen Receptor (immunohistochemical results on invasive carcinoma performed on this specimen or a prior core needle biopsy or incisional biopsy)">
             <ListField>
               <List>
@@ -3072,11 +3086,16 @@ no cancer is present in the specimen.">
               </List>
             </ListField>
           </Question>
+          <!--
+          TODO: Re-enable once nested List element is populated/valid.
+          -->
+          <!--
           <Question ID="26766.100004300" title="Closest Uninvolved Margin" mustImplement="false" minCard="0">
             <ListField>
               <List />
             </ListField>
           </Question>
+          -->
           <Section ID="24886.100004300" title="Sentinel and Non-Sentinel Nodes">
             <ChildItems>
               <Question ID="14453.100004300" title="Total Number of Lymph Nodes Examined (sentinel and nonsentinel)">
@@ -3201,11 +3220,16 @@ no cancer is present in the specimen.">
               </List>
             </ListField>
           </Question>
+          <!--
+          TODO: Re-enable once nested List element is populated/valid.
+          -->
+          <!--
           <Question ID="16272.100004300" title="Histologic Type of Invasive Carcinoma">
             <ListField>
               <List />
             </ListField>
           </Question>
+          -->
           <Section ID="16344.100004300" title="Histologic Grade (Nottingham Histologic Score) (Note F)">
             <OtherText type="reportText" val="{no text}" />
           </Section>
@@ -3213,7 +3237,7 @@ no cancer is present in the specimen.">
       </Section>
     </ChildItems>
   </Body>
-  <Footer>
+  <Footer ID="Footer_189.1000043_2bb10408-18f2-4b8f-bc93-146af1f74af0">
     <OtherText name="CopyrightFooter" type="meta" styleClass="copyright" val="(c) 2016 College of American Pathologists.  All rights reserved.  License required for use." />
   </Footer>
 </FormDesign>

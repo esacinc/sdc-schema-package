@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FormDesign xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="169.1000043" baseURI="www.cap.org/eCC/SDC/IHE" xmlns="http://healthIT.gov/sdc">
   <Header styleClass="left" ID="Header.169.1000043" title="BREAST">
-    <OtherText name="Copyright" type="meta" styleClass="copyright" val="(c) 2016 College of American Pathologists.  All rights reserved.  License required for use." />
     <OtherText styleClass="float-right" val="CAP approved" />
     <OtherText name="GenericHeaderText" type="meta" styleClass="left" val="Cancer Biomarker Reporting Template" />
     <OtherText name="OfficialName" type="meta" val="BREAST: Biomarker Reporting Template" />
@@ -19,23 +18,23 @@
     <OtherText name="CS_Version" type="meta" styleClass="right" />
     <OtherText name="FIGO_Version" type="meta" styleClass="right" />
   </Header>
-  <Body ID="169.1000043_DefaultBodyGUID:_f29a121a-51fc-4946-9ed8-e6aa8e6119c9">
+  <Body ID="Body_169.1000043_f29a121a-51fc-4946-9ed8-e6aa8e6119c9">
     <ChildItems>
-      <DisplayedItem name="25893.100004300_21" ID="25893.100004300" title="Completion of the template is the responsibility of the laboratory performing the biomarker testing and / or providing the interpretation. When both testing and interpretation are performed elsewhere (e.g., a reference laboratory), synoptic reporting of the results by the laboratory submitting the tissue for testing is also encouraged to ensure that all information is included in the patient’s medical record and thus readily available to the treating clinical team.">
+      <DisplayedItem name="_25893.100004300_21" ID="25893.100004300" title="Completion of the template is the responsibility of the laboratory performing the biomarker testing and / or providing the interpretation. When both testing and interpretation are performed elsewhere (e.g., a reference laboratory), synoptic reporting of the results by the laboratory submitting the tissue for testing is also encouraged to ensure that all information is included in the patientï¿½s medical record and thus readily available to the treating clinical team.">
         <OtherText name="_22" type="reportText" val="{no text}" />
       </DisplayedItem>
-      <DisplayedItem name="25894.100004300_23" ID="25894.100004300" title="Note: Required elements in this template comply with the most recent versions of the American Society of Clinical Oncology / College of American Pathologists (ASCO / CAP) guidelines on HER2 and hormone receptor testing. Reporting elements are required only if applicable and only for tests performed. If some studies were performed on different specimen(s), the specimen number(s) should be provided.">
+      <DisplayedItem name="_25894.100004300_23" ID="25894.100004300" title="Note: Required elements in this template comply with the most recent versions of the American Society of Clinical Oncology / College of American Pathologists (ASCO / CAP) guidelines on HER2 and hormone receptor testing. Reporting elements are required only if applicable and only for tests performed. If some studies were performed on different specimen(s), the specimen number(s) should be provided.">
         <OtherText name="_24" type="reportText" val="{no text}" />
       </DisplayedItem>
-      <DisplayedItem name="31047.100004300_25" ID="31047.100004300" title="Note: Time to fixation (cold ischemia time) and time of fixation are required elements but may be reported in this template or in the original pathology report.">
+      <DisplayedItem name="_31047.100004300_25" ID="31047.100004300" title="Note: Time to fixation (cold ischemia time) and time of fixation are required elements but may be reported in this template or in the original pathology report.">
         <OtherText name="_26" type="reportText" val="{no text}" />
       </DisplayedItem>
-      <Section name="25891.100004300_27" ID="25891.100004300" title="TEST(S) PERFORMED">
+      <Section name="Section_25891.100004300_27" ID="25891.100004300" title="TEST(S) PERFORMED">
         <ChildItems>
-          <Question name="31159.100004300_29" ID="31159.100004300">
+          <Question name="_31159.100004300_29" ID="31159.100004300">
             <ListField>
               <List>
-                <ListItem name="31160.100004300_32" ID="31160.100004300" title="Estrogen Receptor (ER) Status (Note A)">
+                <ListItem name="_31160.100004300_32" ID="31160.100004300" title="Estrogen Receptor (ER) Status (Note A)">
                   <OtherText name="_33" type="reportText" val="Estrogen Receptor (ER) Status" />
                   <ChildItems>
                     <Question name="ER_Studies_35" ID="26435.100004300">
@@ -43,7 +42,7 @@
                         <List>
                           <ListItem name="ImRe_Tum_Id_38" ID="29604.100004300" title="Positive">
                             <ChildItems>
-                              <Question name="31766.100004300_40" ID="31766.100004300" title="Percentage of Cells with Nuclear Positivity#">
+                              <Question name="_31766.100004300_40" ID="31766.100004300" title="Percentage of Cells with Nuclear Positivity#">
                                 <OtherText name="_41" type="reportText" val="Percentage of Cells with Nuclear Positivity" />
                                 <ListField>
                                   <List>
@@ -57,13 +56,13 @@
                                         <ResponseUnits val="%" />
                                       </ListItemResponseField>
                                     </ListItem>
-                                    <DisplayedItem name="32074.100004300_51" ID="32074.100004300" title="--OR--">
+                                    <DisplayedItem name="_32074.100004300_51" ID="32074.100004300" title="--OR--">
                                       <OtherText name="_52" type="reportText" val="{no text}" />
                                     </DisplayedItem>
-                                    <DisplayedItem name="32084.100004300_53" ID="32084.100004300" title="Select range below:">
+                                    <DisplayedItem name="_32084.100004300_53" ID="32084.100004300" title="Select range below:">
                                       <OtherText name="_54" type="reportText" val="{no text}" />
                                     </DisplayedItem>
-                                    <ListItem name="32073.100004300_55" ID="32073.100004300" title="1-10% (specify)#">
+                                    <ListItem name="_32073.100004300_55" ID="32073.100004300" title="1-10% (specify)#">
                                       <OtherText name="_56" type="reportText" val="1-10%" />
                                       <ListItemResponseField name="_57" responseRequired="true">
                                         <Response>
@@ -73,15 +72,15 @@
                                         <ResponseUnits val="%" />
                                       </ListItemResponseField>
                                     </ListItem>
-                                    <ListItem name="32075.100004300_62" ID="32075.100004300" title="11-20%" />
-                                    <ListItem name="32076.100004300_63" ID="32076.100004300" title="21-30%" />
-                                    <ListItem name="32079.100004300_64" ID="32079.100004300" title="31-40%" />
-                                    <ListItem name="32080.100004300_65" ID="32080.100004300" title="41-50%" />
-                                    <ListItem name="32081.100004300_66" ID="32081.100004300" title="51-60%" />
-                                    <ListItem name="32082.100004300_67" ID="32082.100004300" title="61-70%" />
-                                    <ListItem name="32083.100004300_68" ID="32083.100004300" title="71-80%" />
-                                    <ListItem name="32077.100004300_69" ID="32077.100004300" title="81-90%" />
-                                    <ListItem name="32078.100004300_70" ID="32078.100004300" title="91-100%" />
+                                    <ListItem name="_32075.100004300_62" ID="32075.100004300" title="11-20%" />
+                                    <ListItem name="_32076.100004300_63" ID="32076.100004300" title="21-30%" />
+                                    <ListItem name="_32079.100004300_64" ID="32079.100004300" title="31-40%" />
+                                    <ListItem name="_32080.100004300_65" ID="32080.100004300" title="41-50%" />
+                                    <ListItem name="_32081.100004300_66" ID="32081.100004300" title="51-60%" />
+                                    <ListItem name="_32082.100004300_67" ID="32082.100004300" title="61-70%" />
+                                    <ListItem name="_32083.100004300_68" ID="32083.100004300" title="71-80%" />
+                                    <ListItem name="_32077.100004300_69" ID="32077.100004300" title="81-90%" />
+                                    <ListItem name="_32078.100004300_70" ID="32078.100004300" title="91-100%" />
                                   </List>
                                 </ListField>
                               </Question>
@@ -98,14 +97,14 @@
                           </ListItem>
                           <ListItem name="LT_1pct_ImRe_Tum_Id_77" ID="29915.100004300" title="Negative">
                             <ChildItems>
-                              <Question name="25895.100004300_79" ID="25895.100004300">
+                              <Question name="_25895.100004300_79" ID="25895.100004300">
                                 <ListField>
                                   <List>
-                                    <ListItem name="25896.100004300_82" ID="25896.100004300" title="Internal control cells present and stain as expected" />
-                                    <ListItem name="25898.100004300_83" ID="25898.100004300" title="Internal control cells absent##">
+                                    <ListItem name="_25896.100004300_82" ID="25896.100004300" title="Internal control cells present and stain as expected" />
+                                    <ListItem name="_25898.100004300_83" ID="25898.100004300" title="Internal control cells absent##">
                                       <OtherText name="_84" type="reportText" val="Internal control cells absent" />
                                     </ListItem>
-                                    <ListItem name="32087.100004300_85" ID="32087.100004300" title="Other (specify)">
+                                    <ListItem name="_32087.100004300_85" ID="32087.100004300" title="Other (specify)">
                                       <OtherText name="_86" type="reportText" val="{no text}" />
                                       <ListItemResponseField name="_87" responseRequired="true">
                                         <Response>
@@ -118,14 +117,14 @@
                               </Question>
                             </ChildItems>
                           </ListItem>
-                          <ListItem name="31072.100004300_90" ID="31072.100004300" title="Cannot be determined (indeterminate)###">
+                          <ListItem name="_31072.100004300_90" ID="31072.100004300" title="Cannot be determined (indeterminate)###">
                             <OtherText name="_91" type="reportText" val="Cannot be determined (indeterminate)" />
                             <ChildItems>
-                              <Question name="32088.100004300_93" ID="32088.100004300">
+                              <Question name="_32088.100004300_93" ID="32088.100004300">
                                 <ListField>
                                   <List>
-                                    <ListItem name="32089.100004300_96" ID="32089.100004300" title="Internal control cells present; no immunoreactivity of either tumor cells or internal controls" />
-                                    <ListItem name="32090.100004300_97" ID="32090.100004300" title="Other (specify)">
+                                    <ListItem name="_32089.100004300_96" ID="32089.100004300" title="Internal control cells present; no immunoreactivity of either tumor cells or internal controls" />
+                                    <ListItem name="_32090.100004300_97" ID="32090.100004300" title="Other (specify)">
                                       <OtherText name="_98" type="reportText" val="{no text}" />
                                       <ListItemResponseField name="_99" responseRequired="true">
                                         <Response>
@@ -138,23 +137,23 @@
                               </Question>
                             </ChildItems>
                           </ListItem>
-                          <DisplayedItem name="32091.100004300_102" ID="32091.100004300" title="# Percentage of cells with nuclear positivity may be reported as a specific number or a range if more than 10%.">
+                          <DisplayedItem name="_32091.100004300_102" ID="32091.100004300" title="# Percentage of cells with nuclear positivity may be reported as a specific number or a range if more than 10%.">
                             <OtherText name="_103" type="reportText" val="{no text}" />
                           </DisplayedItem>
-                          <DisplayedItem name="32092.100004300_104" ID="32092.100004300" title="## When a tumor is negative but no internal control cells are present, the pathologist must exercise judgment as to whether the assay can be interpreted as a true negative. This should include consideration of histologic type and grade, cold ischemia and fixation times, and the status of external controls. If the pathologist decides that hormone receptor status cannot be determined, the test should be reported as such and repeated on another block or specimen.">
+                          <DisplayedItem name="_32092.100004300_104" ID="32092.100004300" title="## When a tumor is negative but no internal control cells are present, the pathologist must exercise judgment as to whether the assay can be interpreted as a true negative. This should include consideration of histologic type and grade, cold ischemia and fixation times, and the status of external controls. If the pathologist decides that hormone receptor status cannot be determined, the test should be reported as such and repeated on another block or specimen.">
                             <OtherText name="_105" type="reportText" val="{no text}" />
                           </DisplayedItem>
-                          <DisplayedItem name="32093.100004300_106" ID="32093.100004300" title="### Technical issues prevent the test from being reported as positive, negative, or equivocal. This may occur if specimen handling was inadequate, if artifacts (crush or edge artifacts) make interpretation difficult, or if the analytic testing failed.">
+                          <DisplayedItem name="_32093.100004300_106" ID="32093.100004300" title="### Technical issues prevent the test from being reported as positive, negative, or equivocal. This may occur if specimen handling was inadequate, if artifacts (crush or edge artifacts) make interpretation difficult, or if the analytic testing failed.">
                             <OtherText name="_107" type="reportText" val="{no text}" />
                           </DisplayedItem>
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="31089.100004300_108" ID="31089.100004300" title="Test Type (required for U.S.-based laboratories)">
+                    <Question name="_31089.100004300_108" ID="31089.100004300" title="Test Type (required for U.S.-based laboratories)">
                       <OtherText name="_109" type="reportText" val="Test Type" />
                       <ListField>
                         <List>
-                          <ListItem name="31090.100004300_112" ID="31090.100004300" title="Food and Drug Administration (FDA) cleared (specify test / vendor)">
+                          <ListItem name="_31090.100004300_112" ID="31090.100004300" title="Food and Drug Administration (FDA) cleared (specify test / vendor)">
                             <OtherText name="_113" type="reportText" val="Food and Drug Administration (FDA) cleared (test / vendor)" />
                             <ListItemResponseField name="_114" responseRequired="true">
                               <Response>
@@ -162,13 +161,13 @@
                               </Response>
                             </ListItemResponseField>
                           </ListItem>
-                          <ListItem name="31091.100004300_117" ID="31091.100004300" title="Laboratory-developed test" />
-                          <ListItem name="32779.100004300_118" ID="32779.100004300" title="+Non-U.S.-based health systems">
+                          <ListItem name="_31091.100004300_117" ID="31091.100004300" title="Laboratory-developed test" />
+                          <ListItem name="_32779.100004300_118" ID="32779.100004300" title="+Non-U.S.-based health systems">
                             <ChildItems>
-                              <Question name="32780.100004300_120" ID="32780.100004300" mustImplement="false" minCard="0">
+                              <Question name="_32780.100004300_120" ID="32780.100004300" mustImplement="false" minCard="0">
                                 <ListField>
                                   <List>
-                                    <ListItem name="32781.100004300_123" ID="32781.100004300" title="Health Canada Approved (specify test / vendor)" mustImplement="false">
+                                    <ListItem name="_32781.100004300_123" ID="32781.100004300" title="Health Canada Approved (specify test / vendor)" mustImplement="false">
                                       <OtherText name="_124" type="reportText" val="Health Canada Approved (test / vendor)" />
                                       <ListItemResponseField name="_125" responseRequired="true">
                                         <Response>
@@ -176,7 +175,7 @@
                                         </Response>
                                       </ListItemResponseField>
                                     </ListItem>
-                                    <ListItem name="32782.100004300_128" ID="32782.100004300" title="Other (specify)" mustImplement="false">
+                                    <ListItem name="_32782.100004300_128" ID="32782.100004300" title="Other (specify)" mustImplement="false">
                                       <OtherText name="_129" type="reportText" val="{no text}" />
                                       <ListItemResponseField name="_130" responseRequired="true">
                                         <Response>
@@ -192,13 +191,13 @@
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="31092.100004300_133" ID="31092.100004300" title="Primary Antibody">
+                    <Question name="_31092.100004300_133" ID="31092.100004300" title="Primary Antibody">
                       <ListField>
                         <List>
-                          <ListItem name="31093.100004300_136" ID="31093.100004300" title="SP1" />
-                          <ListItem name="31094.100004300_137" ID="31094.100004300" title="6F11" />
-                          <ListItem name="31095.100004300_138" ID="31095.100004300" title="1D5" />
-                          <ListItem name="31096.100004300_139" ID="31096.100004300" title="Other (specify)">
+                          <ListItem name="_31093.100004300_136" ID="31093.100004300" title="SP1" />
+                          <ListItem name="_31094.100004300_137" ID="31094.100004300" title="6F11" />
+                          <ListItem name="_31095.100004300_138" ID="31095.100004300" title="1D5" />
+                          <ListItem name="_31096.100004300_139" ID="31096.100004300" title="Other (specify)">
                             <OtherText name="_140" type="reportText" val="{no text}" />
                             <ListItemResponseField name="_141" responseRequired="true">
                               <Response>
@@ -209,27 +208,27 @@
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="31107.100004300_144" ID="31107.100004300" title="Scoring System" mustImplement="false" minCard="0">
+                    <Question name="_31107.100004300_144" ID="31107.100004300" title="Scoring System" mustImplement="false" minCard="0">
                       <ListField>
                         <List>
-                          <ListItem name="31326.100004300_147" ID="31326.100004300" title="No separate scoring system used" mustImplement="false" />
-                          <ListItem name="31108.100004300_148" ID="31108.100004300" title="Allred" mustImplement="false">
+                          <ListItem name="_31326.100004300_147" ID="31326.100004300" title="No separate scoring system used" mustImplement="false" />
+                          <ListItem name="_31108.100004300_148" ID="31108.100004300" title="Allred" mustImplement="false">
                             <ChildItems>
-                              <Question name="31054.100004300_150" ID="31054.100004300" title="Proportion Score" mustImplement="false" minCard="0">
+                              <Question name="_31054.100004300_150" ID="31054.100004300" title="Proportion Score" mustImplement="false" minCard="0">
                                 <ResponseField name="_151">
                                   <Response>
                                     <string name="_153" maxLength="1" />
                                   </Response>
                                 </ResponseField>
                               </Question>
-                              <Question name="31055.100004300_154" ID="31055.100004300" title="Intensity Score" mustImplement="false" minCard="0">
+                              <Question name="_31055.100004300_154" ID="31055.100004300" title="Intensity Score" mustImplement="false" minCard="0">
                                 <ResponseField name="_155">
                                   <Response>
                                     <string name="_157" maxLength="1" />
                                   </Response>
                                 </ResponseField>
                               </Question>
-                              <Question name="31056.100004300_158" ID="31056.100004300" title="Total Allred Score" mustImplement="false" minCard="0">
+                              <Question name="_31056.100004300_158" ID="31056.100004300" title="Total Allred Score" mustImplement="false" minCard="0">
                                 <ResponseField name="_159">
                                   <Response>
                                     <string name="_161" maxLength="1" />
@@ -238,9 +237,9 @@
                               </Question>
                             </ChildItems>
                           </ListItem>
-                          <ListItem name="31109.100004300_162" ID="31109.100004300" title="Other scoring system" mustImplement="false">
+                          <ListItem name="_31109.100004300_162" ID="31109.100004300" title="Other scoring system" mustImplement="false">
                             <ChildItems>
-                              <Question name="31057.100004300_164" ID="31057.100004300" title="Specify System" mustImplement="false" minCard="0">
+                              <Question name="_31057.100004300_164" ID="31057.100004300" title="Specify System" mustImplement="false" minCard="0">
                                 <OtherText name="_165" type="reportText" val="System" />
                                 <ResponseField name="_166">
                                   <Response>
@@ -248,7 +247,7 @@
                                   </Response>
                                 </ResponseField>
                               </Question>
-                              <Question name="31058.100004300_169" ID="31058.100004300" title="Specify Score Result" mustImplement="false" minCard="0">
+                              <Question name="_31058.100004300_169" ID="31058.100004300" title="Specify Score Result" mustImplement="false" minCard="0">
                                 <OtherText name="_170" type="reportText" val="Score Result" />
                                 <ResponseField name="_171">
                                   <Response>
@@ -263,7 +262,7 @@
                     </Question>
                   </ChildItems>
                 </ListItem>
-                <ListItem name="31161.100004300_174" ID="31161.100004300" title="Progesterone Receptor (PgR) Status (Note A)">
+                <ListItem name="_31161.100004300_174" ID="31161.100004300" title="Progesterone Receptor (PgR) Status (Note A)">
                   <OtherText name="_175" type="reportText" val="Progesterone Receptor (PgR) Status" />
                   <ChildItems>
                     <Question name="PgR_Studies_177" ID="30524.100004300">
@@ -271,7 +270,7 @@
                         <List>
                           <ListItem name="ImRe_Tum_Id_180" ID="30533.100004300" title="Positive">
                             <ChildItems>
-                              <Question name="32094.100004300_182" ID="32094.100004300" title="Percentage of Cells with Nuclear Positivity#">
+                              <Question name="_32094.100004300_182" ID="32094.100004300" title="Percentage of Cells with Nuclear Positivity#">
                                 <OtherText name="_183" type="reportText" val="Percentage of Cells with Nuclear Positivity" />
                                 <ListField>
                                   <List>
@@ -285,13 +284,13 @@
                                         <ResponseUnits val="%" />
                                       </ListItemResponseField>
                                     </ListItem>
-                                    <DisplayedItem name="32095.100004300_193" ID="32095.100004300" title="--OR--">
+                                    <DisplayedItem name="_32095.100004300_193" ID="32095.100004300" title="--OR--">
                                       <OtherText name="_194" type="reportText" val="{no text}" />
                                     </DisplayedItem>
-                                    <DisplayedItem name="32096.100004300_195" ID="32096.100004300" title="Select range below:">
+                                    <DisplayedItem name="_32096.100004300_195" ID="32096.100004300" title="Select range below:">
                                       <OtherText name="_196" type="reportText" val="{no text}" />
                                     </DisplayedItem>
-                                    <ListItem name="32097.100004300_197" ID="32097.100004300" title="1-10% (specify)#">
+                                    <ListItem name="_32097.100004300_197" ID="32097.100004300" title="1-10% (specify)#">
                                       <OtherText name="_198" type="reportText" val="1-10%" />
                                       <ListItemResponseField name="_199" responseRequired="true">
                                         <Response>
@@ -301,15 +300,15 @@
                                         <ResponseUnits val="%" />
                                       </ListItemResponseField>
                                     </ListItem>
-                                    <ListItem name="32098.100004300_204" ID="32098.100004300" title="11-20%" />
-                                    <ListItem name="32099.100004300_205" ID="32099.100004300" title="21-30%" />
-                                    <ListItem name="32100.100004300_206" ID="32100.100004300" title="31-40%" />
-                                    <ListItem name="32101.100004300_207" ID="32101.100004300" title="41-50%" />
-                                    <ListItem name="32102.100004300_208" ID="32102.100004300" title="51-60%" />
-                                    <ListItem name="32103.100004300_209" ID="32103.100004300" title="61-70%" />
-                                    <ListItem name="32104.100004300_210" ID="32104.100004300" title="71-80%" />
-                                    <ListItem name="32105.100004300_211" ID="32105.100004300" title="81-90%" />
-                                    <ListItem name="32106.100004300_212" ID="32106.100004300" title="91-100%" />
+                                    <ListItem name="_32098.100004300_204" ID="32098.100004300" title="11-20%" />
+                                    <ListItem name="_32099.100004300_205" ID="32099.100004300" title="21-30%" />
+                                    <ListItem name="_32100.100004300_206" ID="32100.100004300" title="31-40%" />
+                                    <ListItem name="_32101.100004300_207" ID="32101.100004300" title="41-50%" />
+                                    <ListItem name="_32102.100004300_208" ID="32102.100004300" title="51-60%" />
+                                    <ListItem name="_32103.100004300_209" ID="32103.100004300" title="61-70%" />
+                                    <ListItem name="_32104.100004300_210" ID="32104.100004300" title="71-80%" />
+                                    <ListItem name="_32105.100004300_211" ID="32105.100004300" title="81-90%" />
+                                    <ListItem name="_32106.100004300_212" ID="32106.100004300" title="91-100%" />
                                   </List>
                                 </ListField>
                               </Question>
@@ -326,14 +325,14 @@
                           </ListItem>
                           <ListItem name="LT_1pct_ImRe_Tum_Id_219" ID="31001.100004300" title="Negative">
                             <ChildItems>
-                              <Question name="25899.100004300_221" ID="25899.100004300">
+                              <Question name="_25899.100004300_221" ID="25899.100004300">
                                 <ListField>
                                   <List>
-                                    <ListItem name="25900.100004300_224" ID="25900.100004300" title="Internal control cells present and stain as expected" />
-                                    <ListItem name="25902.100004300_225" ID="25902.100004300" title="Internal control cells absent##">
+                                    <ListItem name="_25900.100004300_224" ID="25900.100004300" title="Internal control cells present and stain as expected" />
+                                    <ListItem name="_25902.100004300_225" ID="25902.100004300" title="Internal control cells absent##">
                                       <OtherText name="_226" type="reportText" val="Internal control cells absent" />
                                     </ListItem>
-                                    <ListItem name="32107.100004300_227" ID="32107.100004300" title="Other (specify)">
+                                    <ListItem name="_32107.100004300_227" ID="32107.100004300" title="Other (specify)">
                                       <OtherText name="_228" type="reportText" val="{no text}" />
                                       <ListItemResponseField name="_229" responseRequired="true">
                                         <Response>
@@ -346,14 +345,14 @@
                               </Question>
                             </ChildItems>
                           </ListItem>
-                          <ListItem name="25882.100004300_232" ID="25882.100004300" title="Cannot be determined (indeterminate)###">
+                          <ListItem name="_25882.100004300_232" ID="25882.100004300" title="Cannot be determined (indeterminate)###">
                             <OtherText name="_233" type="reportText" val="Cannot be determined (indeterminate)" />
                             <ChildItems>
-                              <Question name="32108.100004300_235" ID="32108.100004300">
+                              <Question name="_32108.100004300_235" ID="32108.100004300">
                                 <ListField>
                                   <List>
-                                    <ListItem name="32109.100004300_238" ID="32109.100004300" title="Internal control cells present; no immunoreactivity of either tumor cells or internal controls" />
-                                    <ListItem name="32110.100004300_239" ID="32110.100004300" title="Other (specify)">
+                                    <ListItem name="_32109.100004300_238" ID="32109.100004300" title="Internal control cells present; no immunoreactivity of either tumor cells or internal controls" />
+                                    <ListItem name="_32110.100004300_239" ID="32110.100004300" title="Other (specify)">
                                       <OtherText name="_240" type="reportText" val="{no text}" />
                                       <ListItemResponseField name="_241" responseRequired="true">
                                         <Response>
@@ -366,23 +365,23 @@
                               </Question>
                             </ChildItems>
                           </ListItem>
-                          <DisplayedItem name="32111.100004300_244" ID="32111.100004300" title="# Percentage of cells with nuclear positivity may be reported as a specific number or a range if more than 10%.">
+                          <DisplayedItem name="_32111.100004300_244" ID="32111.100004300" title="# Percentage of cells with nuclear positivity may be reported as a specific number or a range if more than 10%.">
                             <OtherText name="_245" type="reportText" val="{no text}" />
                           </DisplayedItem>
-                          <DisplayedItem name="32112.100004300_246" ID="32112.100004300" title="## When a tumor is negative but no internal control cells are present, the pathologist must exercise judgment as to whether the assay can be interpreted as a true negative. This should include consideration of histologic type and grade, cold ischemia and fixation times, and the status of external controls. If the pathologist decides that hormone receptor status cannot be determined, the test should be reported as such and repeated on another block or specimen.">
+                          <DisplayedItem name="_32112.100004300_246" ID="32112.100004300" title="## When a tumor is negative but no internal control cells are present, the pathologist must exercise judgment as to whether the assay can be interpreted as a true negative. This should include consideration of histologic type and grade, cold ischemia and fixation times, and the status of external controls. If the pathologist decides that hormone receptor status cannot be determined, the test should be reported as such and repeated on another block or specimen.">
                             <OtherText name="_247" type="reportText" val="{no text}" />
                           </DisplayedItem>
-                          <DisplayedItem name="32113.100004300_248" ID="32113.100004300" title="### Technical issues prevent the test from being reported as positive, negative, or equivocal. This may occur if specimen handling was inadequate, if artifacts (crush or edge artifacts) make interpretation difficult, or if the analytic testing failed.">
+                          <DisplayedItem name="_32113.100004300_248" ID="32113.100004300" title="### Technical issues prevent the test from being reported as positive, negative, or equivocal. This may occur if specimen handling was inadequate, if artifacts (crush or edge artifacts) make interpretation difficult, or if the analytic testing failed.">
                             <OtherText name="_249" type="reportText" val="{no text}" />
                           </DisplayedItem>
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="31099.100004300_250" ID="31099.100004300" title="Test Type (required for U.S.-based laboratories)">
+                    <Question name="_31099.100004300_250" ID="31099.100004300" title="Test Type (required for U.S.-based laboratories)">
                       <OtherText name="_251" type="reportText" val="Test Type" />
                       <ListField>
                         <List>
-                          <ListItem name="31100.100004300_254" ID="31100.100004300" title="Food and Drug Administration (FDA) cleared (specify test / vendor)">
+                          <ListItem name="_31100.100004300_254" ID="31100.100004300" title="Food and Drug Administration (FDA) cleared (specify test / vendor)">
                             <OtherText name="_255" type="reportText" val="Food and Drug Administration (FDA) cleared (test / vendor)" />
                             <ListItemResponseField name="_256" responseRequired="true">
                               <Response>
@@ -390,13 +389,13 @@
                               </Response>
                             </ListItemResponseField>
                           </ListItem>
-                          <ListItem name="31101.100004300_259" ID="31101.100004300" title="Laboratory-developed test" />
-                          <ListItem name="32783.100004300_260" ID="32783.100004300" title="+Non-U.S.-based health systems">
+                          <ListItem name="_31101.100004300_259" ID="31101.100004300" title="Laboratory-developed test" />
+                          <ListItem name="_32783.100004300_260" ID="32783.100004300" title="+Non-U.S.-based health systems">
                             <ChildItems>
-                              <Question name="32784.100004300_262" ID="32784.100004300" mustImplement="false" minCard="0">
+                              <Question name="_32784.100004300_262" ID="32784.100004300" mustImplement="false" minCard="0">
                                 <ListField>
                                   <List>
-                                    <ListItem name="32785.100004300_265" ID="32785.100004300" title="Health Canada Approved (specify test / vendor)" mustImplement="false">
+                                    <ListItem name="_32785.100004300_265" ID="32785.100004300" title="Health Canada Approved (specify test / vendor)" mustImplement="false">
                                       <OtherText name="_266" type="reportText" val="Health Canada Approved (test / vendor)" />
                                       <ListItemResponseField name="_267" responseRequired="true">
                                         <Response>
@@ -404,7 +403,7 @@
                                         </Response>
                                       </ListItemResponseField>
                                     </ListItem>
-                                    <ListItem name="32786.100004300_270" ID="32786.100004300" title="Other (specify)" mustImplement="false">
+                                    <ListItem name="_32786.100004300_270" ID="32786.100004300" title="Other (specify)" mustImplement="false">
                                       <OtherText name="_271" type="reportText" val="{no text}" />
                                       <ListItemResponseField name="_272" responseRequired="true">
                                         <Response>
@@ -420,17 +419,17 @@
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="31102.100004300_275" ID="31102.100004300" title="Primary Antibody">
+                    <Question name="_31102.100004300_275" ID="31102.100004300" title="Primary Antibody">
                       <ListField>
                         <List>
-                          <ListItem name="31103.100004300_278" ID="31103.100004300" title="1E2" />
-                          <ListItem name="31104.100004300_279" ID="31104.100004300" title="636" />
-                          <ListItem name="31105.100004300_280" ID="31105.100004300" title="16" />
-                          <ListItem name="31097.100004300_281" ID="31097.100004300" title="SP2" />
-                          <ListItem name="31098.100004300_282" ID="31098.100004300" title="1A6" />
-                          <ListItem name="32115.100004300_283" ID="32115.100004300" title="1294" />
-                          <ListItem name="32116.100004300_284" ID="32116.100004300" title="312" />
-                          <ListItem name="31106.100004300_285" ID="31106.100004300" title="Other (specify)">
+                          <ListItem name="_31103.100004300_278" ID="31103.100004300" title="1E2" />
+                          <ListItem name="_31104.100004300_279" ID="31104.100004300" title="636" />
+                          <ListItem name="_31105.100004300_280" ID="31105.100004300" title="16" />
+                          <ListItem name="_31097.100004300_281" ID="31097.100004300" title="SP2" />
+                          <ListItem name="_31098.100004300_282" ID="31098.100004300" title="1A6" />
+                          <ListItem name="_32115.100004300_283" ID="32115.100004300" title="1294" />
+                          <ListItem name="_32116.100004300_284" ID="32116.100004300" title="312" />
+                          <ListItem name="_31106.100004300_285" ID="31106.100004300" title="Other (specify)">
                             <OtherText name="_286" type="reportText" val="{no text}" />
                             <ListItemResponseField name="_287" responseRequired="true">
                               <Response>
@@ -441,27 +440,27 @@
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="25903.100004300_290" ID="25903.100004300" title="Scoring System" mustImplement="false" minCard="0">
+                    <Question name="_25903.100004300_290" ID="25903.100004300" title="Scoring System" mustImplement="false" minCard="0">
                       <ListField>
                         <List>
-                          <ListItem name="31320.100004300_293" ID="31320.100004300" title="No separate scoring system used" mustImplement="false" />
-                          <ListItem name="26291.100004300_294" ID="26291.100004300" title="Allred" mustImplement="false">
+                          <ListItem name="_31320.100004300_293" ID="31320.100004300" title="No separate scoring system used" mustImplement="false" />
+                          <ListItem name="_26291.100004300_294" ID="26291.100004300" title="Allred" mustImplement="false">
                             <ChildItems>
-                              <Question name="31059.100004300_296" ID="31059.100004300" title="Proportion Score" mustImplement="false" minCard="0">
+                              <Question name="_31059.100004300_296" ID="31059.100004300" title="Proportion Score" mustImplement="false" minCard="0">
                                 <ResponseField name="_297">
                                   <Response>
                                     <string name="_299" maxLength="1" />
                                   </Response>
                                 </ResponseField>
                               </Question>
-                              <Question name="31060.100004300_300" ID="31060.100004300" title="Intensity Score" mustImplement="false" minCard="0">
+                              <Question name="_31060.100004300_300" ID="31060.100004300" title="Intensity Score" mustImplement="false" minCard="0">
                                 <ResponseField name="_301">
                                   <Response>
                                     <string name="_303" maxLength="1" />
                                   </Response>
                                 </ResponseField>
                               </Question>
-                              <Question name="31061.100004300_304" ID="31061.100004300" title="Total Allred Score" mustImplement="false" minCard="0">
+                              <Question name="_31061.100004300_304" ID="31061.100004300" title="Total Allred Score" mustImplement="false" minCard="0">
                                 <ResponseField name="_305">
                                   <Response>
                                     <string name="_307" maxLength="1" />
@@ -470,9 +469,9 @@
                               </Question>
                             </ChildItems>
                           </ListItem>
-                          <ListItem name="31062.100004300_308" ID="31062.100004300" title="Other scoring system" mustImplement="false">
+                          <ListItem name="_31062.100004300_308" ID="31062.100004300" title="Other scoring system" mustImplement="false">
                             <ChildItems>
-                              <Question name="31063.100004300_310" ID="31063.100004300" title="Specify System" mustImplement="false" minCard="0">
+                              <Question name="_31063.100004300_310" ID="31063.100004300" title="Specify System" mustImplement="false" minCard="0">
                                 <OtherText name="_311" type="reportText" val="System" />
                                 <ResponseField name="_312">
                                   <Response>
@@ -480,7 +479,7 @@
                                   </Response>
                                 </ResponseField>
                               </Question>
-                              <Question name="31064.100004300_315" ID="31064.100004300" title="Specify Score Result" mustImplement="false" minCard="0">
+                              <Question name="_31064.100004300_315" ID="31064.100004300" title="Specify Score Result" mustImplement="false" minCard="0">
                                 <OtherText name="_316" type="reportText" val="Score Result" />
                                 <ResponseField name="_317">
                                   <Response>
@@ -495,7 +494,7 @@
                     </Question>
                   </ChildItems>
                 </ListItem>
-                <ListItem name="31163.100004300_320" ID="31163.100004300" title="HER2 by Immunohistochemistry (IHC)">
+                <ListItem name="_31163.100004300_320" ID="31163.100004300" title="HER2 by Immunohistochemistry (IHC)">
                   <ChildItems>
                     <Question name="HER2_IP_Results_322" ID="31012.100004300">
                       <ListField>
@@ -504,7 +503,7 @@
                           <ListItem name="Neg_ScoreGTE1_326" ID="31016.100004300" title="Negative (Score 1+)" />
                           <ListItem name="Equivocal_327" ID="31017.100004300" title="Equivocal (Score 2+)" />
                           <ListItem name="Positive_328" ID="31018.100004300" title="Positive (Score 3+)" />
-                          <ListItem name="25883.100004300_329" ID="25883.100004300" title="Cannot be determined (indeterminate) (explain)">
+                          <ListItem name="_25883.100004300_329" ID="25883.100004300" title="Cannot be determined (indeterminate) (explain)">
                             <OtherText name="_330" type="reportText" val="Cannot be determined (indeterminate)" />
                             <ListItemResponseField name="_331" responseRequired="true">
                               <Response>
@@ -515,7 +514,7 @@
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="25884.100004300_334" ID="25884.100004300" title="Percentage of Cells with Uniform Intense Complete Membrane Staining">
+                    <Question name="_25884.100004300_334" ID="25884.100004300" title="Percentage of Cells with Uniform Intense Complete Membrane Staining">
                       <ResponseField name="_335">
                         <Response>
                           <string name="_338" maxLength="3" />
@@ -524,11 +523,11 @@
                         <ResponseUnits val="%" />
                       </ResponseField>
                     </Question>
-                    <Question name="31110.100004300_340" ID="31110.100004300" title="Test Type (required for U.S.-based laboratories)">
+                    <Question name="_31110.100004300_340" ID="31110.100004300" title="Test Type (required for U.S.-based laboratories)">
                       <OtherText name="_341" type="reportText" val="Test Type" />
                       <ListField>
                         <List>
-                          <ListItem name="31111.100004300_344" ID="31111.100004300" title="Food and Drug Administration (FDA) cleared (specify test / vendor)">
+                          <ListItem name="_31111.100004300_344" ID="31111.100004300" title="Food and Drug Administration (FDA) cleared (specify test / vendor)">
                             <OtherText name="_345" type="reportText" val="Food and Drug Administration (FDA) cleared (test / vendor)" />
                             <ListItemResponseField name="_346" responseRequired="true">
                               <Response>
@@ -536,13 +535,13 @@
                               </Response>
                             </ListItemResponseField>
                           </ListItem>
-                          <ListItem name="31112.100004300_349" ID="31112.100004300" title="Laboratory-developed test" />
-                          <ListItem name="32787.100004300_350" ID="32787.100004300" title="+Non-U.S.-based health systems">
+                          <ListItem name="_31112.100004300_349" ID="31112.100004300" title="Laboratory-developed test" />
+                          <ListItem name="_32787.100004300_350" ID="32787.100004300" title="+Non-U.S.-based health systems">
                             <ChildItems>
-                              <Question name="32788.100004300_352" ID="32788.100004300" mustImplement="false" minCard="0">
+                              <Question name="_32788.100004300_352" ID="32788.100004300" mustImplement="false" minCard="0">
                                 <ListField>
                                   <List>
-                                    <ListItem name="32789.100004300_355" ID="32789.100004300" title="Health Canada Approved (specify test / vendor)" mustImplement="false">
+                                    <ListItem name="_32789.100004300_355" ID="32789.100004300" title="Health Canada Approved (specify test / vendor)" mustImplement="false">
                                       <OtherText name="_356" type="reportText" val="Health Canada Approved (test / vendor)" />
                                       <ListItemResponseField name="_357" responseRequired="true">
                                         <Response>
@@ -550,7 +549,7 @@
                                         </Response>
                                       </ListItemResponseField>
                                     </ListItem>
-                                    <ListItem name="32790.100004300_360" ID="32790.100004300" title="Other (specify)" mustImplement="false">
+                                    <ListItem name="_32790.100004300_360" ID="32790.100004300" title="Other (specify)" mustImplement="false">
                                       <OtherText name="_361" type="reportText" val="{no text}" />
                                       <ListItemResponseField name="_362" responseRequired="true">
                                         <Response>
@@ -566,15 +565,15 @@
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="31116.100004300_365" ID="31116.100004300" title="Primary Antibody">
+                    <Question name="_31116.100004300_365" ID="31116.100004300" title="Primary Antibody">
                       <ListField>
                         <List>
-                          <ListItem name="31117.100004300_368" ID="31117.100004300" title="4B5" />
-                          <ListItem name="31118.100004300_369" ID="31118.100004300" title="HercepTest" />
-                          <ListItem name="31119.100004300_370" ID="31119.100004300" title="A0485" />
-                          <ListItem name="31120.100004300_371" ID="31120.100004300" title="SP3" />
-                          <ListItem name="31121.100004300_372" ID="31121.100004300" title="CB11" />
-                          <ListItem name="31122.100004300_373" ID="31122.100004300" title="Other (specify)">
+                          <ListItem name="_31117.100004300_368" ID="31117.100004300" title="4B5" />
+                          <ListItem name="_31118.100004300_369" ID="31118.100004300" title="HercepTest" />
+                          <ListItem name="_31119.100004300_370" ID="31119.100004300" title="A0485" />
+                          <ListItem name="_31120.100004300_371" ID="31120.100004300" title="SP3" />
+                          <ListItem name="_31121.100004300_372" ID="31121.100004300" title="CB11" />
+                          <ListItem name="_31122.100004300_373" ID="31122.100004300" title="Other (specify)">
                             <OtherText name="_374" type="reportText" val="{no text}" />
                             <ListItemResponseField name="_375" responseRequired="true">
                               <Response>
@@ -587,15 +586,15 @@
                     </Question>
                   </ChildItems>
                 </ListItem>
-                <ListItem name="31166.100004300_378" ID="31166.100004300" title="HER2 (ERBB2) by In Situ Hybridization (ISH)">
+                <ListItem name="_31166.100004300_378" ID="31166.100004300" title="HER2 (ERBB2) by In Situ Hybridization (ISH)">
                   <ChildItems>
                     <Question name="HER2_FISH_CISH_Results_380" ID="31025.100004300">
                       <ListField>
                         <List>
-                          <ListItem name="25904.100004300_383" ID="25904.100004300" title="Negative (not amplified)" />
-                          <ListItem name="25905.100004300_384" ID="25905.100004300" title="Equivocal" />
-                          <ListItem name="25906.100004300_385" ID="25906.100004300" title="Positive (amplified)" />
-                          <ListItem name="25907.100004300_386" ID="25907.100004300" title="Cannot be determined (indeterminate)  (explain)">
+                          <ListItem name="_25904.100004300_383" ID="25904.100004300" title="Negative (not amplified)" />
+                          <ListItem name="_25905.100004300_384" ID="25905.100004300" title="Equivocal" />
+                          <ListItem name="_25906.100004300_385" ID="25906.100004300" title="Positive (amplified)" />
+                          <ListItem name="_25907.100004300_386" ID="25907.100004300" title="Cannot be determined (indeterminate)  (explain)">
                             <OtherText name="_387" type="reportText" val="Cannot be determined (indeterminate) " />
                             <ListItemResponseField name="_388" responseRequired="true">
                               <Response>
@@ -606,7 +605,7 @@
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="25908.100004300_391" ID="25908.100004300" title="Number of Observers">
+                    <Question name="_25908.100004300_391" ID="25908.100004300" title="Number of Observers">
                       <ResponseField name="_392">
                         <Response>
                           <string name="_394" maxLength="3" />
@@ -624,23 +623,23 @@
                     <Question name="Method_400" ID="31038.100004300" title="Method">
                       <ListField>
                         <List>
-                          <ListItem name="25909.100004300_403" ID="25909.100004300" title="Dual probe assay">
+                          <ListItem name="_25909.100004300_403" ID="25909.100004300" title="Dual probe assay">
                             <ChildItems>
-                              <Question name="25910.100004300_405" ID="25910.100004300" title="Average Number of HER2 Signals per Cell">
+                              <Question name="_25910.100004300_405" ID="25910.100004300" title="Average Number of HER2 Signals per Cell">
                                 <ResponseField name="_406">
                                   <Response>
                                     <string name="_408" maxLength="5" />
                                   </Response>
                                 </ResponseField>
                               </Question>
-                              <Question name="25911.100004300_409" ID="25911.100004300" title="Average Number of CEP17 Signals per Cell">
+                              <Question name="_25911.100004300_409" ID="25911.100004300" title="Average Number of CEP17 Signals per Cell">
                                 <ResponseField name="_410">
                                   <Response>
                                     <string name="_412" maxLength="5" />
                                   </Response>
                                 </ResponseField>
                               </Question>
-                              <Question name="25912.100004300_413" ID="25912.100004300" title="HER2 / CEP17 Ratio">
+                              <Question name="_25912.100004300_413" ID="25912.100004300" title="HER2 / CEP17 Ratio">
                                 <ResponseField name="_414">
                                   <Response>
                                     <string name="_416" maxLength="5" />
@@ -651,7 +650,7 @@
                           </ListItem>
                           <ListItem name="HER2_Copy_Num_Single_Probe_417" ID="31046.100004300" title="Single probe assay">
                             <ChildItems>
-                              <Question name="25913.100004300_419" ID="25913.100004300" title="Average Number of HER2 Signals per Cell">
+                              <Question name="_25913.100004300_419" ID="25913.100004300" title="Average Number of HER2 Signals per Cell">
                                 <ResponseField name="_420">
                                   <Response>
                                     <string name="_422" maxLength="4" />
@@ -663,11 +662,11 @@
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="30478.100004300_423" ID="30478.100004300" title="Aneusomy (as defined by vendor kit used)" mustImplement="false" minCard="0">
+                    <Question name="_30478.100004300_423" ID="30478.100004300" title="Aneusomy (as defined by vendor kit used)" mustImplement="false" minCard="0">
                       <ListField>
                         <List>
-                          <ListItem name="30479.100004300_426" ID="30479.100004300" title="Not identified" mustImplement="false" />
-                          <ListItem name="30481.100004300_427" ID="30481.100004300" title="Present (explain)" mustImplement="false">
+                          <ListItem name="_30479.100004300_426" ID="30479.100004300" title="Not identified" mustImplement="false" />
+                          <ListItem name="_30481.100004300_427" ID="30481.100004300" title="Present (explain)" mustImplement="false">
                             <OtherText name="_428" type="reportText" val="Present" />
                             <ListItemResponseField name="_429" responseRequired="true">
                               <Response>
@@ -678,13 +677,13 @@
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="30482.100004300_432" ID="30482.100004300" title="Heterogeneous Signals" mustImplement="false" minCard="0">
+                    <Question name="_30482.100004300_432" ID="30482.100004300" title="Heterogeneous Signals" mustImplement="false" minCard="0">
                       <ListField>
                         <List>
-                          <ListItem name="30483.100004300_435" ID="30483.100004300" title="Not identified" mustImplement="false" />
-                          <ListItem name="30484.100004300_436" ID="30484.100004300" title="Present" mustImplement="false">
+                          <ListItem name="_30483.100004300_435" ID="30483.100004300" title="Not identified" mustImplement="false" />
+                          <ListItem name="_30484.100004300_436" ID="30484.100004300" title="Present" mustImplement="false">
                             <ChildItems>
-                              <Question name="31073.100004300_438" ID="31073.100004300" title="Percentage of Cells with Amplified HER2 Signals" mustImplement="false" minCard="0">
+                              <Question name="_31073.100004300_438" ID="31073.100004300" title="Percentage of Cells with Amplified HER2 Signals" mustImplement="false" minCard="0">
                                 <ResponseField name="_439">
                                   <Response>
                                     <string name="_442" maxLength="3" />
@@ -698,11 +697,11 @@
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="31113.100004300_444" ID="31113.100004300" title="Test Type (required for U.S.-based laboratories)">
+                    <Question name="_31113.100004300_444" ID="31113.100004300" title="Test Type (required for U.S.-based laboratories)">
                       <OtherText name="_445" type="reportText" val="Test Type" />
                       <ListField>
                         <List>
-                          <ListItem name="31114.100004300_448" ID="31114.100004300" title="Food and Drug Administration (FDA) cleared (specify test / vendor)">
+                          <ListItem name="_31114.100004300_448" ID="31114.100004300" title="Food and Drug Administration (FDA) cleared (specify test / vendor)">
                             <OtherText name="_449" type="reportText" val="Food and Drug Administration (FDA) cleared (test / vendor)" />
                             <ListItemResponseField name="_450" responseRequired="true">
                               <Response>
@@ -710,13 +709,13 @@
                               </Response>
                             </ListItemResponseField>
                           </ListItem>
-                          <ListItem name="31115.100004300_453" ID="31115.100004300" title="Laboratory-developed test" />
-                          <ListItem name="32791.100004300_454" ID="32791.100004300" title="+Non-U.S.-based health systems">
+                          <ListItem name="_31115.100004300_453" ID="31115.100004300" title="Laboratory-developed test" />
+                          <ListItem name="_32791.100004300_454" ID="32791.100004300" title="+Non-U.S.-based health systems">
                             <ChildItems>
-                              <Question name="32792.100004300_456" ID="32792.100004300" mustImplement="false" minCard="0">
+                              <Question name="_32792.100004300_456" ID="32792.100004300" mustImplement="false" minCard="0">
                                 <ListField>
                                   <List>
-                                    <ListItem name="32793.100004300_459" ID="32793.100004300" title="Health Canada Approved (specify test / vendor)" mustImplement="false">
+                                    <ListItem name="_32793.100004300_459" ID="32793.100004300" title="Health Canada Approved (specify test / vendor)" mustImplement="false">
                                       <OtherText name="_460" type="reportText" val="Health Canada Approved (test / vendor)" />
                                       <ListItemResponseField name="_461" responseRequired="true">
                                         <Response>
@@ -724,7 +723,7 @@
                                         </Response>
                                       </ListItemResponseField>
                                     </ListItem>
-                                    <ListItem name="32794.100004300_464" ID="32794.100004300" title="Other (specify)" mustImplement="false">
+                                    <ListItem name="_32794.100004300_464" ID="32794.100004300" title="Other (specify)" mustImplement="false">
                                       <OtherText name="_465" type="reportText" val="{no text}" />
                                       <ListItemResponseField name="_466" responseRequired="true">
                                         <Response>
@@ -742,9 +741,9 @@
                     </Question>
                   </ChildItems>
                 </ListItem>
-                <ListItem name="31165.100004300_469" ID="31165.100004300" title="+Ki-67">
+                <ListItem name="_31165.100004300_469" ID="31165.100004300" title="+Ki-67">
                   <ChildItems>
-                    <Question name="31075.100004300_471" ID="31075.100004300" title="Percentage of Positive Nuclei" mustImplement="false" minCard="0">
+                    <Question name="_31075.100004300_471" ID="31075.100004300" title="Percentage of Positive Nuclei" mustImplement="false" minCard="0">
                       <ResponseField name="_472">
                         <Response>
                           <string name="_475" maxLength="3" />
@@ -753,15 +752,15 @@
                         <ResponseUnits val="%" />
                       </ResponseField>
                     </Question>
-                    <Question name="31124.100004300_477" ID="31124.100004300" title="Primary Antibody" mustImplement="false" minCard="0">
+                    <Question name="_31124.100004300_477" ID="31124.100004300" title="Primary Antibody" mustImplement="false" minCard="0">
                       <ListField>
                         <List>
-                          <ListItem name="31125.100004300_480" ID="31125.100004300" title="MIB1" mustImplement="false" />
-                          <ListItem name="31126.100004300_481" ID="31126.100004300" title="SP6" mustImplement="false" />
-                          <ListItem name="32169.100004300_482" ID="32169.100004300" title="MM1" mustImplement="false" />
-                          <ListItem name="32160.100004300_483" ID="32160.100004300" title="30-9" mustImplement="false" />
-                          <ListItem name="32168.100004300_484" ID="32168.100004300" title="IR / IS626" mustImplement="false" />
-                          <ListItem name="31127.100004300_485" ID="31127.100004300" title="Other (specify)" mustImplement="false">
+                          <ListItem name="_31125.100004300_480" ID="31125.100004300" title="MIB1" mustImplement="false" />
+                          <ListItem name="_31126.100004300_481" ID="31126.100004300" title="SP6" mustImplement="false" />
+                          <ListItem name="_32169.100004300_482" ID="32169.100004300" title="MM1" mustImplement="false" />
+                          <ListItem name="_32160.100004300_483" ID="32160.100004300" title="30-9" mustImplement="false" />
+                          <ListItem name="_32168.100004300_484" ID="32168.100004300" title="IR / IS626" mustImplement="false" />
+                          <ListItem name="_31127.100004300_485" ID="31127.100004300" title="Other (specify)" mustImplement="false">
                             <OtherText name="_486" type="reportText" val="{no text}" />
                             <ListItemResponseField name="_487" responseRequired="true">
                               <Response>
@@ -774,25 +773,25 @@
                     </Question>
                   </ChildItems>
                 </ListItem>
-                <ListItem name="31162.100004300_490" ID="31162.100004300" title="+Multiparameter Gene Expression / Protein Expression Assay">
+                <ListItem name="_31162.100004300_490" ID="31162.100004300" title="+Multiparameter Gene Expression / Protein Expression Assay">
                   <ChildItems>
-                    <Question name="31077.100004300_492" ID="31077.100004300" title="Name of Assay" mustImplement="false" minCard="0">
+                    <Question name="_31077.100004300_492" ID="31077.100004300" title="Name of Assay" mustImplement="false" minCard="0">
                       <ResponseField name="_493">
                         <Response>
                           <string name="_495" maxLength="4000" />
                         </Response>
                       </ResponseField>
                     </Question>
-                    <Question name="31079.100004300_496" ID="31079.100004300" title="Results" mustImplement="false" minCard="0">
+                    <Question name="_31079.100004300_496" ID="31079.100004300" title="Results" mustImplement="false" minCard="0">
                       <ListField>
                         <List>
-                          <ListItem name="31080.100004300_499" ID="31080.100004300" title="Low risk" mustImplement="false" />
-                          <ListItem name="31081.100004300_500" ID="31081.100004300" title="Moderate risk" mustImplement="false" />
-                          <ListItem name="31082.100004300_501" ID="31082.100004300" title="High risk" mustImplement="false" />
+                          <ListItem name="_31080.100004300_499" ID="31080.100004300" title="Low risk" mustImplement="false" />
+                          <ListItem name="_31081.100004300_500" ID="31081.100004300" title="Moderate risk" mustImplement="false" />
+                          <ListItem name="_31082.100004300_501" ID="31082.100004300" title="High risk" mustImplement="false" />
                         </List>
                       </ListField>
                     </Question>
-                    <Question name="31078.100004300_502" ID="31078.100004300" title="Recurrence Score" mustImplement="false" minCard="0">
+                    <Question name="_31078.100004300_502" ID="31078.100004300" title="Recurrence Score" mustImplement="false" minCard="0">
                       <ResponseField name="_503">
                         <Response>
                           <string name="_505" maxLength="8" />
@@ -806,14 +805,14 @@
           </Question>
         </ChildItems>
       </Section>
-      <Section name="25892.100004300_506" ID="25892.100004300" title="METHODS">
+      <Section name="Section_25892.100004300_506" ID="25892.100004300" title="METHODS">
         <ChildItems>
-          <Question name="31083.100004300_508" ID="31083.100004300" title="Cold Ischemia and Fixation Times">
+          <Question name="_31083.100004300_508" ID="31083.100004300" title="Cold Ischemia and Fixation Times">
             <ListField>
               <List>
-                <ListItem name="31085.100004300_511" ID="31085.100004300" title="Meet requirements specified in latest version of the ASCO / CAP Guidelines" />
-                <ListItem name="31084.100004300_512" ID="31084.100004300" title="Do not meet requirements specified in latest version of the ASCO / CAP Guidelines" />
-                <ListItem name="32114.100004300_513" ID="32114.100004300" title="Cannot be determined (explain)">
+                <ListItem name="_31085.100004300_511" ID="31085.100004300" title="Meet requirements specified in latest version of the ASCO / CAP Guidelines" />
+                <ListItem name="_31084.100004300_512" ID="31084.100004300" title="Do not meet requirements specified in latest version of the ASCO / CAP Guidelines" />
+                <ListItem name="_32114.100004300_513" ID="32114.100004300" title="Cannot be determined (explain)">
                   <OtherText name="_514" type="reportText" val="Cannot be determined" />
                   <ListItemResponseField name="_515" responseRequired="true">
                     <Response>
@@ -824,7 +823,7 @@
               </List>
             </ListField>
           </Question>
-          <Question name="32777.100004300_518" ID="32777.100004300" title="Cold Ischemia Time (min)" mustImplement="false" minCard="0">
+          <Question name="_32777.100004300_518" ID="32777.100004300" title="Cold Ischemia Time (min)" mustImplement="false" minCard="0">
             <ResponseField name="_519">
               <Response>
                 <string name="_522" maxLength="3" />
@@ -833,7 +832,7 @@
               <ResponseUnits val="min" />
             </ResponseField>
           </Question>
-          <Question name="21465.100004300_524" ID="21465.100004300" title="Time of Fixation (hours)" mustImplement="false" minCard="0">
+          <Question name="_21465.100004300_524" ID="21465.100004300" title="Time of Fixation (hours)" mustImplement="false" minCard="0">
             <ResponseField name="_525">
               <Response>
                 <string name="_528" maxLength="5" />
@@ -842,7 +841,7 @@
               <ResponseUnits val="hours" />
             </ResponseField>
           </Question>
-          <Question name="32778.100004300_530" ID="32778.100004300" title="Testing Performed on Block Number(s) (specify)" mustImplement="false" minCard="0">
+          <Question name="_32778.100004300_530" ID="32778.100004300" title="Testing Performed on Block Number(s) (specify)" mustImplement="false" minCard="0">
             <OtherText name="_531" type="reportText" val="Testing Performed on Block Number(s)" />
             <ResponseField name="_532">
               <Response>
@@ -850,11 +849,11 @@
               </Response>
             </ResponseField>
           </Question>
-          <Question name="31086.100004300_535" ID="31086.100004300" title="Fixative">
+          <Question name="_31086.100004300_535" ID="31086.100004300" title="Fixative">
             <ListField>
               <List>
-                <ListItem name="31087.100004300_538" ID="31087.100004300" title="Formalin" />
-                <ListItem name="31088.100004300_539" ID="31088.100004300" title="Other (specify)">
+                <ListItem name="_31087.100004300_538" ID="31087.100004300" title="Formalin" />
+                <ListItem name="_31088.100004300_539" ID="31088.100004300" title="Other (specify)">
                   <OtherText name="_540" type="reportText" val="{no text}" />
                   <ListItemResponseField name="_541" responseRequired="true">
                     <Response>
@@ -865,13 +864,13 @@
               </List>
             </ListField>
           </Question>
-          <Question name="31128.100004300_544" ID="31128.100004300" title="Image Analysis" mustImplement="false" minCard="0">
+          <Question name="_31128.100004300_544" ID="31128.100004300" title="Image Analysis" mustImplement="false" minCard="0">
             <ListField>
               <List>
-                <ListItem name="31129.100004300_547" ID="31129.100004300" title="Not performed" mustImplement="false" />
-                <ListItem name="31130.100004300_548" ID="31130.100004300" title="Performed" mustImplement="false">
+                <ListItem name="_31129.100004300_547" ID="31129.100004300" title="Not performed" mustImplement="false" />
+                <ListItem name="_31130.100004300_548" ID="31130.100004300" title="Performed" mustImplement="false">
                   <ChildItems>
-                    <Question name="26436.100004300_550" ID="26436.100004300" title="Specify Method" mustImplement="false" minCard="0">
+                    <Question name="_26436.100004300_550" ID="26436.100004300" title="Specify Method" mustImplement="false" minCard="0">
                       <OtherText name="_551" type="reportText" val="Method" />
                       <ResponseField name="_552">
                         <Response>
@@ -879,15 +878,15 @@
                         </Response>
                       </ResponseField>
                     </Question>
-                    <Question name="31131.100004300_555" ID="31131.100004300" title="Biomarkers Scored by Image Analysis" mustImplement="false" minCard="0">
+                    <Question name="_31131.100004300_555" ID="31131.100004300" title="Biomarkers Scored by Image Analysis" mustImplement="false" minCard="0">
                       <ListField>
                         <List>
-                          <ListItem name="31132.100004300_558" ID="31132.100004300" title="ER" mustImplement="false" />
-                          <ListItem name="31133.100004300_559" ID="31133.100004300" title="PgR" mustImplement="false" />
-                          <ListItem name="31134.100004300_560" ID="31134.100004300" title="HER2 by IHC" mustImplement="false" />
-                          <ListItem name="25885.100004300_561" ID="25885.100004300" title="HER2 (ERBB2) by ISH" mustImplement="false" />
-                          <ListItem name="31135.100004300_562" ID="31135.100004300" title="Ki-67" mustImplement="false" />
-                          <ListItem name="31136.100004300_563" ID="31136.100004300" title="Other (specify)" mustImplement="false">
+                          <ListItem name="_31132.100004300_558" ID="31132.100004300" title="ER" mustImplement="false" />
+                          <ListItem name="_31133.100004300_559" ID="31133.100004300" title="PgR" mustImplement="false" />
+                          <ListItem name="_31134.100004300_560" ID="31134.100004300" title="HER2 by IHC" mustImplement="false" />
+                          <ListItem name="_25885.100004300_561" ID="25885.100004300" title="HER2 (ERBB2) by ISH" mustImplement="false" />
+                          <ListItem name="_31135.100004300_562" ID="31135.100004300" title="Ki-67" mustImplement="false" />
+                          <ListItem name="_31136.100004300_563" ID="31136.100004300" title="Other (specify)" mustImplement="false">
                             <OtherText name="_564" type="reportText" val="{no text}" />
                             <ListItemResponseField name="_565" responseRequired="true">
                               <Response>
@@ -905,34 +904,34 @@
           </Question>
         </ChildItems>
       </Section>
-      <Question name="31137.100004300_568" ID="31137.100004300" title="Comment(s)" mustImplement="false" minCard="0">
+      <Question name="_31137.100004300_568" ID="31137.100004300" title="Comment(s)" mustImplement="false" minCard="0">
         <ResponseField name="_569">
           <Response>
             <string name="_571" maxLength="4000" />
           </Response>
         </ResponseField>
       </Question>
-      <Section name="32085.100004300_572" ID="32085.100004300" title="(Deprecated Items)" mustImplement="false" minCard="0">
+      <Section name="Section_32085.100004300_572" ID="32085.100004300" title="(Deprecated Items)" mustImplement="false" minCard="0">
         <ChildItems>
-          <Question name="32086.100004300_574" ID="32086.100004300" title="(Deprecated Answers)" mustImplement="false" minCard="0">
+          <Question name="_32086.100004300_574" ID="32086.100004300" title="(Deprecated Answers)" mustImplement="false" minCard="0">
             <ListField>
               <List>
-                <ListItem name="25897.100004300_577" ID="25897.100004300" title="Internal controls present but ER negative" mustImplement="false" />
-                <ListItem name="25901.100004300_578" ID="25901.100004300" title="Internal controls present but PgR negative" mustImplement="false" />
+                <ListItem name="_25897.100004300_577" ID="25897.100004300" title="Internal controls present but ER negative" mustImplement="false" />
+                <ListItem name="_25901.100004300_578" ID="25901.100004300" title="Internal controls present but PgR negative" mustImplement="false" />
               </List>
             </ListField>
           </Question>
-          <Section name="30405.100004300_579" ID="30405.100004300" title="ER" />
-          <Section name="30412.100004300_580" ID="30412.100004300" title="PgR" />
-          <Section name="26437.100004300_581" ID="26437.100004300" title="HER2 (ERBB2) by IHC" />
-          <Section name="29942.100004300_582" ID="29942.100004300" title="HER2 (ERBB2) by ISH" />
-          <Section name="30414.100004300_583" ID="30414.100004300" title="Ki-67" mustImplement="false" minCard="0" />
-          <Section name="30413.100004300_584" ID="30413.100004300" title="Multiparameter Assay" mustImplement="false" minCard="0" />
+          <Section name="Section_30405.100004300_579" ID="30405.100004300" title="ER" />
+          <Section name="Section_30412.100004300_580" ID="30412.100004300" title="PgR" />
+          <Section name="Section_26437.100004300_581" ID="26437.100004300" title="HER2 (ERBB2) by IHC" />
+          <Section name="Section_29942.100004300_582" ID="29942.100004300" title="HER2 (ERBB2) by ISH" />
+          <Section name="Section_30414.100004300_583" ID="30414.100004300" title="Ki-67" mustImplement="false" minCard="0" />
+          <Section name="Section_30413.100004300_584" ID="30413.100004300" title="Multiparameter Assay" mustImplement="false" minCard="0" />
         </ChildItems>
       </Section>
     </ChildItems>
   </Body>
-  <Footer>
+  <Footer ID="Footer_169.1000043_f29a121a-51fc-4946-9ed8-e6aa8e6119c9">
     <OtherText name="Copyright" type="meta" styleClass="copyright" val="(c) 2016 College of American Pathologists.  All rights reserved.  License required for use." />
   </Footer>
 </FormDesign>
