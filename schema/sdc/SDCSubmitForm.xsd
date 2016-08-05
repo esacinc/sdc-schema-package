@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://healthIT.gov/sdc" xmlns="http://healthIT.gov/sdc">
+   <xs:include schemaLocation="SDCFormDesign.xsd"/>
+
+
+
+
+
+
+
+   <xs:element name="SDCSubmissionPackage">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" name="DemogFormDesign" type="FormDesignType"/>
+            <xs:element maxOccurs="unbounded" name="FormDesign" type="FormDesignType"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
