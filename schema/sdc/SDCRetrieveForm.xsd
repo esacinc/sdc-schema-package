@@ -40,7 +40,7 @@
 						</xs:annotation>
 					</xs:element>
 					<xs:choice>
-						<xs:element name="HTMLPackage" type="HTML_Stype"/>
+						<xs:element name="HTMLPackage" type="xs:base64Binary"/>
 						<xs:element name="XMLPackage">
 							<xs:complexType>
 								<xs:sequence>
