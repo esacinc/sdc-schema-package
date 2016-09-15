@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://healthIT.gov/sdc" xmlns="http://healthIT.gov/sdc">
-
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:ihe:qrph:sdc:2016" xmlns="urn:ihe:qrph:sdc:2016">
+<!-- 9/15/2016 Changes for IHE Profile Trial Implementation (for Jan 2017 Connectathon) -->
+   
    <xs:include schemaLocation="SDCResources.xsd"/>
    <xs:element name="FormDesign" type="FormDesignType">
       <xs:annotation>
@@ -29,6 +30,28 @@
                </xs:element>
                <xs:element minOccurs="0" name="Rules" type="RulesType"> </xs:element>
             </xs:sequence>
+            <xs:attribute name="formTitle" type="xs:string">
+               <xs:annotation>
+                  <xs:documentation>NEW: human readable title for display when choosing forms. Added 4/27/16</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="filename" type="xs:string">
+               <xs:annotation>
+                  <xs:documentation>NEW: filename to use when the current FormDesign instance is saved as a file</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="basedOnURI" type="URI_Atype">
+               <xs:annotation>
+                  <xs:documentation>NEW: URI used to identify the form that that this FormDesign is based upon.  In most cases, this should be a standard form that is modified and/or extended by the current FormDesign.   
+
+The current template reuses the basedOn IDs whenever the question/answer/semantic context is identical to the original.</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="prevVersionURI" type="URI_Atype">
+               <xs:annotation>
+                  <xs:documentation>NEW: URI used to identify the form that is the immediate previous version of the current FormDesign</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
             <xs:attribute name="formInstanceURI" type="URI_Atype">
                <xs:annotation>
                   <xs:documentation>NEW: Unique URI used to identify a unique instance of a form.  Used for tracking form responses across time and across multiple episodes of editing by end-users.  This URI does not change for each edit session of a form instance.</xs:documentation>
@@ -383,23 +406,13 @@ A value of 1 indicates that the question list is single-select.  (Abbreviated as
       </xs:annotation>
       <xs:complexContent>
          <xs:extension base="RepeatingType">
-            <xs:sequence maxOccurs="1">
+            <xs:choice maxOccurs="1">
                <xs:annotation>
-                  <xs:documentation>Sequence (Choice(Response, List), Response History)</xs:documentation>
+                  <xs:documentation>Choice (ResponseField, ListField)</xs:documentation>
                </xs:annotation>
-               <xs:choice maxOccurs="1">
-                  <xs:annotation>
-                     <xs:documentation>Choice (ResponseField, ListField)</xs:documentation>
-                  </xs:annotation>
-                  <xs:element name="ResponseField" type="ResponseFieldType" minOccurs="1" maxOccurs="1"/>
-                  <xs:element name="ListField" minOccurs="1" maxOccurs="1" type="ListFieldType"> </xs:element>
-               </xs:choice>
-               <xs:element maxOccurs="unbounded" minOccurs="0" name="ResponseHistory" type="ResponseChangeType">
-                  <xs:annotation>
-                     <xs:documentation>For recording metadata and changes about the current answer and any previous (replaced) answers to the current question. Each ResponseHistory element is single unit of response(s), taking place at the same time, to the question.  It records the person who made the change, the DateTime of the change, and the the previous ReplacedResponse.  ReplacedResponse includes each answer selection or fill-in response to the question at the time the change was submitted.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-            </xs:sequence>
+               <xs:element name="ResponseField" type="ResponseFieldType" minOccurs="1" maxOccurs="1"/>
+               <xs:element name="ListField" minOccurs="1" maxOccurs="1" type="ListFieldType"> </xs:element>
+            </xs:choice>
             <xs:attribute default="false" name="readOnly" type="xs:boolean">
                <xs:annotation>
                   <xs:documentation>If @readOnly is set to true, the this field may not be edited by the user, and any default values set by template should be considered part of the stored data set responses, and transmitted by the SubmitForm transaction.</xs:documentation>
@@ -436,16 +449,18 @@ A value of 1 indicates that the question list is single-select.  (Abbreviated as
       <xs:complexContent>
          <xs:extension base="IdentifiedExtensionType">
             <xs:sequence>
-               <xs:element maxOccurs="unbounded" name="OtherText" type="RichTextType" minOccurs="0">
+               <xs:element maxOccurs="unbounded" name="Property" type="RichTextType" minOccurs="0">
                   <xs:annotation>
-                     <xs:documentation>OtherText is any type of secondary text that is associated with any form item (e.g., section, question, list item) in any context.  The Description context is specified by the @type attribute.  Examples of Description @type values may include:
--alternate language representations, 
--explanations for the user of the form, 
--tooltips, 
--pop-up help, 
--outlining (such as question numbering)
+                     <xs:documentation>Property is any type of secondary text that is associated with any form item (e.g., section, question, list item) in any context.  The Property context is specified by the @type attribute.  Examples of @type values may include:
+-alternate language representations, e.g., 'spanish'
+-'instruction'
+-'tooltip' 
+-'help' for a pop-up help box
+-'outlining' (such as question numbering)
 
-The @type enumerations must be defined and documented for the particular use case, and are currently out of scope in this schema definition.</xs:documentation>
+The @type enumerations must be defined and documented for the particular use case, and are currently out of scope in this schema definition.  Multiple type tokens for a single element are supported.
+
+RENAMED:  'OtherText' to 'Property' 9/14/2016</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element maxOccurs="unbounded" minOccurs="0" name="Link" type="LinkType">
@@ -538,13 +553,14 @@ This attribute is usually set to false when a Question is used to control form b
                      <xs:documentation>Rules that are called (by its @name) from another place in the form.</xs:documentation>
                   </xs:annotation>
                </xs:element>
-               <xs:element name="ExclusiveListItems" type="ExclusiveItemPairsType" maxOccurs="unbounded" minOccurs="0">
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="ExclusiveListItems" type="ExclusiveItemPairsType">
                   <xs:annotation>
                      <xs:documentation>A shortcut approach to specify ListItems that cannot be selected together because they would not make logical sense, e.g., Present and Not Present.  These rules are run whenever  @testListItemName is selected along with any ListItem in @excludedListItemNames.  @names in this list that are not ListItems will be ignored. At least one ListItem @name value must be present in each of the above attributes.
 
 The form can use the observer (publish-subscribe or event) pattern to implement this functionality.</xs:documentation>
                   </xs:annotation>
                </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="SelectByWatchedList" type="SelectByWatchedListType"/>
             </xs:sequence>
          </xs:extension>
       </xs:complexContent>
@@ -676,16 +692,18 @@ The LHS may compared against a list (InList), evaluated as between 2 values (Bet
       <xs:complexContent>
          <xs:extension base="ExtensionBaseType">
             <xs:sequence>
-               <xs:element maxOccurs="unbounded" name="OtherText" type="RichTextType" minOccurs="0">
+               <xs:element maxOccurs="unbounded" name="Property" type="RichTextType" minOccurs="0">
                   <xs:annotation>
-                     <xs:documentation>OtherText is any type of secondary text that is associated with any form item (e.g., section, question, list item) in any context.  The Description context is specified by the @type attribute.  Examples of Description @type values may include:
--alternate language representations, 
--explanations for the user of the form, 
--tooltips, 
--pop-up help, 
--outlining (such as question numbering)
+                     <xs:documentation>Property is any type of secondary text that is associated with any form item (e.g., section, question, list item) in any context.  The Property context is specified by the @type attribute.  Examples of @type values may include:
+-alternate language representations, e.g., 'spanish'
+-'instruction'
+-'tooltip' 
+-'help' for a pop-up help box
+-'outlining' (such as question numbering)
 
-The @type enumerations must be defined and documented for the particular use case, and are currently out of scope in this schema definition.</xs:documentation>
+The @type enumerations must be defined and documented for the particular use case, and are currently out of scope in this schema definition.  Multiple type tokens for a single element are supported.
+
+RENAMED:  'OtherText' to 'Property' 9/14/2016</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element name="URI" type="anyURI_Stype">
@@ -757,7 +775,9 @@ The @type enumerations must be defined and documented for the particular use cas
 
 If @testItemName has a value and is selected, then the items in @exclusiveSet are evaluated to see if any of them are also selected.  If one or more is also selected, then the parent element (ExclusiveSelectedItems) evaluates to true.
 
-If @testItemName has a value, the @exclusiveSet items are not tested against each other.</xs:documentation>
+If @testItemName has a value, the @exclusiveSet items are not tested against each other.
+
+If an item in this list is prefixed with "uns_" then the item is evaluated for being unselected rather than selected.</xs:documentation>
                </xs:annotation>
             </xs:attribute>
             <xs:attribute name="validationMessage" type="xs:string">
@@ -964,8 +984,7 @@ If @testItemName has a value, the @exclusiveSet items are not tested against eac
       <xs:attribute name="onlyIf" type="xs:boolean">
          <xs:annotation>
             <xs:documentation>(reversible); If onlyIf is true, then the stipulated Boolean actions, which are executed when the If conditions evaluate to true,  are reversed when the conditions evaluate to false.
-
-In this case, the target items assume the chosen attribute values (e.g., selected, activated) ONLY when the action condition(s) are satisfied.  If the conditions are not satisfied, then all Boolean action requirements assume the opposite state (e.g., unselected, inactive).
+If onlyIf="true", the target items assume the chosen attribute values (e.g., selected, activated) ONLY when the action condition(s) are satisfied.  If the conditions are not satisfied, then all Boolean actions assume the opposite state (e.g., unselected, inactive).
 
 However, manually changing the attributes on the target item (upon which the actions are executed) will not affect any attributes in the controlling items.  It is possible to disable (enabled="false") the target item so that its attributes can only be be changed programmatically.
 </xs:documentation>
@@ -1207,14 +1226,11 @@ However, manually changing the attributes on the target item (upon which the act
    <xs:complexType name="ActSendMessageType">
       <xs:complexContent>
          <xs:extension base="RichTextType">
-            <xs:sequence>
-               <xs:element name="MessageText" type="RichTextType"/>
-               <xs:choice maxOccurs="unbounded">
-                  <xs:element name="Email" type="EmailAddressType"/>
-                  <xs:element name="Fax" type="PhoneNumberType"/>
-                  <xs:element name="WebService" type="WebServiceType"/>
-               </xs:choice>
-            </xs:sequence>
+            <xs:choice>
+               <xs:element name="Email" type="EmailAddressType" maxOccurs="unbounded" minOccurs="0"/>
+               <xs:element name="Fax" type="PhoneNumberType" maxOccurs="unbounded" minOccurs="0"/>
+               <xs:element name="WebService" type="WebServiceType" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:choice>
             <xs:attribute name="messageType" type="xs:string"/>
          </xs:extension>
       </xs:complexContent>
@@ -1262,7 +1278,7 @@ However, manually changing the attributes on the target item (upon which the act
             </xs:choice>
             <xs:attribute name="ArithOpEnum" use="required">
                <xs:annotation>
-                  <xs:documentation>Arithmetic operator for comparisons tha result in a Boolean value.</xs:documentation>
+                  <xs:documentation>Arithmetic operator for comparisons that result in a Boolean value.</xs:documentation>
                </xs:annotation>
                <xs:simpleType>
                   <xs:restriction base="xs:string">
@@ -1359,5 +1375,69 @@ However, manually changing the attributes on the target item (upon which the act
             <xs:attribute name="eventName" type="xs:string" use="required"/>
          </xs:extension>
       </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="SelectByWatchedListType">
+      <xs:annotation>
+         <xs:documentation>This simple rule is a shortcut implementation of a "guard,"  which is a rule that controls whether or not a target ListItem should be selected or unselected.  The guard rule may optionally select/unselect mulitiple target ListItems with a single rule. The target ListItem(s) to select/unselect are listed in targetNameSelectList.
+
+In the simplest case, this rule operates as follows:  A list of ListItems is provided (selectedItemWatchList).  If all the items in the list are selected, then the guard evaluates to true, and the targetNameSelectList items are selected.
+
+In some cases, we may wish to watch unselected items in the selectedItemWatchList.  This is indicated by prefixing the name of the watched item with a hyphen ("-").
+
+In some cases, we may wish to unselect items when the selectedItemWatchList evaluated to true.  In this case, the target item is prefixed with a hyphen.
+</xs:documentation>
+      </xs:annotation>
+      <xs:attribute default="true" name="onlyIf" type="xs:boolean" use="optional">
+         <xs:annotation>
+            <xs:documentation>If true, then this rule functions as a guard: When the rule evaluates to false the ListItem is unselected; when the rule evaluated to true, the ListItem is selected.</xs:documentation>
+         </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="targetNameSelectList" type="xs:NCName">
+         <xs:annotation>
+            <xs:documentation>This list contains the names of  ListItems that will be selected when the @selectedItemWatchList evaluates to true.  If a name is prefixed with a hyphen (-), then the item will be deselected when @selectedItemWatchList evaluates to true.
+
+If @onlyIf is true, then the above rule is reversed when @selectedItemWatchList evaluates to false.  In other words, named items will be deselected, and colon-prefixed items will be selected when @selectedItemWatchList is false.
+</xs:documentation>
+         </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="selectedItemWatchList" type="xs:NMTOKENS">
+         <xs:annotation>
+            <xs:documentation>This list contains names of ListItems (answer choices) that are watched for being selected or unselected.
+
+If a ListItem appears in this list, then it evaluates to true when it is selected.  If a ListItem is prefixed with a hyphen (-), then it evaluates to true when unselected.  These Boolean values, derived from each named ListItem in the list, are ANDed together to produce a return value of true or false.
+
+
+</xs:documentation>
+         </xs:annotation>
+      </xs:attribute>
+   </xs:complexType>
+   <xs:complexType name="ValRuleNumberSelectFromList">
+      <xs:annotation>
+         <xs:documentation>NEW: This validation rule restricts the number of co-selected ListItems (answers) in a ListItem list.  A minimum and maximum number of co-selected ListItems may be set.  All ListItems must be children of a single question.</xs:documentation>
+      </xs:annotation>
+      <xs:attribute name="minSelections" type="xs:nonNegativeInteger" default="0">
+         <xs:annotation>
+            <xs:documentation>Minimum number of LisItems that must be selected from the list. Cannot be less than the value set in the minSelections Question attribute.
+</xs:documentation>
+         </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="maxSelections" type="xs:nonNegativeInteger" default="0">
+         <xs:annotation>
+            <xs:documentation>Maximum number of LisItems that may be selected from the list.  If set to 0 (the default), then any number of selections are acceptable, as long as the number of selections also conforms to minSelections.
+
+Cannot be greater than the value set in the maxSelections Question attribute.
+</xs:documentation>
+         </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="selectedItemWatchList" type="xs:NMTOKENS">
+         <xs:annotation>
+            <xs:documentation>This list contains names of ListItems (answer choices) that are evaluated for being selected or unselected.
+
+This list pertains to ListItems of a single question.  It should not contain list members from more than one question.
+
+
+</xs:documentation>
+         </xs:annotation>
+      </xs:attribute>
    </xs:complexType>
 </xs:schema>

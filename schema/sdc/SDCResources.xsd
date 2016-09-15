@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://healthIT.gov/sdc" xmlns="http://healthIT.gov/sdc">
-
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="urn:ihe:qrph:sdc:2016" xmlns="urn:ihe:qrph:sdc:2016">
+   <!-- 9/15/2016 Changes for IHE Profile Trial Implementation (for Jan 2017 Connectathon) -->
 
    <xs:include schemaLocation="SDCDataTypes.xsd"/>
    <xs:complexType name="BlobType">
@@ -79,6 +79,11 @@
                   </xs:annotation>
                </xs:element>
                <xs:element name="CodeSystem" type="CodeSystemType" minOccurs="0"> </xs:element>
+               <xs:element minOccurs="0" name="CodeURI" type="anyURI_Stype">
+                  <xs:annotation>
+                     <xs:documentation>NEW: Web resource that provides information about the code</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
                <xs:element maxOccurs="1" minOccurs="0" name="DataType" type="DataTypes_SType">
                   <xs:annotation>
                      <xs:documentation>Data type enumeration derived from W3C XML Schema. If
@@ -143,10 +148,10 @@
       </xs:annotation>
       <xs:complexContent>
          <xs:extension base="ExtensionBaseType">
-            <xs:choice>
-               <xs:element maxOccurs="1" name="Person" type="PersonType"/>
-               <xs:element maxOccurs="1" name="Organization" type="OrganizationType"/>
-            </xs:choice>
+            <xs:sequence>
+               <xs:element maxOccurs="1" minOccurs="0" name="Person" type="PersonType"/>
+               <xs:element maxOccurs="1" minOccurs="0" name="Organization" type="OrganizationType"/>
+            </xs:sequence>
          </xs:extension>
       </xs:complexContent>
    </xs:complexType>
@@ -158,6 +163,7 @@
          <xs:extension base="ExtensionBaseType">
             <xs:sequence>
                <xs:element maxOccurs="1" minOccurs="1" name="PersonName" type="NameType"> </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="AliasName" type="NameType"> </xs:element>
                <xs:element maxOccurs="unbounded" minOccurs="0" name="Job" type="JobType"/>
                <xs:element maxOccurs="unbounded" minOccurs="0" name="StreetAddress" type="AddressType"/>
                <xs:element maxOccurs="unbounded" minOccurs="0" name="Email" type="EmailType"/>
@@ -391,7 +397,7 @@
                <xs:element minOccurs="0" name="TermsofUse" type="string_Stype"/>
                <xs:element minOccurs="0" name="Usage" type="FileUsageType">
                   <xs:annotation>
-                     <xs:documentation>Guidenace for when this file should be used, and when it should not be used.</xs:documentation>
+                     <xs:documentation>Guidance for when this file should be used, and when it should not be used.</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element minOccurs="0" name="Dates" type="FileDatesType">
@@ -609,10 +615,7 @@
    </xs:complexType>
    <xs:complexType name="RichTextType">
       <xs:annotation>
-         <xs:documentation>Representation of plain text with an option for HTML-formatting.
- Contains optional boilerplate metadata to aid programmatic manipulation. HTML
- formatting is generally contained in CDATA tags to prevent XML parsing and schema
- errors.</xs:documentation>
+         <xs:documentation>Representation of plain text with an option for HTML-formatting. Contains optional boilerplate metadata to aid programmatic manipulation. HTML formatting is generally contained in CDATA tags to prevent XML parsing and schema errors.</xs:documentation>
       </xs:annotation>
       <xs:complexContent>
          <xs:extension base="ExtensionBaseType">
