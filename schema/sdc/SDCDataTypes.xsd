@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://healthIT.gov/sdc" xmlns="http://healthIT.gov/sdc">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="urn:ihe:qrph:sdc:2016" xmlns="urn:ihe:qrph:sdc:2016">
+   <!-- 9/15/2016 Changes for IHE Profile Trial Implementation (for Jan 2017 Connectathon) -->
    <xs:include schemaLocation="SDCBase.xsd"/>
    <xs:attributeGroup name="MaskAttributes">
       <xs:attribute name="mask" type="xs:string"/>
